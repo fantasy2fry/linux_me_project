@@ -26,3 +26,8 @@ history > file.txt
 ```bash
 pip freeze > file.txt
 ```
+
+### Git stats:
+```
+find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %ar, %s" --date=short && echo "\n"' \; > file.txt
+```
