@@ -1,7 +1,7 @@
-
-
-gitStatsUI <- function() {
+gitStatsUI <- function(id) {
+  ns <- NS(id)
+  
   fluidPage(
-    title = "Hello Git Stats"
+    h2("Hello Git Stats")
   )
 }

@@ -13,16 +13,16 @@ ui <- dashboardPage(
   dashboardHeader(title = "Linux ME Project"),
   dashboardSidebar(
     sidebarMenu(
-      menuItem("bashHistory", tabName = "Bash History"),
-      menuItem("systemPackages", tabName = "System Packages"),
-      menuItem("gitStats", tabName = "Git Statistics")
+      menuItem("Bash History", tabName = "bashHistory"),
+      menuItem("System Packages", tabName = "systemPackages"),
+      menuItem("Git Statistics", tabName = "gitStats")
     )
   ),
   dashboardBody(
     tabItems(
-      tabItem(tabName = "bashHistory", bashHistoryUI()),
-      tabItem(tabName = "systemPackages", systemPackagesUI()),
-      tabItem(tabName = "gitStats", gitStatsUI())
+      tabItem(tabName = "bashHistory", bashHistoryUI("bashHistory")),
+      tabItem(tabName = "systemPackages", systemPackagesUI("systemPackages")),
+      tabItem(tabName = "gitStats", gitStatsUI("gitStats"))
     )
   )
 )

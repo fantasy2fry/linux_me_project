@@ -1,6 +1,7 @@
-
-systemPackagesUI <- function() {
+systemPackagesUI <- function(id) {
+  ns <- NS(id)
+  
   fluidPage(
-    title = "Hello System Packages"
+    h2("Hello System Packages")
   )
 }
