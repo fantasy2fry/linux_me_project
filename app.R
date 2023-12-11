@@ -1,5 +1,6 @@
 library(shiny)
 library(shinydashboard)
+library(stringr)
 
 source("ui/bash_history_ui.R")
 source("ui/system_packages_ui.R")
