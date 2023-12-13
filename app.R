@@ -1,6 +1,9 @@
 library(shiny)
 library(shinydashboard)
 library(stringr)
+library(dplyr)
+
+# Przy odpalaniu trzeba zmienic working dir
 
 source("ui/bash_history_ui.R")
 source("ui/system_packages_ui.R")
