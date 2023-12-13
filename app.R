@@ -2,6 +2,8 @@ library(shiny)
 library(shinydashboard)
 library(stringr)
 library(dplyr)
+library(ggplot2)
+library(forcats)
 
 # Przy odpalaniu trzeba zmienic working dir
 
