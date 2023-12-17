@@ -1,7 +1,3 @@
-lines <- readLines("data/git-stats/mateusz_git_stats.txt")
-
-
-
 gitStatsServer <- function(input, output, session) {
   
   processData <- function(lines, person) {
@@ -16,7 +12,7 @@ gitStatsServer <- function(input, output, session) {
     repo <- tail(str_split_1(lines[start], pattern = "/"), n = 2)[1]
     df <- str_split_fixed(lines[(start+1):(end-2)], pattern = ", ", n = 4)
     df <- as.data.frame(df)
-    colnames(df) <-  c("hash", "author", "date (relative)", "message")
+    colnames(df) <-  c("hash", "author", "date", "message")
     mutate(df, person = person, repo = repo, .before = 1)
   }
   
