@@ -1,0 +1,375 @@
+Repository /home/mateusz/Mini/java/my_repos/java-exercises/.git
+fc7273d, vecel, 7 months ago, PrzejscieGraniczne
+4db84c9, vecel, 8 months ago, AutomtSprzedajacy
+66e435c, Mateusz Karandys, 8 months ago, Bozena
+a132e94, Mateusz Karandys, 9 months ago, Grzybobranie
+9ffa6e0, Mateusz Karandys, 9 months ago, Kret
+
+Repository /home/mateusz/Mini/java/my_repos/po_2023_lessons/.git
+edc49ae, Maciej Bednarz, 6 months ago, Rozwiązanie zadania Reverse Engineering 1.
+92c57ae, Maciej Bednarz, 6 months ago, Moduł 4 - UI i wątki.
+7ba63cd, Maciej Bednarz, 6 months ago, Pliki do zadania 3c.
+f9d6025, Maciej Bednarz, 7 months ago, Pliki do zadania Czarter
+b0eaea3, Maciej Bednarz, 7 months ago, PLiki do zadania dla grupy wtorek 14-00
+d3c4c77, Maciej Bednarz, 7 months ago, Pliki z danymi załączane do niektórych zadań z poprzednich lat.
+6be6748, Maciej Bednarz, 7 months ago, Przykladowe akceptowalne rozwiazanie zadania 3 - "Odloty...".
+3997825, Maciej Bednarz, 7 months ago, Modul3-IO
+4227726, Maciej Bednarz, 8 months ago, * Przykladowe akceptowalne rozwiazanie zadania 2 - "Pralnia".
+7fdeca9, Maciej Bednarz, 8 months ago, Modul2-Kolekcje
+7fdd806, Maciej Bednarz, 8 months ago, Przykladowe akceptowalne rozwiazanie zadania 1 - "Grzybobranie".
+a990bed, Maciej Bednarz, 8 months ago, Zagregowane (do jednego projektu) przyklady z zajęć.
+e1b642e, Maciej Bednarz, 9 months ago, Lab06
+cfad95d, Maciej Bednarz, 9 months ago, Lab02 topics.
+
+Repository /home/mateusz/Mini/java/my_repos/zpoif_2020_komponenty_do_zadan/.git
+50786b6, Maciej Bednarz, 3 years, 1 month ago, Komponenty do zadań ocenianych 4 i 5 + rozwiązania.
+2b3a44d, Maciej Bednarz, 3 years, 1 month ago, Zadania oceniane nr 3 + rozwiązanie.
+be99534, Maciej Bednarz, 3 years, 1 month ago, Dobre rozwiązanie zadania ocenianego 2a ("Przesłuchanie").
+d7adfdf, Maciej Bednarz, 3 years, 1 month ago, Komponenty do zadań ocenianych 2a ("Przesłuchanie") i 2b ("Niszczarka").
+97207bf, Maciej Bednarz, 3 years, 2 months ago, Inicjalne elementy do zadań.
+00bdc39, Maciej Bednarz, 3 years, 2 months ago, Inicjalne elementy do zadań.
+
+Repository /home/mateusz/Mini/java/my_repos/po_2023_kandysm/.git
+70bfa41, vecel, 11 days ago, zadanko o mafii
+7c98059, vecel, 3 weeks ago, zadanko 4
+50f2466, vecel, 4 weeks ago, Zadanko 3
+0a78121, vecel, 5 weeks ago, task2
+9064ae8, vecel, 6 weeks ago, Move Straszydlak class to Mieszkanie
+20a09d8, vecel, 6 weeks ago, Add .gitignore
+176347d, vecel, 6 weeks ago, Remove bin directory
+fe6b1c5, vecel, 6 weeks ago, Zpoif zadanie oceniane klasy wewnetrzne, lokalne i anonimowe
+d27c778, vecel, 6 months ago, Zadanie oceniane 4
+6aa7104, vecel, 6 months ago, Poprawiono AstroParser
+bdf38b5, vecel, 6 months ago, Poprawiono nazwe paczki
+13fe793, vecel, 6 months ago, Zadanie oceniane 3c
+8fd2206, vecel, 7 months ago, Zadanie oceniane 2c
+139b54e, vecel, 7 months ago, Initial
+01b5ea1, Mateusz Karandys, 8 months ago, Zadanie_oceniane_1a zmiana lokalizacji Demonstrator.java
+b85dadb, Mateusz Karandys, 8 months ago, Zadanie_oceniane_1a
+44b8e52, Mateusz Karandys, 9 months ago, MyRandom class
+fa55337, Mateusz Karandys, 9 months ago, Zadanie - pozdrowienia
+
+Repository /home/mateusz/Mini/java/my_repos/zpoif_2023_lessons/.git
+7b7d27a, Maciej Bednarz, 11 days ago, Komponenty do zadania ocenianego nr 5a.
+1ea34b2, Maciej Bednarz, 2 weeks ago, Komponenty do zadania 3c.
+fd15996, Maciej Bednarz, 3 weeks ago, Merge branch 'master' of https://github.com/bednarzm/zpoif_2023_lessons
+51cb80a, Maciej Bednarz, 3 weeks ago, Zadanie 4a
+e5d03b1, Maciej Bednarz, 4 weeks ago, Zadanie 3b.
+17aa103, Maciej Bednarz, 4 weeks ago, Zadanie 3a
+dfd08a0, Maciej Bednarz, 4 weeks ago, Komponenty do kontrolnych zadań Jachty i Okręty.
+c23da8b, Maciej Bednarz, 5 weeks ago, Jedno z dobrych rozwiazan zadania "Media".
+272c10e, Maciej Bednarz, 6 weeks ago, Rozwiązanie zadania: Nawiedzone.
+5e203de, Maciej Bednarz, 7 weeks ago, Memory
+29e2f86, Maciej Bednarz, 8 weeks ago, DebugMe
+a92cd25, Maciej Bednarz, 8 weeks ago, Empty repo init.
+
+Repository /home/mateusz/Mini/mntmp/.git
+0f60eb8, vecel, 6 days ago, add README
+f041d92, vecel, 6 days ago, final commit
+
+Repository /home/mateusz/Mini/twd/linux_me_project/.git
+f82a622, vecel, 20 hours ago, mateusz data for bash, python and system
+982234a, Norbert Frydrysiak, 20 hours ago, README start and tmp files add
+6e6037f, Norbert Frydrysiak, 23 hours ago, init
+
+Repository /home/mateusz/Mini/twd/OnlineGroceryBasketAnalysis/.git
+2c935da, vecel, 6 weeks ago, Merge branch 'main' of https://github.com/vecel/online-grocery-basket-analysis
+7e026e6, vecel, 6 weeks ago, add visualization
+60e1bbb, WujekHussein, 6 weeks ago, Add files via upload
+dcc3a71, vecel, 6 weeks ago, update .gitignore, remove redundant file
+d8a7902, vecel, 6 weeks ago, modify orders preprocessing
+29a0000, vecel, 6 weeks ago, add project file
+b42ef06, vecel, 6 weeks ago, add medium_orders_preprocessing script
+0669302, vecel, 6 weeks ago, add gitignore
+46e6d0b, vecel, 7 weeks ago, initial commit
+ef8a96c, Mateusz Karandys, 7 weeks ago, Initial commit
+
+Repository /home/mateusz/Projects/RedditClone/.git
+110cbaf, vecel, 20 hours ago, post in community view
+778e367, vecel, 21 hours ago, login authentication
+644a834, vecel, 6 days ago, rename community-fragment-style to community-fragment
+95762c1, vecel, 6 days ago, create community fragment html and css
+e8cb037, vecel, 8 days ago, create Community, Post and Comment classes and repositories
+e80c8e4, vecel, 8 days ago, add constants classes
+397a5dd, vecel, 8 days ago, user logout
+d9617ed, vecel, 9 days ago, add test
+8debccb, vecel, 9 days ago, add simple tests
+7f5e8d0, vecel, 10 days ago, Hide jsessionid in url, minor fixes
+71e8dec, vecel, 6 weeks ago, add login functionality
+9844549, vecel, 7 weeks ago, fix css link file name
+186f275, vecel, 7 weeks ago, refactor register and login sites to bem
+3b30d56, vecel, 8 weeks ago, refactor to css bem guidlines
+60dc778, vecel, 9 weeks ago, display user when registered, add header fragment
+c96af8e, vecel, 9 weeks ago, complete user service
+23c8983, vecel, 9 weeks ago, add registration exceptions
+50e8ae3, vecel, 9 weeks ago, add userdto and password match validation
+2285536, vecel, 9 weeks ago, add password validation
+5d62fa7, vecel, 9 weeks ago, add sketchy backend register validation
+7a9c7cc, vecel, 10 weeks ago, create database entity, repository and initialization
+0b9859f, vecel, 10 weeks ago, update html and css
+306d887, vecel, 10 weeks ago, add h2 database dependency
+4218d38, vecel, 3 months ago, add register form validation
+f68836c, vecel, 3 months ago, add user class
+9e0ce2c, vecel, 3 months ago, add controllers
+19317ad, vecel, 3 months ago, organize and modify resources
+f06aa7d, vecel, 4 months ago, add forms toggling feature
+6516ccb, vecel, 4 months ago, add login form
+1e67e6f, vecel, 4 months ago, add signup form
+1c1d78d, vecel, 4 months ago, add header with nav
+bbf15ca, vecel, 4 months ago, initial commit
+
+Repository /home/mateusz/Projects/gs-consuming-rest/.git
+d0fdf5b, Jay Bryant, 5 months ago, Added a paragraph about changing the server port
+87ebd69, Jay Bryant, 7 months ago, Upgrade to Spring Boot 3.1.0
+1760109, Sébastien Deleuze, 11 months ago, Use a Java record classes
+ac11538, Sébastien Deleuze, 11 months ago, Update README.adoc
+91846f4, Sébastien Deleuze, 11 months ago, Remove Java version override
+b6ff92b, Jay Bryant, 11 months ago, Update the Docker path in the Jenkinsfile
+bb3f218, Jay Bryant, 1 year ago, Upgrade to Spring Boot 3.0.0
+6332c81, Jay Bryant, 1 year, 1 month ago, Fixed a flawed sentence.
+9041600, Jay Bryant, 1 year, 1 month ago, Corrected the quoters link
+9a1b4ad, Jay Bryant, 1 year, 1 month ago, Change the quotation source
+62ac15d, Jay Bryant, 2 years, 2 months ago, Add pre-populated Initializr link
+80d0f42, Jay Bryant, 2 years, 3 months ago, Focus on Spring Initializr
+c186d93, Jay Bryant, 2 years, 5 months ago, Update to Boot 2.5.2
+12e6373, Greg L. Turnquist, 2 years, 6 months ago, Migrate to maven wrapper.
+3bc977e, Greg L. Turnquist, 2 years, 6 months ago, Migrate to Jenkins for CI.
+330f160, Greg L. Turnquist, 2 years, 6 months ago, Migrate to Jenkins for CI.
+2b41683, Greg L. Turnquist, 2 years, 7 months ago, Migrate from master to main.
+ebbd8e6, Jay Bryant, 2 years, 9 months ago, Improved the Spring Initializr section
+77adde4, pauld, 2 years, 11 months ago, Correct maven and gradle file previews
+2a7f353, pauld, 2 years, 11 months ago, Upgrade to Spring-boot 2.4.1
+3776791, Greg L. Turnquist, 3 years, 1 month ago, Upgrade LICENSE file to comply with standards.
+8d567f2, Jay Bryant, 3 years, 4 months ago, Update versions
+1090cca, Heaven31415, 3 years, 11 months ago, Improve fix based on review
+7033608, Heaven31415, 3 years, 11 months ago, Fix a few small issues
+9d554f3, Jay Bryant, 3 years, 11 months ago, Upgrade to Spring Boot 2.2.2
+d8ea83b, Jay Bryant, 4 years, 2 months ago, Upgraded to Spring Boot 2.2
+1536800, Dave Syer, 3 years, 11 months ago, Kick
+058074c, Greg Turnquist, 4 years ago, Switch to tabs, and adjust tabsizing in asciidoctor.
+f1af974, Greg Turnquist, 4 years, 1 month ago, Upgrade to Spring Boot 2.2.1.RELEASE.
+1327804, Greg Turnquist, 4 years, 1 month ago, Upgrade to Gradle 4.10.3.
+26757b9, Andrii Kovalenko, 4 years, 1 month ago, delete ignored files:
+891a352, Dave Syer, 4 years, 1 month ago, Fix test package
+3ffe436, Dave Syer, 4 years, 1 month ago, Fix image path
+383d0a0, Jay Bryant, 4 years, 3 months ago, Fixing broken links
+f16c0ea, Greg Turnquist, 4 years, 3 months ago, Merge pull request #35 from Buzzardo/initializr
+116fe92, Jay Bryant, 4 years, 3 months ago, Incorporated Greg Turnquist's review comments
+55c73c1, Jay Bryant, 4 years, 4 months ago, Use Spring Initializr
+625633d, Greg Turnquist, 4 years, 4 months ago, Updated to @OpenJDK.
+0ce6861, Greg Turnquist, 4 years, 6 months ago, Upgrade to Spring Boot 2.1.6.RELEASE
+506418c, Greg Turnquist, 4 years, 8 months ago, Upgrade to Spring Boot 2.1.4.RELEASE.
+a8a861a, Greg Turnquist, 4 years, 9 months ago, URL Cleanup (#33)
+715f239, Spring Operator, 4 years, 9 months ago, URL Cleanup (#32)
+2645e2a, Spring Operator, 4 years, 9 months ago, URL Cleanup
+fe392b0, Greg Turnquist, 4 years, 9 months ago, Upgrade to Spring Boot 2.1.3.RELEASE
+6723fec, Greg Turnquist, 4 years, 9 months ago, Upgrade to Spring Boot 2.0.8.RELEASE.
+8965add, Brian Clozel, 4 years, 9 months ago, Merge pull request #31 from spring-operator/polish-urls-xml-master
+c517c6a, Spring Operator, 4 years, 9 months ago, URL Cleanup
+bd76ae0, Spring Operator, 4 years, 9 months ago, URL Cleanup (#30)
+e123a0b, Greg Turnquist, 5 years ago, Upgrade to Spring Boot 2.0.5.RELEASE and Spring Cloud Finchley.SR1
+2c1194e, Greg Turnquist, 5 years ago, Upgrade to @SpringBoot 2.0.3.RELEASE and @SpringCloud Finchley.RELEASE
+aaddb36, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 2.0.2.RELEASE and Spring Cloud Finchley.RC1
+7910b8f, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 2.0.1.RELEASE
+b95c6ba, Greg Turnquist, 6 years ago, Remove front matter
+03f0c3d, Greg Turnquist, 6 years ago, Replace jar gradle task with bootJar task
+2ac0aee, Greg Turnquist, 6 years ago, Polish guide to reference 2.0.0.RELEASE
+9068be7, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 2.0.0.RELEASE
+ffc1817, Greg Turnquist, 6 years ago, Upgrade to Gradle 4.6
+e95d034, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 1.5.10.RELEASE
+3634041, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 1.5.9.RELEASE
+962884f, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 1.5.8.RELEASE
+8df2553, Dave Syer, 6 years ago, Add imports to Application.java snippet
+ab890f3, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 1.5.7.RELEASE
+5f43e2b, Jay Bryant, 6 years ago, Added See Also links (#25)
+5687d83, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 1.5.6.RELEASE
+623438d, Greg Turnquist, 6 years ago, Upgrade to Spring Boot 1.5.5.RELEASE
+98da521, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.5.3.RELEASE
+88e37b9, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.5.2.RELEASE
+49ac95c, Amriteya Pandey, 7 years ago, Added documentation for @JsonProperty annotation (#24)
+01dae7c, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.5.1.RELEASE
+1ee21ac, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.5.0.RELEASE
+a2e1007, Greg Turnquist, 7 years ago, Set maven pom.xml to Spring Boot 1.4.4.RELEASE
+57f6a37, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.4.4.RELEASE
+8713043, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.4.3.RELEASE
+316d9b6, Greg Turnquist, 7 years ago, Upgrade plugin from spring-boot to o.s.boot
+e528793, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.4.2.RELEASE
+9f89f77, Tommy Ludwig, 7 years ago, Polish README
+7611eaa, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.4.1.RELEASE
+b0cb78b, Dave Syer, 7 years ago, Add note about corporate proxy
+8401239, Bartosz Majsak, 7 years ago, Fixes rendering source of Application class (#18)
+8c64709, Greg Turnquist, 7 years ago, Upgrade to gradle 2.13
+73bd95c, Dave Syer, 7 years ago, Add test deps to build.gradle
+fb26866, Dave Syer, 7 years ago, Update to use Spring Boot 1.4 RestTemplateBuilder
+7177efe, Greg Turnquist, 7 years ago, Upgrade to @SpringBoot 1.4.0.RELEASE
+759e44d, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.3.7.RELEASE
+4982ea1, Greg Turnquist, 7 years ago, Upgrade to Spring Boot 1.3.6.RELEASE
+b035c64, Dave Syer, 7 years ago, Add Maven wrapper
+fd01e86, Greg Turnquist, 7 years ago, Add CONTRIBUTING doc
+534131a, Greg Turnquist, 8 years ago, Upgrade to Spring Boot 1.3.5.RELEASE
+5d54148, Greg Turnquist, 8 years ago, Upgrade to Spring Boot 1.3.4.RELEASE
+0a55057, Greg Turnquist, 8 years ago, Upgrade to Spring Boot 1.3.3.RELEASE
+3ab373c, Greg Turnquist, 8 years ago, Polish
+a6037fa, Greg Turnquist, 8 years ago, Merge pull request #15 from markusherzog/master
+f0fe3fd, Greg Turnquist, 8 years ago, Migrate to container-based infrastructure
+6cb1650, Greg Turnquist, 8 years ago, Upgrade to Spring Boot 1.3.2.RELEASE
+861208f, Markus Herzog, 8 years ago, Don't mention Project Lombok’s @Data annotation
+0241ed6, Greg Turnquist, 8 years ago, Upgrade to Spring Boot 1.3.1.RELEASE
+1bee800, Greg Turnquist, 8 years ago, Upgrade to Spring Boot 1.3.0.RELEASE
+419b46c, Greg Turnquist, 8 years ago, Merge pull request #14 from p-gotsonoga/patch-1
+1cc0200, Pavel, 8 years ago, Fixed formatting.
+87c1559, Greg Turnquist, 8 years ago, Upgraded to Spring Boot 1.2.7.RELEASE
+6bb9735, Greg Turnquist, 8 years ago, Polish guide's text
+123a71b, Greg Turnquist, 8 years ago, Add toString() method
+eb443a5, Greg Turnquist, 8 years ago, Delombok the guide
+7b0d25c, Greg Turnquist, 8 years ago, Upgrade to Spring Boot 1.2.6.RELEASE
+2824352, Greg Turnquist, 8 years ago, Add footer
+c3b8d14, Greg Turnquist, 8 years ago, Upgrade to Spring Boot 1.2.5.RELEASE
+d164529, Greg Turnquist, 8 years ago, Remove release repos from maven
+9e8aff7, Greg Turnquist, 8 years ago, Replace Facebook service with internal one
+a9b80a2, Greg Turnquist, 8 years ago, Fix slack notifications
+4247520, Greg Turnquist, 8 years ago, Add travis support
+ed8d351, Greg Turnquist, 8 years ago, Upgrade non-specific guides to Java 8
+560fe63, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.2.4
+5040965, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.2.3.RELEASE
+829c44e, Greg Turnquist, 9 years ago, Upgrade to Gradle 2.3
+27587a1, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.2.2.RELEASE
+b296b2f, Greg Turnquist, 9 years ago, Remove mavenLocal and libs-release from gradle build
+255d3b0, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.2.1.RELEASE
+829d053, Greg Turnquist, 9 years ago, Remove legacy start-class property from maven builds
+46657e6, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.1.10.RELEASE
+3244a20, Greg Turnquist, 9 years ago, Convert to use https for repositories
+c3e0fad, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.1.9.RELEASE
+7308025, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.1.8.RELEASE
+e682223, Greg Turnquist, 9 years ago, Remove redudant 'run the service' macro
+3bf2338, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.1.7.RELEASE
+6eae72d, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.1.6.RELEASE
+9d65eae, Greg Turnquist, 9 years ago, Enable hiding/showing build steps
+d372729, Greg Turnquist, 9 years ago, Update to Spring Boot 1.1.5.RELEASE
+724625a, Greg Turnquist, 9 years ago, Merge pull request #7 from tsuyo/change_url
+e7d35ee, Tsuyoshi Miyake, 9 years ago, change facebookd id for pivotal
+be94ac0, Greg Turnquist, 9 years ago, Update to Spring Boot 1.1.4.RELEASE
+c6ce11d, Greg Turnquist, 9 years ago, Update to Spring Boot 1.1.3.RELEASE
+b369f87, Greg Turnquist, 9 years ago, Upgrade to Spring Boot 1.1.2.RELEASE
+4c24958, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.1.1.RELEASE
+301012a, Greg Turnquist, 10 years ago, Replace repo.spring.io/release with repo.spring.io/libs-release
+6498e93, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.1.0.RELEASE
+16c4071, Greg Turnquist, 10 years ago, Update path to macro content
+463840c, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.0.2.RELEASE
+7156e5b, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.0.1.RELEASE
+65531dd, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.0.0.RELEASE
+911bc16, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.0.0.RC5
+69c0532, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.0.0.RC4
+238d38b, Greg Turnquist, 10 years ago, Convert to mvn compile for initial codeset
+2ccbdc6, Greg Turnquist, 10 years ago, Replace initial gradle build with compileJava
+e261f4b, Greg Turnquist, 10 years ago, Move final build file to the beginning and update guides to reflect this
+9020b8b, Greg Turnquist, 10 years ago, Remove version number from Spring Boot starters
+715c52c, Greg Turnquist, 10 years ago, Clean up guides to link to proper javadoc pages and include code instead of use pasted copies
+f87e0c5, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.0.0.RC3
+4a200ef, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.0.0.RC2
+f835c23, Greg Turnquist, 10 years ago, Upgrade to gradle 1.11
+03c4330, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 1.0.0.RC1 and other dependencies
+dec1aef, Greg Turnquist, 10 years ago, Remove old SIDEBAR files
+b9c73f9, Greg Turnquist, 10 years ago, Initial cut of tag and project metadata
+7214169, Greg Turnquist, 10 years ago, Convert to asciidoctor
+13194e2, Greg Turnquist, 10 years ago, Update to Spring Boot 0.5.0.M6 and Jackson2
+070788e, Greg Turnquist, 10 years ago, Rebuild with gradle 1.8 and also update to Spring Boot 0.5.0.M5
+a7ab442, Greg Turnquist, 10 years ago, Upgrade guide to use Gradle 1.8
+ff4d142, Greg Turnquist, 10 years ago, Update a macro so that it properly uses spring.io
+e3954bc, Greg Turnquist, 10 years ago, Replace repo.springsource.org with repo.spring.io
+41faaa0, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 0.5.0.M4
+9e60fee, Greg Turnquist, 10 years ago, Replace 'Spring Boot starter POM' with Spring Boot
+7f114cd, Greg Turnquist, 10 years ago, Rebuild sidebar
+8a9ecda, Greg Turnquist, 10 years ago, Rename tut-web in sidebar
+29cf707, Greg Turnquist, 10 years ago, Add tut-web to sidebar
+935985a, Greg Turnquist, 10 years ago, Add missing spring-boot-starter to dependencies
+83b47d5, Greg Turnquist, 10 years ago, Update other version of gradle builds related to 0.5.0.M2
+a006600, Greg Turnquist, 10 years ago, Upgrade to Spring Boot 0.5.0.M2
+72c4f7f, Greg Turnquist, 10 years ago, Update guide to include like to gs-sts
+5b9fc60, Chris Beams, 10 years ago, Rename spring{framework-meta => -guides}
+858b6b3, Greg Turnquist, 10 years ago, Convert guide to display both Gradle and Maven info
+6bc31d6, Greg Turnquist, 10 years ago, Fix version of spring-web
+1efbce7, Greg Turnquist, 10 years ago, Apply http://creativecommons.org/licenses/by-nd/3.0/ to written work in this repo
+5829dbc, Greg Turnquist, 10 years ago, Add ASLv2 license for the code in this repo
+879ddcc, Greg Turnquist, 10 years ago, Clarify mods to buildscript section
+0eb76fb, Greg Turnquist, 10 years ago, Clean up gradle build steps
+94f863d, Greg Turnquist, 10 years ago, Convert guide to gradle
+19e18b4, Roy Clarkson, 10 years ago, Update README
+c847cbf, Roy Clarkson, 10 years ago, Update Spring and Jackson dependencies
+fa8e2a9, Roy Clarkson, 10 years ago, Update POMs
+3b4173b, Greg Turnquist, 10 years ago, Use proper name of Git
+aee0a34, Greg Turnquist, 10 years ago, Fix links for /undestanding/Git
+8d9bcc2, Greg Turnquist, 10 years ago, Replace understanding docs with macros
+c779d91, Greg Turnquist, 10 years ago, Move SIDEBAR into a template file
+acece69, Roy Clarkson, 10 years ago, Update README
+8d8ded4, Roy Clarkson, 10 years ago, Merge pull request #5 from btalbott/master
+9efbf28, Beverley Talbott, 10 years ago, Make final edits.
+45608b9, Greg Turnquist, 10 years ago, Replace Tutorial TBD with REST tutorial
+c30ed07, Greg Turnquist, 10 years ago, Fix link to spring-boot-maven-plugin
+a01e03e, Chris Beams, 10 years ago, Capitalize /understanding/{subject} as approprite
+2b2a2e0, Greg Turnquist, 10 years ago, Fix maven-compiler-plugin to version 2.3.2
+38c20c8, Greg Turnquist, 10 years ago, Upgrade to Gradle 1.7
+d911aec, Greg Turnquist, 10 years ago, Add intro sentence
+a1c00b1, Chris Beams, 10 years ago, Replace /content with / in GSG links
+bc27c2c, Roy Clarkson, 10 years ago, Add run.sh for CI support
+d3b9e6d, Greg Turnquist, 10 years ago, Use libs-snapshot instead of snapshot
+eaa624e, Greg Turnquist, 10 years ago, Remove 'TODO' from pom.xml and rebuild guide
+9f6ba43, Greg Turnquist, 10 years ago, Add gradle support
+8bb3448, Greg Turnquist, 10 years ago, Edit guide to properly use spring-boot:run
+8dac627, Greg Turnquist, 10 years ago, Convert spring-boot-up to spring-boot-starter
+ae8b7f0, Greg Turnquist, 10 years ago, Upgrade to Spring Boot
+3a9a6d3, Roy Clarkson, 10 years ago, Update README to remove title
+99e51aa, Greg Turnquist, 10 years ago, Replace java -jar with picketed code block
+ad38bba, Greg Turnquist, 10 years ago, Switch to spring-package-maven-plugin and Spring Zero
+cacd405, Greg Turnquist, 10 years ago, Fixed typo in macro
+73d45bc, Greg Turnquist, 10 years ago, Regenerate guide based on macro updates from @btalbott
+27805f5, Greg Turnquist, 10 years ago, Rebuild guide with new header on 'build_an_executable'
+93fa57e, Greg Turnquist, 10 years ago, Merge pull request #4 from btalbott/master
+5702210, Beverley Talbott, 10 years ago, Add build_an_executable_jar_subhead macro
+d113e86, Greg Turnquist, 10 years ago, Update guides using complete/pom.xml to instead use initial/pom.xml
+de0dd6c, Greg Turnquist, 10 years ago, Strip out -complete and -initial from artifacts. Regenerate guides suitably.
+363684c, Greg Turnquist, 10 years ago, Typo in macro. Regenerate guides
+f1ef5cd, Greg Turnquist, 10 years ago, Update build_the_application macros to link in gs-convert-jar-to-war
+14824de, Greg Turnquist, 10 years ago, Renegerate guides based on updated macros.md
+8103ee9, Greg Turnquist, 10 years ago, Delete old README.src.md
+7fa837d, Roy Clarkson, 10 years ago, Update README
+a7c7298, Roy Clarkson, 10 years ago, Merge pull request #3 from btalbott/master
+8e7b6cd, Greg Turnquist, 10 years ago, Regenerate guides based on update to macros.md
+2f1e5c0, Beverley Talbott, 10 years ago, Add missing section, edit title
+d5703e4, Beverley Talbott, 10 years ago, Edit SIDEBAR.md
+ebf02ae, Craig Walls, 10 years ago, Adjust capitalization in sidebar
+2e4bc55, Craig Walls, 10 years ago, Merge branch 'master' of github.com:springframework-meta/gs-consuming-rest
+1c0716e, Craig Walls, 10 years ago, Add sidebar
+de71066, Greg Turnquist, 10 years ago, Convert to fpp
+62e4f30, Craig Walls, 10 years ago, Generate README.md
+e0440e8, Craig Walls, 10 years ago, Merge pull request #2 from btalbott/master
+4e114bd, Beverley Talbott, 10 years ago, make minor edit
+c385c38, Beverley Talbott, 10 years ago, Edit per guidelines
+da8ed26, Craig Walls, 11 years ago, Edits to README per guideliens
+3c2bcf0, Craig Walls, 11 years ago, Retrieve data from Facebook Graph API instead of Twitter
+1c7e43d, Craig Walls, 11 years ago, Add milestone repo to pom.xml to fix Spring 4.0.0.M1 resolution problems.
+5782472, Craig Walls, 11 years ago, Rename Main => Application
+106a35b, Chris Beams, 11 years ago, Generate README.md based on README.src.md
+f295738, Chris Beams, 11 years ago, Merge pull request #1 from btalbott/master
+21a1ca9, Beverley Talbott, 11 years ago, Make copyedits, submit without built README.md
+8ceb09d, Chris Beams, 11 years ago, Generate README.md files from README.src.md
+80d2b3d, Chris Beams, 11 years ago, Version all GS guides at 0.1.0 per http://semver.org
+441b80e, Chris Beams, 11 years ago, Simplify complete version of Main.java
+5972230, Chris Beams, 11 years ago, Introduce initial / complete dir structure
+ee9671e, Chris Beams, 11 years ago, Add .gitignore
+62f11a5, Chris Beams, 11 years ago, Remove gradle build artifacts
+8af350a, Josh Long, 11 years ago, fixed a few errors in the README.md document
+381aadf, Josh Long, 11 years ago, adds initial sample, markdown document, and gradle build for getting started guide on consuming REST services with Spring.
+8935a08, Josh Long, 11 years ago, Initial commit
+
+Repository /home/mateusz/Projects/JetBrainsInternship/JavaModelClassFromXml/.git
+7bbca4c, vecel, 4 weeks ago, Add main class, handle I/O
+853dfd9, vecel, 4 weeks ago, Update .gitignore
+ea037da, vecel, 4 weeks ago, Handle exception, add docstrings
+b84115c, vecel, 4 weeks ago, Initial commit
+75f34f3, vecel, 4 weeks ago, Add directory output argument
+d68ddfd, vecel, 4 weeks ago, Fix XmlProcessor and JavaModelClassGenerator
+4d24e03, vecel, 4 weeks ago, Add XmlProcessor and JavaModelClassGenerator
+9601b89, vecel, 4 weeks ago, Initial commit
+0ca74e7, vecel, 4 weeks ago, Initial commit
+
