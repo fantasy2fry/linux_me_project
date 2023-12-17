@@ -25,7 +25,24 @@ gitStatsServer <- function(input, output, session) {
   }
   
   df <- init()
-  # df <- processData(readLines("data/git-stats/mateusz_git_stats.txt"), "Mateusz")
-  # print(df)
+  
+  output$heatmap <- renderPlotly({
+    
+    dfhm <- df %>% 
+      filter(author == "vecel") %>% 
+      mutate(date = as.Date(date)) %>% 
+      group_by(date) %>% 
+      summarise(count = n())
+    
+    hm <- data.frame(
+      date = seq(as.Date("2023-01-01"), as.Date("2023-12-31"), by = "day")
+    ) %>% 
+      left_join(dfhm, by = "date") %>% 
+      mutate(count = if_else(is.na(count), 0, count))
+      
+    
+    heatmaply(matrix(hm$count, nrow = 7),
+              show_dendrogram = c(FALSE, FALSE))
+  })
   
 }
