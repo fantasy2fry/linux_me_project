@@ -1,15 +1,18 @@
 
-lines <- c(paste("Mateusz", str_squish(readLines("data/bash-history/mateusz_bash_history.txt"))),
-           paste("NorbertMacos", str_squish(readLines("data/bash-history/norbert_macos.txt"))))
-maxFields <- max(sapply(lines, function(x) length(str_split_1(x, pattern = " "))))
-df <- str_split_fixed(lines, pattern = " ", n = maxFields)
-df <- as.data.frame(df[,-2])
-head(df)
-colnames(df) <- c("person", "command", paste("arg", 1:(ncol(df)-2), sep = ""))
-
-# TODO: zrobic jedna ramke z danymi dla wszystkich, w kolumnie 1 bedzie id osoby czy cos
-
 bashHistoryServer <- function(input, output, session) {
+  
+  # INITIALIZATION
+  init <- function() {
+    lines <- c(paste("Mateusz", str_squish(readLines("data/bash-history/mateusz_bash_history.txt"))),
+               paste("NorbertMacos", str_squish(readLines("data/bash-history/norbert_macos.txt"))),
+               paste("Kuba", str_squish(readLines("data/bash-history/kuba_bash_history.txt"))))
+    maxFields <- max(sapply(lines, function(x) length(str_split_1(x, pattern = " "))))
+    df <- str_split_fixed(lines, pattern = " ", n = maxFields)
+    df <- as.data.frame(df[,-2])
+    colnames(df) <- c("person", "command", paste("arg", 1:(ncol(df)-2), sep = ""))
+    df
+  }
+  df <- init()
   
   personDf <- reactive(
     df %>%
