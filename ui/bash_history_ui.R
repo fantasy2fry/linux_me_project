@@ -13,11 +13,11 @@ bashHistoryUI <- function(id) {
     
     fluidRow(
       column(4,
-             selectInput("person", 
+             selectInput(ns("person"), 
                          label = "Choose person",
-                         choices = c("Mateusz", "Kuba", "Norbert (Linux)", "Norbert (MacOS)"))),
+                         choices = c("Mateusz", "Kuba", "Norbert"))),
       column(4,
-             numericInput("hottestCommands",
+             numericInput(ns("hottestCommands"),
                           label = "Select number of most used commands",
                           min = 3,
                           max = 12,
