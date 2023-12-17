@@ -1,0 +1,139 @@
+Repository /home/beart/programowanie/studia/PDU/pdu_2023_projekt_2/.git
+755c4b8, wejj, 2023-05-29, prezka
+a799b45, kuba-kapron, 2023-05-29, prezentacja
+c47c65c, wejj, 2023-05-29, lepiej brzmiące nazwy z mniejszą ilością śmieci
+dfdc106, WujekHussein, 2023-05-29, Delete kingstonowe_gowno directory
+439da48, miloszkita, 2023-05-29, Add files via upload
+f0083a4, kuba-kapron, 2023-05-29, apka
+ca3610e, kuba-kapron, 2023-05-29, ---
+7df4306, wejj, 2023-05-27, sory za zrobienie drugiego brancha przez przypadek, mam nadzieje, że jest git kek
+4d10db7, kuba-kapron, 2023-05-26, .
+1d22f86, kuba-kapron, 2023-05-22, 4
+974ee5e, kuba-kapron, 2023-05-22, _
+
+Repository /home/beart/programowanie/studia/PDU/pdu_2023/.git
+473f192, kuba-kapron, 2023-06-10, projekt pandas - wstepnie zrobione
+0f4046d, kuba-kapron, 2023-05-23, Lab13
+1ea8065, kuba-kapron, 2023-05-22, zadanie 9.3 -- iloczyn skalarny
+078513f, kuba-kapron, 2023-05-16, poczatek pythona
+6352bfe, Kuba, 2023-04-28, dosyłanie
+3a44c93, kuba-kapron, 2023-04-28, Delete .Rhistory
+8600d88, Kuba, 2023-04-28, wgranie do repo folderu z PDU
+
+Repository /home/beart/programowanie/studia/TWD/projekt2/linux_me_project/.git
+c1b5d91, Norbert Frydrysiak, 2023-12-17, Norbert git stats and first attempt for sys packs part add
+37223dc, vecel, 2023-12-17, heatmap sketch
+d443b69, vecel, 2023-12-17, update date in git statistics
+f876185, vecel, 2023-12-17, data preprocessing for git statistics server
+26a0071, vecel, 2023-12-17, add temporary files
+e22d221, vecel, 2023-12-17, add temporary kuba's file and move initialization to server
+8a184f3, vecel, 2023-12-17, untrack .Rhistory
+f64cd9e, vecel, 2023-12-17, reactivity and basic plot
+51940f7, vecel, 2023-12-13, bash history tab layout
+31554a2, vecel, 2023-12-13, add libraries
+8ac7098, vecel, 2023-12-13, dplyr import
+86ae50c, vecel, 2023-12-11, small changes in bash tab
+9e3875c, vecel, 2023-12-11, add ui ids
+b3cf3b5, Norbert Frydrysiak, 2023-12-09, Merge pull request #1 from fantasy2fry/dashboard
+9670619, vecel, 2023-12-08, init
+813a09c, vecel, 2023-12-08, git stats command
+f82a622, vecel, 2023-12-07, mateusz data for bash, python and system
+982234a, Norbert Frydrysiak, 2023-12-07, README start and tmp files add
+6e6037f, Norbert Frydrysiak, 2023-12-07, init
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/.git
+92e49a1, kuba-kapron, 2023-11-27, zpoif - zadanie oceniane 5
+d524cd5, kuba-kapron, 2023-11-20, zadanie oceniane 4 zpoif
+88d4cb1, kuba-kapron, 2023-11-13, zpoif - zadanie oceniane 3a
+f34db8f, kuba-kapron, 2023-11-06, zpoif - zadanie oceniane 2a
+07909d4, kuba-kapron, 2023-10-30, zadanie ocenianie 1 - zpoif
+438f289, kuba-kapron, 2023-06-12, zadanie 4a
+03e02ac, kuba-kapron, 2023-05-29, zadanie oceniane 3
+8fe6910, kuba-kapron, 2023-05-23, zadania z zajęć z modułu 3
+1a51704, kuba-kapron, 2023-05-08, zadanie oceniane nr 2c
+54e5e39, kuba-kapron, 2023-04-03, Zadanie Oceniane nr 1a
+554d145, kuba-kapron, 2023-03-20, lab05
+19a6ae4, 327282 kapron jakub, 2023-03-13, aaa
+f8ee30a, 327282 kapron jakub, 2023-03-13, Zadanie pozdrowienia
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/zpoif_2023_lessons/.git
+7b7d27a, Maciej Bednarz, 2023-11-27, Komponenty do zadania ocenianego nr 5a.
+1ea34b2, Maciej Bednarz, 2023-11-21, Komponenty do zadania 3c.
+fd15996, Maciej Bednarz, 2023-11-20, Merge branch 'master' of https://github.com/bednarzm/zpoif_2023_lessons
+51cb80a, Maciej Bednarz, 2023-11-20, Zadanie 4a
+e5d03b1, Maciej Bednarz, 2023-11-13, Zadanie 3b.
+17aa103, Maciej Bednarz, 2023-11-13, Zadanie 3a
+dfd08a0, Maciej Bednarz, 2023-11-12, Komponenty do kontrolnych zadań Jachty i Okręty.
+c23da8b, Maciej Bednarz, 2023-11-05, Jedno z dobrych rozwiazan zadania "Media".
+272c10e, Maciej Bednarz, 2023-10-29, Rozwiązanie zadania: Nawiedzone.
+5e203de, Maciej Bednarz, 2023-10-23, Memory
+29e2f86, Maciej Bednarz, 2023-10-16, DebugMe
+a92cd25, Maciej Bednarz, 2023-10-10, Empty repo init.
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/zpoif_2023_training/.git
+0453e75, kuba-kapron, 2023-11-13, jachty 03 - nie jestem pewny ostatniej metody
+b9a8598, kuba-kapron, 2023-11-06, Media02 - skonczone
+ae3fce8, kuba-kapron, 2023-11-06, Merge branch 'main' of https://github.com/kuba-kapron/zpoif_2023_training
+75185aa, kuba-kapron, 2023-11-06, Media02 - klasa ComplexFunction do dokonczenia
+ae35778, kuba-kapron, 2023-10-30, Delete Nawiedzone/src/pl/edu/pw/mini/zpoif/task1 directory
+efe2d9e, kuba-kapron, 2023-10-30, nawiedzone bez demonstratora i folder poprawiony
+fc5c861, kuba-kapron, 2023-10-30, nawiedzone bez demonstratora
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/java_advanced_examples/.git
+348e10f, Maciej Bednarz, 2018-11-18, Lab4 Refleksje i adnotacje.
+151c434, Maciej Bednarz, 2018-11-05, Lab2 examples - Lambda expressions.
+b0a3167, Maciej Bednarz, 2018-10-28, Lab1 examples.
+e7eed7b, bednarzm, 2018-10-14, Initial commit
+
+Repository /home/beart/programowanie/studia/PO/my_repos/po_2023_kapronj/.git
+438f289, kuba-kapron, 2023-06-12, zadanie 4a
+03e02ac, kuba-kapron, 2023-05-29, zadanie oceniane 3
+8fe6910, kuba-kapron, 2023-05-23, zadania z zajęć z modułu 3
+1a51704, kuba-kapron, 2023-05-08, zadanie oceniane nr 2c
+54e5e39, kuba-kapron, 2023-04-03, Zadanie Oceniane nr 1a
+554d145, kuba-kapron, 2023-03-20, lab05
+19a6ae4, 327282 kapron jakub, 2023-03-13, aaa
+f8ee30a, 327282 kapron jakub, 2023-03-13, Zadanie pozdrowienia
+
+Repository /home/beart/programowanie/studia/PO/my_repos/po_2023_training/.git
+0ba7c19, kuba-kapron, 2023-05-29, kebab niedokonczony
+1e5b408, kuba-kapron, 2023-05-29, kebab 03 -- poczatek
+9735ea9, kuba-kapron, 2023-05-28, zadanie 3. - odloty 2022
+90745e5, kuba-kapron, 2023-05-08, przejscie graniczne - chyba zrobione
+89fe665, kuba-kapron, 2023-05-08, biblioteka - control() do dokonczenia
+58753c9, kuba-kapron, 2023-05-08, przejscie graniczne - w trackie
+11d8997, kuba-kapron, 2023-05-06, polecenie niezrozumiałe, biore się za jakieś inne zadanie
+455e605, kuba-kapron, 2023-05-03, Pralnia - chyba gotowe
+8d96de0, kuba-kapron, 2023-05-03, Pralnia - juz duzo zrobione
+4af20fd, kuba-kapron, 2023-04-30, poczatek pralni
+d332d96, kuba-kapron, 2023-04-30, z tego roku - terminal - do zrobienia jak bede ogarnial kolekcje :)
+c0b95ab, kuba-kapron, 2023-04-01, Gornik - zrobione
+6338e06, kuba-kapron, 2023-04-01, Bozena - zrobione
+289d45c, kuba-kapron, 2023-03-31, grzybobranie - zrobione
+c2f6bc9, kuba-kapron, 2023-03-19, v1
+ac4ba83, kuba-kapron, 2023-03-18, wersja 18.03 - do poprawy w nastepnym tygodniu
+8e7ddfa, kuba-kapron, 2023-03-18, wersja 18.03 - do poprawy w nastepnym tygodniu
+d83f20f, kuba-kapron, 2023-03-18, Poczatek kreta 17.03
+
+Repository /home/beart/programowanie/studia/PO/my_repos/po_2023_lessons/.git
+edc49ae, Maciej Bednarz, 2023-06-10, Rozwiązanie zadania Reverse Engineering 1.
+92c57ae, Maciej Bednarz, 2023-05-30, Moduł 4 - UI i wątki.
+7ba63cd, Maciej Bednarz, 2023-05-29, Pliki do zadania 3c.
+f9d6025, Maciej Bednarz, 2023-05-23, Pliki do zadania Czarter
+b0eaea3, Maciej Bednarz, 2023-05-23, PLiki do zadania dla grupy wtorek 14-00
+d3c4c77, Maciej Bednarz, 2023-05-19, Pliki z danymi załączane do niektórych zadań z poprzednich lat.
+6be6748, Maciej Bednarz, 2023-05-19, Przykladowe akceptowalne rozwiazanie zadania 3 - "Odloty...".
+3997825, Maciej Bednarz, 2023-05-09, Modul3-IO
+4227726, Maciej Bednarz, 2023-04-22, * Przykladowe akceptowalne rozwiazanie zadania 2 - "Pralnia".
+7fdeca9, Maciej Bednarz, 2023-04-11, Modul2-Kolekcje
+7fdd806, Maciej Bednarz, 2023-03-31, Przykladowe akceptowalne rozwiazanie zadania 1 - "Grzybobranie".
+a990bed, Maciej Bednarz, 2023-03-31, Zagregowane (do jednego projektu) przyklady z zajęć.
+e1b642e, Maciej Bednarz, 2023-03-27, Lab06
+cfad95d, Maciej Bednarz, 2023-02-27, Lab02 topics.
+
+Repository /home/beart/programowanie/dla_sportu/cpp_learning/.git
+e6a06e7, kuba-kapron, 2023-11-03, rock paper scissors practice
+203ca19, kuba-kapron, 2023-11-02, simple calculator practice
+f62be1d, kuba-kapron, 2023-11-02, hypotenuse practice
+83814e8, kuba-kapron, 2023-11-01, hello world
+
