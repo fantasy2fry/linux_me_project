@@ -6,6 +6,7 @@ library(ggplot2)
 library(forcats)
 
 # Przy odpalaniu trzeba zmienic working dir
+#Norbert - setwd("~/Documents/informatyczne/iadstudia/twd/linux_me_project")
 
 source("ui/bash_history_ui.R")
 source("ui/system_packages_ui.R")
