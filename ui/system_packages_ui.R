@@ -13,13 +13,20 @@ systemPackagesUI <- function(id) {
     
     fluidRow(
       column(4,
-              checkboxGroupInput("kogo_komendy", 
+              checkboxGroupInput(ns("kogo_komendy"), 
                                  "Wybierz z które pakiety analizować:",
                                  c("Norbert - Linux" = "norlinux",
                                    "Norbert - MacOS" = "normacos",
                                    "Mateusz" = "mat",
-                                   "Kuba"= "kuba"))
+                                   "Kuba"= "kuba"),
+                                 selected = "norlinux")
+      ), column(4, textOutput(ns("test")))
+  ),
+    
+    fluidRow(
+      column(12,
+             plotlyOutput(ns("plot1"))
       )
-  )
+    )
   )
 }

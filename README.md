@@ -17,6 +17,11 @@ For arch linux based linux distros:
 pacman -Q > installed_packages.txt
 ```
 
+For MacOS:
+```bash
+brew list > file.txt
+```
+
 ### Commands history:
 ```bash
 history > file.txt
