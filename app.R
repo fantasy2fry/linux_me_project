@@ -4,6 +4,8 @@ library(stringr)
 library(dplyr)
 library(ggplot2)
 library(forcats)
+library(plotly)
+library(scales)
 
 # Przy odpalaniu trzeba zmienic working dir
 #Norbert - setwd("~/Documents/informatyczne/iadstudia/twd/linux_me_project")
