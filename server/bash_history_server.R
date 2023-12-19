@@ -6,9 +6,14 @@ bashHistoryServer <- function(input, output, session) {
     lines <- c(paste("Mateusz", str_squish(readLines("data/bash-history/mateusz_bash_history.txt"))),
                paste("NorbertMacos", str_squish(readLines("data/bash-history/norbert_macos.txt"))),
                paste("Kuba", str_squish(readLines("data/bash-history/kuba_bash_history.txt"))))
+    lines_norbert_linux= c(paste("NorbertLinux", str_squish(readLines("data/bash-history/norbert_linux.txt"))))
+    maxFields_norbert_linux <- max(sapply(lines_norbert_linux, function(x) length(str_split_1(x, pattern = " "))))
+    df_norbert_linux <- str_split_fixed(lines_norbert_linux, pattern = " ", n = maxFields_norbert_linux)
+    df_norbert_linux <- as.data.frame(df_norbert_linux[,c(-2,-3)])
     maxFields <- max(sapply(lines, function(x) length(str_split_1(x, pattern = " "))))
     df <- str_split_fixed(lines, pattern = " ", n = maxFields)
     df <- as.data.frame(df[,-2])
+    df = plyr::rbind.fill(df, df_norbert_linux) #plyr install
     colnames(df) <- c("person", "command", paste("arg", 1:(ncol(df)-2), sep = ""))
     df
   }
