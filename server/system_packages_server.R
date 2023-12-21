@@ -27,6 +27,14 @@ systemPackagesServer <- function(input, output, session) {
       group_by(user) %>%
       summarize(count = n()) 
   )
+  first_3_letters_df = reactive(
+    df %>% 
+      mutate(packages=str_sub(packages,1,input$prefixy)) %>% 
+      group_by(user, packages) %>%
+      summarize(count = n()) %>% #sortowanie po count
+      arrange(desc(count)) %>% 
+      filter(user==input$player) %>% top_n(input$ile)
+  )
   
   output$test=renderText({
     paste(input$kogo_komendy)
@@ -40,6 +48,15 @@ systemPackagesServer <- function(input, output, session) {
       scale_y_log10()
       #geom_text(aes(label=packages))
       
+    #p
+    ggplotly(p)
+  })
+  
+  output$plot2=renderPlotly({
+    p=ggplot(first_3_letters_df(), aes(x=packages, y=count))+
+      geom_bar(stat = "identity", fill = "skyblue")+
+      geom_text(aes(label=count), vjust=-0.3, size=3)+
+      theme_minimal()
     #p
     ggplotly(p)
   })

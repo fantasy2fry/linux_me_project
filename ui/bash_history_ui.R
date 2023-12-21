@@ -15,7 +15,7 @@ bashHistoryUI <- function(id) {
       column(4,
              selectInput(ns("person"), 
                          label = "Choose person",
-                         choices = c("Mateusz", "Kuba", "Norbert"))),
+                         choices = c("Mateusz", "Kuba", "Norbert(MacOs)", "Norbert(Linux)"))),
       column(4,
              numericInput(ns("hottestCommands"),
                           label = "Select number of most used commands",

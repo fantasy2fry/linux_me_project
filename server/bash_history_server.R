@@ -22,8 +22,9 @@ bashHistoryServer <- function(input, output, session) {
   personDf <- reactive(
     df %>%
       filter(person == case_when(input$person == "Mateusz" ~ "Mateusz",
-                                 input$person == "Norbert" ~ "NorbertMacos",
-                                 input$person == "Kuba" ~ "Kuba"))
+                                 input$person == "Norbert(MacOs)" ~ "NorbertMacos",
+                                 input$person == "Kuba" ~ "Kuba",
+                                 input$person == "Norbert(Linux)" ~ "NorbertLinux"))
   )
   
   personCommandsUsage <- reactive(
