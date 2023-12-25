@@ -1,3 +1,7 @@
+# TODO ustawic ikonki dla render info boxow
+# TODO ustawic odpowiednie naglowki kolumn w tabelce
+# TODO ustawic max dlugosc na label przy wykresie
+# TODO theme wykresu
 
 bashHistoryServer <- function(input, output, session) {
   
@@ -19,6 +23,7 @@ bashHistoryServer <- function(input, output, session) {
   }
   df <- init()
   
+  # REACTIVES
   personDf <- reactive(
     df %>%
       filter(person == case_when(input$person == "Mateusz" ~ "Mateusz",
@@ -27,41 +32,58 @@ bashHistoryServer <- function(input, output, session) {
                                  input$person == "Norbert(Linux)" ~ "NorbertLinux"))
   )
   
+  personDfLength <- reactive(length(personDf()$command))
+  
   personCommandsUsage <- reactive(
     personDf() %>% 
+      mutate(command = ifelse(command == "sudo", arg1, command)) %>% 
       group_by(command) %>%
-      summarize(count = n()) %>% 
-      mutate(command = fct_reorder(command, count)) %>% 
-      slice_max(order_by = count, n = input$hottestCommands, with_ties = FALSE)
+      summarize(count = n(), frac = round(count / personDfLength() * 100, 2)) %>% 
+      mutate(command = fct_reorder(command, frac))
   )
   
-  sudoFraction <- reactive(
-    round(mean(personDf()$command == "sudo") * 100, digits = 2)
-  )
+  sudoFraction <- reactive(round(mean(personDf()$command == "sudo") * 100, digits = 2))
   
-  output$helloWorld <- renderText({
-    "Hello World!!"
+  # OUTPUTS
+  output$sudoFraction <- renderInfoBox({
+    infoBox("Sudo Usage", paste(sudoFraction(), "%"), icon = icon("credit-card"))
   })
   
-  output$sudoFraction <- renderText({
-    paste(sudoFraction(), "%")
+  output$uniqueCommands <- renderInfoBox({
+    infoBox("Unique Commands", length(unique(personDf()$command)))
   })
   
-  output$commandsUsage <- renderPlot({
-      ggplot(personCommandsUsage(), aes(x = command, y = count)) +
-        geom_segment(aes(x = command, xend = command, y = 0, yend = count), color = "orange") +
+  output$totalCommands <- renderInfoBox({
+    infoBox("Total Commands", personDfLength())
+  })
+  
+  output$commandsUsagePlot <- renderPlotly({
+    personCommandsUsage() %>% 
+      slice_max(order_by = frac, n = input$hottestCommands, with_ties = FALSE) %>% 
+      ggplot(aes(x = command, y = frac)) +
+        geom_segment(aes(x = command, xend = command, y = 0, yend = frac), color = "orange") +
         geom_point(color = "orange", size = 4) +
         labs(
-          title = "Usage of commands",
           x = element_blank(),
-          y = "Number of uses"
+          y = "Usage fraction"
         ) +
         theme_minimal() +
+      scale_y_continuous(
+        limits = c(0, 50)
+      ) +
         coord_flip() +
         theme(
           panel.grid.major.y = element_blank(),
           panel.border = element_blank(),
           axis.ticks.y = element_blank()
         )
+  })
+  
+  output$commandsUsageTable <- DT::renderDataTable({
+   personCommandsUsage() %>% 
+      select(command, count, frac) %>% 
+      slice_max(order_by = frac, n = input$hottestCommands, with_ties = FALSE) %>% 
+      datatable(options = list(dom = "tip",
+                               pageLength = 8))
   })
 }
