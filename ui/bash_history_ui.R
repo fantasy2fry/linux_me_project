@@ -2,6 +2,7 @@ bashHistoryUI <- function(id) {
   ns <- NS(id)
   
    fluidPage(
+     
      fluidRow(
       box(
         title = "Bash History",
@@ -27,11 +28,18 @@ bashHistoryUI <- function(id) {
     ),
     
     fluidRow(
-      box(title = "Commands Usage Fraction",
-          status = "primary",
-          solidHeader = TRUE,
-          plotlyOutput(ns("commandsUsagePlot"))),
-      box(DTOutput(ns("commandsUsageTable")))
+      
+      tabBox(
+        title = "Commands Usage", 
+        tabPanel("Plot", plotlyOutput(ns("commandsUsagePlot"))),
+        tabPanel("Table", DTOutput(ns("commandsUsageTable")))
+      )
+      
+      # box(title = "Commands Usage Fraction",
+      #     status = "primary",
+      #     solidHeader = TRUE,
+      #     ),
+      # box()
     ),
     fluidRow(
       infoBoxOutput(ns("sudoFraction")),
