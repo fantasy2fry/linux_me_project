@@ -2,10 +2,11 @@
 # TODO ustawic odpowiednie naglowki kolumn w tabelce
 # TODO ustawic max dlugosc na label przy wykresie
 # TODO theme wykresu
+# TODO poprawic consecutiveSequence tak, zeby w ramce danych byla tez dlugosc sekwencji
 
 bashHistoryServer <- function(input, output, session) {
   
-  # INITIALIZATION
+  # INITIALIZATION AND HELPERS
   init <- function() {
     lines <- c(paste("Mateusz", str_squish(readLines("data/bash-history/mateusz_bash_history.txt"))),
                paste("NorbertMacos", str_squish(readLines("data/bash-history/norbert_macos.txt"))),
@@ -21,28 +22,42 @@ bashHistoryServer <- function(input, output, session) {
     colnames(df) <- c("person", "command", paste("arg", 1:(ncol(df)-2), sep = ""))
     df
   }
+  consecutiveCombinations <- function(v, k) {
+    result <- sapply(seq(1, length(v) - k + 1), function(i) {
+      paste(v[i:(i + k - 1)], collapse = " ")
+    })  
+    result
+  }
+  
   df <- init()
   
   # REACTIVES
-  personDf <- reactive(
+  personDf <- reactive({
     df %>%
       filter(person == case_when(input$person == "Mateusz" ~ "Mateusz",
                                  input$person == "Norbert(MacOs)" ~ "NorbertMacos",
                                  input$person == "Kuba" ~ "Kuba",
                                  input$person == "Norbert(Linux)" ~ "NorbertLinux"))
-  )
+  })
   
-  personDfLength <- reactive(length(personDf()$command))
+  personDfLength <- reactive({length(personDf()$command)})
   
-  personCommandsUsage <- reactive(
+  personCommandsUsage <- reactive({
     personDf() %>% 
       mutate(command = ifelse(command == "sudo", arg1, command)) %>% 
       group_by(command) %>%
       summarize(count = n(), frac = round(count / personDfLength() * 100, 2)) %>% 
       mutate(command = fct_reorder(command, frac))
-  )
+  })
   
-  sudoFraction <- reactive(round(mean(personDf()$command == "sudo") * 100, digits = 2))
+  personCommandsSequence <- reactive({
+    result <- rle(personDf()$command)
+    df <-data.frame(table(unlist(sapply(2:6, function(i) consecutiveCombinations(result$values, k = i)))))
+    colnames(df) <- c("sequence", "count")
+    df
+  })
+  
+  sudoFraction <- reactive({round(mean(personDf()$command == "sudo") * 100, digits = 2)})
   
   # OUTPUTS
   output$sudoFraction <- renderInfoBox({
@@ -85,5 +100,10 @@ bashHistoryServer <- function(input, output, session) {
       slice_max(order_by = frac, n = input$hottestCommands, with_ties = FALSE) %>% 
       datatable(options = list(dom = "tip",
                                pageLength = 8))
+  })
+  
+  output$commandsSequence <- DT::renderDataTable({
+    personCommandsSequence() %>%
+      slice_max(n = 1, order_by = count)
   })
 }

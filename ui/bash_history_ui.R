@@ -46,7 +46,11 @@ bashHistoryUI <- function(id) {
       ),
       column(
         width = 4,
-        
+        box(
+          title = "costam",
+          width = NULL,
+          DTOutput(ns("commandsSequence"))
+        )
       )
     )
    )
