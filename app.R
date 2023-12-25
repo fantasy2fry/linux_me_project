@@ -29,6 +29,33 @@ ui <- dashboardPage(
     )
   ),
   dashboardBody(
+    tags$head(
+      tags$style(HTML(
+        ".nav-tabs-custom > .nav-tabs {
+            background-color: #3c8dbc;
+            color: white;
+          }
+         .nav-tabs-custom > .nav-tabs > li {
+            color: white;
+         }
+         .nav-tabs-custom > .nav-tabs > li.active {
+            background-color: brown;
+         }
+         
+         .nav-tabs-custom > .nav-tabs > li.header {
+            color: white !important;
+         }
+         
+         .nav-tabs-custom > .nav-tabs > li > a {
+            color: white;
+         }
+         
+         .nav-tabs-custom > .nav-tabs > li.active > a {
+            color: #444;
+         }"
+      ))
+    ),
+    
     tabItems(
       tabItem(tabName = "bashHistory", bashHistoryUI("bashHistory")),
       tabItem(tabName = "systemPackages", systemPackagesUI("systemPackages")),
