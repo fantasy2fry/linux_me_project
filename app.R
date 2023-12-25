@@ -7,6 +7,7 @@ library(forcats)
 library(plotly)
 library(scales)
 library(DT)
+library(shinycssloaders)
 
 # Przy odpalaniu trzeba zmienic working dir
 #Norbert - setwd("~/Documents/informatyczne/iadstudia/twd/linux_me_project")
@@ -18,6 +19,8 @@ source("ui/git_stats_ui.R")
 source("server/bash_history_server.R")
 source("server/system_packages_server.R")
 source("server/git_stats_server.R")
+
+options(spinner.type = 7, spinner.color = "#3c8dbc")
 
 ui <- dashboardPage(
   dashboardHeader(title = "Linux ME Project"),
