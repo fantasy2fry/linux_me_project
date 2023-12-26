@@ -52,8 +52,10 @@ bashHistoryServer <- function(input, output, session) {
   
   personCommandsSequence <- reactive({
     result <- rle(personDf()$command)
-    df <-data.frame(table(unlist(sapply(2:6, function(i) consecutiveCombinations(result$values, k = i)))))
+    df <- data.frame(table(unlist(sapply(2:6, function(i) consecutiveCombinations(result$values, k = i)))))
     colnames(df) <- c("sequence", "count")
+    df$sequence <- as.character(df$sequence)
+    df <- mutate(df, length = sapply(str_split(sequence, pattern = " "), function(v) length(v)))
     df
   })
   
@@ -98,12 +100,15 @@ bashHistoryServer <- function(input, output, session) {
    personCommandsUsage() %>% 
       select(command, count, frac) %>% 
       slice_max(order_by = frac, n = input$hottestCommands, with_ties = FALSE) %>% 
-      datatable(options = list(dom = "tip",
-                               pageLength = 8))
+      datatable(options = list(dom = "ti",
+                               pageLength = 12))
   })
   
   output$commandsSequence <- DT::renderDataTable({
-    personCommandsSequence() %>%
-      slice_max(n = 1, order_by = count)
+    personCommandsSequence() %>% 
+      group_by(length) %>% 
+      slice_max(order_by = count, n = 1, with_ties = FALSE) %>% 
+      ungroup() %>% 
+      datatable(options = list(dom = "ti"))
   })
 }

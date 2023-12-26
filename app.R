@@ -52,6 +52,10 @@ ui <- dashboardPage(
          .nav-tabs-custom > .nav-tabs > li > a {
             color: white;
          }
+        
+        .nav-tabs-custom > .nav-tabs > li > a:hover {
+            color: #ccc;
+         }
          
          .nav-tabs-custom > .nav-tabs > li.active > a {
             color: #444;
