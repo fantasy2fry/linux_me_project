@@ -2,7 +2,6 @@
 # TODO ustawic odpowiednie naglowki kolumn w tabelce
 # TODO ustawic max dlugosc na label przy wykresie
 # TODO theme wykresu
-# TODO poprawic consecutiveSequence tak, zeby w ramce danych byla tez dlugosc sekwencji
 
 bashHistoryServer <- function(input, output, session) {
   
