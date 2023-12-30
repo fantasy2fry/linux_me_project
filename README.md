@@ -36,3 +36,13 @@ pip freeze > file.txt
 ```
 find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > file.txt
 ```
+
+### R packages:
+
+```bash
+R
+```
+```r
+write.table(installed.packages(), "file.txt", sep=",")
+q()
+```
