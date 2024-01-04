@@ -20,6 +20,7 @@ source("ui/r_libs_ui.R")
 source("server/bash_history_server.R")
 source("server/system_packages_server.R")
 source("server/git_stats_server.R")
+source("server/r_libs_server.R")
 
 options(spinner.type = 7, spinner.color = "#3c8dbc")
 
