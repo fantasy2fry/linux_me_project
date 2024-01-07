@@ -8,6 +8,8 @@ library(plotly)
 library(scales)
 library(DT)
 library(shinycssloaders)
+library(networkD3)
+library(tidyr)
 
 # Przy odpalaniu trzeba zmienic working dir
 #Norbert - setwd("~/Documents/informatyczne/iadstudia/twd/linux_me_project")
