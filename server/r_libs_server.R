@@ -1,30 +1,40 @@
-# TODO reaktywnosc
 # TODO strzalki
-# TODO wybierac kogo paczki oraz ile pierwszych najczesciej importowanych paczek
+# TODO wybierac ile pierwszych najczesciej importowanych paczek
 # ma sie wyswietlac
 
 rLibsServer <- function(input, output, session) {
   
   # LOADING DATA AND HELPERS
-  loadData <- function(file) {
-    read.delim(file, sep = ",")
+  loadRLibsData <- function(name) {
+    commonPath <- "data/r-libs/"
+    df <- read.delim(paste(commonPath, name, "_r_libs.txt", sep = ""), 
+                     sep = ",", row.names = NULL)
+    cbind(person = rep(name, times = nrow(df)), df) %>% 
+      select(!row.names)
   }
-  commonPath <- "data/r-libs/"
-  kuba_df <- loadData(paste(commonPath, "kuba_r_libs.txt", sep = ""))
-  df <- rbind(kuba_df)
+  kubaDF <- loadRLibsData("kuba")
+  norbertDF <- loadRLibsData("norbert")
+  df <- rbind(kubaDF, norbertDF)
   
-  importsDF <- df %>% 
-    select(Package, Imports) %>% 
+  completeImportsDF <- df %>% 
+    select(person, Package, Imports) %>% 
     mutate(Imports = str_replace_all(Imports, ",\n", ", ")) %>% 
     separate_longer_delim(Imports, delim = ", ") %>% 
     mutate(Imports = str_replace(Imports, "\\([^\\)]+\\)", "")) %>% 
     na.omit()
 
   # REACTIVES
+  importsDF <- reactive({
+    completeImportsDF %>% 
+      filter(person == case_when(input$person == "Mateusz" ~ "mateusz",
+                                 input$person == "Norbert" ~ "norbert",
+                                 input$person == "Kuba" ~ "kuba")) %>% 
+      select(!person)
+  })
   
   # OUTPUTS
   output$importsNetwork <- renderSimpleNetwork({
-    simpleNetwork(importsDF)
+    simpleNetwork(importsDF())
   })
   
 }
