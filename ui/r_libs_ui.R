@@ -20,7 +20,16 @@ rLibsUI <- function(id) {
           selectInput(
             ns("person"), 
             label = "Choose person",
-            choices = c("Mateusz", "Kuba", "Norbert"))
+            choices = c("Mateusz", "Kuba", "Norbert")
+          ),
+          sliderInput(
+            ns("mostFrequentlyImported"),
+            label = "Select number of most frequently imported packages",
+            min = 1,
+            max = 12,
+            value = 6,
+            step = 1
+          )
         )
       ),
       column(

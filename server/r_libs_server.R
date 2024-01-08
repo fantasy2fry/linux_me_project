@@ -1,15 +1,13 @@
 # TODO strzalki
-# TODO wybierac ile pierwszych najczesciej importowanych paczek
-# ma sie wyswietlac
 
 rLibsServer <- function(input, output, session) {
   
   # LOADING DATA AND HELPERS
-  loadRLibsData <- function(name) {
+  loadRLibsData <- function(person) {
     commonPath <- "data/r-libs/"
-    df <- read.delim(paste(commonPath, name, "_r_libs.txt", sep = ""), 
+    df <- read.delim(paste(commonPath, person, "_r_libs.txt", sep = ""), 
                      sep = ",", row.names = NULL)
-    cbind(person = rep(name, times = nrow(df)), df) %>% 
+    cbind(person = rep(person, times = nrow(df)), df) %>% 
       select(!row.names)
   }
   kubaDF <- loadRLibsData("kuba")
@@ -25,11 +23,20 @@ rLibsServer <- function(input, output, session) {
 
   # REACTIVES
   importsDF <- reactive({
-    completeImportsDF %>% 
+    df <- completeImportsDF %>% 
       filter(person == case_when(input$person == "Mateusz" ~ "mateusz",
                                  input$person == "Norbert" ~ "norbert",
                                  input$person == "Kuba" ~ "kuba")) %>% 
       select(!person)
+    
+    importFrequency <- df %>% 
+      select(Imports) %>% 
+      group_by(Imports) %>%
+      summarise(n = n()) %>% 
+      slice_max(n, n = input$mostFrequentlyImported) %>% 
+      pull(Imports)
+    
+    df %>% filter(Imports %in% importFrequency)
   })
   
   # OUTPUTS
