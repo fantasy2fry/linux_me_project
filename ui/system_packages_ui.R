@@ -4,15 +4,26 @@ systemPackagesUI <- function(id) {
   fluidPage(
     fluidRow(
       column(12,
-             h2("Hello Bash"),
-             p("Tu bedzie jakis fancy opis"),
-             textOutput(ns("helloWorld")),
+             box(
+               title = "System Packages",
+               status = "primary",
+               solidHeader = TRUE,
+               collapsible = TRUE,
+               h2("Hello Bash"),
+               p("Tu bedzie jakis fancy opis"),
+               textOutput(ns("helloWorld")),
+             )
+             
             
       )
     ),
     
-    fluidRow(
-      column(4,
+    
+      column(12,
+             box(
+               title = "Input",width = NULL,
+               status = "warning",
+               solidHeader = TRUE,
               checkboxGroupInput(ns("kogo_komendy"), 
                                  "Wybierz z które pakiety analizować:",
                                  c("Norbert - Linux" = "norlinux",
@@ -20,8 +31,8 @@ systemPackagesUI <- function(id) {
                                    "Mateusz" = "mat",
                                    "Kuba"= "kuba"),
                                  selected = "norlinux")
-      ), column(4, textOutput(ns("test")))
-  ),
+      ), 
+  
     
     fluidRow(
       column(12,
@@ -51,6 +62,7 @@ systemPackagesUI <- function(id) {
     column(12,
            plotlyOutput(ns("plot2"))
     )
+  )
   )
   )
   

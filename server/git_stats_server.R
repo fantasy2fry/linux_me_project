@@ -3,6 +3,7 @@
 # mogę liczyć ilość commitów u danej osoby
 # mogę liczyć ilość commitów w danym repozytorium (średnio)
 # a tak to kalendarz plot i ilość commitów w danym dniu
+# podobno jest jakaś tabelka z dniami tygodnia od daty (może analizować dni tygodnia i ilosc commitow)
 gitStatsServer <- function(input, output, session) {
   
   processData <- function(lines, person) {
@@ -23,9 +24,9 @@ gitStatsServer <- function(input, output, session) {
   
   init <- function() {
     do.call(rbind, list(
-      processData(readLines("data/git-stats/mateusz_git_stats.txt"), "Mateusz")
-      # processData(readLines("data/git-stats/kuba_git_stats.txt"), "Kuba"),
-      # processData(readLines("data/git-stats/norbert_git_stats.txt"), "Norbert"),
+      processData(readLines("data/git-stats/mateusz_git_stats.txt"), "Mateusz"),
+      processData(readLines("data/git-stats/kuba_git_stats.txt"), "Kuba"),
+      processData(readLines("data/git-stats/norbert_git_stats.txt"), "Norbert"),
     ))
   }
   

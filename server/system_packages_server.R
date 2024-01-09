@@ -1,11 +1,11 @@
 options(scipen = 999)
+# setwd("~/Documents/informatyczne/iadstudia/twd/linux_me_project")
 systemPackagesServer <- function(input, output, session) {
   init <- function(){
     lines <- c(paste("mat", str_squish(readLines("data/system-packages/mateusz_system_packages.txt"))),
                paste("normacos", str_squish(readLines("data/system-packages/norbert_system_packages_macos.txt"))),
                paste("norlinux", str_squish(readLines("data/system-packages/norbert_system_packages.txt"))),
                paste("kuba", str_squish(readLines("data/system-packages/kuba_system_packages.txt"))))
-    # trzeba dodac pana kube jeszcze
     lines = as.data.frame(str_split_fixed(lines, " ", n=2))
     colnames(lines) <- c("user", "packages")
     df = lines %>% 
@@ -49,7 +49,9 @@ systemPackagesServer <- function(input, output, session) {
       #geom_text(aes(label=packages))
       
     #p
-    ggplotly(p)
+    ggplotly(p) %>% 
+    config( displayModeBar = FALSE)
+  
   })
   
   output$plot2=renderPlotly({
@@ -58,6 +60,8 @@ systemPackagesServer <- function(input, output, session) {
       geom_text(aes(label=count), vjust=-0.3, size=3)+
       theme_minimal()
     #p
-    ggplotly(p)
+    ggplotly(p) %>% 
+    config(displayModeBar = FALSE)
+    
   })
 }
