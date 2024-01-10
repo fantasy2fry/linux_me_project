@@ -13,26 +13,32 @@ gitStatsUI <- function(id) {
       )
       ),
       column(width = 4,
-             box(
-               title="Git Repositories on our Computers Information",
+              box(
+               title="Input",
                width=NULL,
                solidHeader = TRUE,
-               status = "primary", 
-               
+               status = "warning", 
+               selectInput(
+                 ns("person_w"), 
+                 label = "Choose person",
+                 choices = c("Mateusz" = "vecel", "Kuba"="kuba-kapron", "Norbert"="Norbert Frydrysiak")
+               )
                
              )
       ),
       column(width = 4,
              box(
-               title="Input",
+               title="Git Repositories on our Computers Information",
                width=NULL,
                solidHeader = TRUE,
-               status = "warning", 
-               
-               
+               status = "primary", 
+               infoBoxOutput(ns("how_many_repos"), width = NULL) %>% withSpinner(),
+               infoBoxOutput(ns("total_commits_person"), width = NULL) %>% withSpinner(),
+               infoBoxOutput(ns("average_commits_per_repo"), width = NULL) %>% withSpinner()
+             )
              )
       )
     
   )
-  )
+  
 }

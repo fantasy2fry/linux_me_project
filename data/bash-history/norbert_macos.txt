@@ -2765,3 +2765,854 @@
  2765  clear
  2766  history
  2767  ls
+ 2768  history > his.txt
+ 2769  ls
+ 2770  v his.txt
+ 2771  clear
+ 2772  cd
+ 2773  ls
+ 2774  pip3 install requests
+ 2775  pip3 install bs4
+ 2776  pip3 install re csvkit
+ 2777  pip3 install getopt
+ 2778  cd Documents/informatyczne/iadstudia/po_project/
+ 2779  ls
+ 2780  git init
+ 2781  ls
+ 2782  git status
+ 2783  git remote add origin https://fantasy2fry@bitbucket.org/zpoif-2023-zespol-18/zpoif_2023_zespol_18.git\n
+ 2784  git status
+ 2785  git add data_collect.ipynb .gitignore
+ 2786  git status
+ 2787  git commit -m 'init and first data exploration add'
+ 2788  git push -u origin master
+ 2789  git status
+ 2790  mv ~/Downloads/Aplikacja\ do\ analizy\ danych\ piłkarskich\ -\ konspekt.pdf .
+ 2791  ls
+ 2792  ls -A
+ 2793  mv Aplikacja\ do\ analizy\ danych\ piłkarskich\ -\ konspekt.pdf konspekt.pdf
+ 2794  ls
+ 2795  git add konspekt.pdf
+ 2796  mv ~/Downloads/Aplikacja\ do\ analizy\ danych\ piłkarskich\ -\ konspekt.pdf konspekt.pdf
+ 2797  git status
+ 2798  git add konspekt.pdf
+ 2799  git commit -m 'overview add'
+ 2800  git push
+ 2801  cd Documents/informatyczne/iadstudia/po_project/
+ 2802  ls
+ 2803  git status
+ 2804  open konspekt.pdf
+ 2805  cd Documents/informatyczne/iadstudia/pppdsem22/
+ 2806  ls
+ 2807  cd 8lab
+ 2808  ls
+ 2809  cat Lab8_01.py
+ 2810  cd
+ 2811  cd Documents/informatyczne/iadstudia/pppdsem22/
+ 2812  cat punktowane4.py
+ 2813  neofetch
+ 2814  R
+ 2815  mv ~/Documents/informatyczne/iadstudia/twd
+ 2816  mv ~/Documents/informatyczne/iadstudia/twd/lab8/laby.R ~/Documents/informatyczne/iadstudia/po_project/data_collect_rlanguage.R
+ 2817  R
+ 2818  v
+ 2819  clear
+ 2820  v
+ 2821  clear
+ 2822  which pip3
+ 2823  which pip
+ 2824  which python3
+ 2825  which ipython3
+ 2826  which jupyter-notebook
+ 2827  which jupyter
+ 2828  jupyter kernelspec list
+ 2829  cd /usr/local/bin/
+ 2830  ls
+ 2831  jupyter notebook
+ 2832  brew update
+ 2833  brew upgrade
+ 2834  brew update
+ 2835  bpytop
+ 2836  clear
+ 2837  pip3 install plotly
+ 2838  man pip3
+ 2839  man pip
+ 2840  man python3
+ 2841  cd Documents/informatyczne/iadstudia/twd
+ 2842  ls
+ 2843  mkdir lab9
+ 2844  cd lab8
+ 2845  cd ../lab9
+ 2846  ls
+ 2847  mv ~/Downloads/README.md .
+ 2848  mv ~/Downloads/app_start.R .
+ 2849  mv ~/Downloads/app.png .
+ 2850  ls
+ 2851  R
+ 2852  clear
+ 2853  open app.png
+ 2854  R
+ 2855  cd ..
+ 2856  ls
+ 2857  mkdir linux_me_project
+ 2858  ls
+ 2859  mv lab8/his.txt linux_me_project/
+ 2860  ls linux_me_project/
+ 2861  cd linux_me_project/
+ 2862  mv ~/Downloads/lista_komend.txt .
+ 2863  mv ~/Downloads/lista_pakietow.txt .
+ 2864  ls
+ 2865  v lista_pakietow.txt
+ 2866  ls
+ 2867  v his.txt
+ 2868  v lista_pakietow.txt
+ 2869  v lista_komend.txt
+ 2870  cat lista_komend.txt | wc -l
+ 2871  cat his.txt | wc -l
+ 2872  cat lista_pakietow.txt | wc -l
+ 2873  v his.txt
+ 2874  pip freeze
+ 2875  pip freeze > pakiety_python.txt
+ 2876  ls
+ 2877  v pakiety_python.txt
+ 2878  cat pakiety_python.txt | wc -l
+ 2879  mkdir norbert_dane
+ 2880  ls
+ 2881  mv * norbert_dane/
+ 2882  ls
+ 2883  ls  norbert_dane/
+ 2884  mv norbert_dane/ Norbert_dane
+ 2885  ls
+ 2886  ls Norbert_dane/
+ 2887  ls Norbert_dane/ Norbert_Dane/
+ 2888  mv Norbert_dane/ Norbert_Dane/
+ 2889  ls
+ 2890  mv ~/Downloads/0189a292-91e6-11ee-84bc-24f8d88eddf9.tar .
+ 2891  ls
+ 2892  tar -x 0189a292-91e6-11ee-84bc-24f8d88eddf9.tar
+ 2893  ls
+ 2894  ls -A
+ 2895  tar -xvzf 0189a292-91e6-11ee-84bc-24f8d88eddf9.tar
+ 2896  ls
+ 2897  open repositories/
+ 2898  fig doctor
+ 2899  fig restart
+ 2900  fig doctor
+ 2901  open repositories_000001.json
+ 2902  man git
+ 2903  brew search git-stats
+ 2904  brew search git
+ 2905  ls
+ 2906  mv 0189a292-91e6-11ee-84bc-24f8d88eddf9.tar Norbi_github.tar
+ 2907  ls
+ 2908  rm repositories_000001.json schema.json users_000001.json
+ 2909  ls
+ 2910  rm -R repositories/
+ 2911  ls
+ 2912  ls repositories/
+ 2913  rm -r repositories/
+ 2914  rm -fr repositories/
+ 2915  ls
+ 2916  ls Norbert_Dane/
+ 2917  mv Norbert_Dane/ Norbert_Data/
+ 2918  ls
+ 2919  cd Norbert_Data/
+ 2920  ls
+ 2921  v his.txt
+ 2922  mv his.txt macos_bash_commands.txt
+ 2923  ls
+ 2924  mv lista_komend.txt linux_bash_commands.txt
+ 2925  ;s
+ 2926  ls
+ 2927  mv lista_pakietow.txt python_packages.txt
+ 2928  ls
+ 2929  mv python_packages.txt linux_packages.txt
+ 2930  ls
+ 2931  mv pakiety_python.txt python_libraries.txt
+ 2932  ls
+ 2933  cd ..
+ 2934  ls
+ 2935  mkdir data
+ 2936  cd data/
+ 2937  mkdir bash-history/
+ 2938  mkdir system-packages/
+ 2939  mkdir python-libs/
+ 2940  mkdir r-libs/
+ 2941  ls
+ 2942  mkdir git-stats/
+ 2943  ls
+ 2944  cd ..
+ 2945  ls
+ 2946  cd Norbert_Data/
+ 2947  ls
+ 2948  mv linux_bash_commands.txt ../data/bash-history/Norbert_linux.txt
+ 2949  ls
+ 2950  mv macos_bash_commands.txt ../data/bash-history/Norbert_macos.txt
+ 2951  ls
+ 2952  mv linux_packages.txt ../data/system-packages/Norbert_system_packages.txt
+ 2953  ls
+ 2954  mv python_libraries.txt ../data/python-libs/Norbert_python_libs.txt
+ 2955  ls
+ 2956  cd ..
+ 2957  ls
+ 2958  rmdir Norbert_Data/
+ 2959  ls
+ 2960  mv Norbi_github.tar ../
+ 2961  ls
+ 2962  cd data/
+ 2963  ls
+ 2964  ls -R
+ 2965  cd bash-history/
+ 2966  ls
+ 2967  mv Norbert_linux.txt norbert_linux.txt
+ 2968  ls
+ 2969  mv Norbert_macos.txt norbert_macos.txt
+ 2970  ls
+ 2971  cd ..
+ 2972  ls -r
+ 2973  ls -R
+ 2974  cd python-libs/
+ 2975  ls
+ 2976  mv Norbert_python_libs.txt norbert_python_libs.txt
+ 2977  cd ..
+ 2978  ls
+ 2979  ls -R
+ 2980  cd system-packages/
+ 2981  ls
+ 2982  mv Norbert_system_packages.txt norbert_system_packages.txt
+ 2983  ls
+ 2984  cd ..
+ 2985  ls -R
+ 2986  cd  r-libs/
+ 2987  R
+ 2988  ls
+ 2989  cd ..
+ 2990  ls
+ 2991  ls -R
+ 2992  cd ..
+ 2993  ls
+ 2994  git init
+ 2995  git status
+ 2996  ls
+ 2997  touch .gitignore
+ 2998  v .gitignore
+ 2999  git status
+ 3000  git add
+ 3001  git add *
+ 3002  git status
+ 3003  git add .gitignore
+ 3004  git status
+ 3005  ls -A
+ 3006  du -h .
+ 3007  echo "# linux_me_project" >> README.md
+ 3008  git add README.md
+ 3009  git status
+ 3010  git commit -m 'init'
+ 3011  git remote add origin https://github.com/fantasy2fry/linux_me_project.git
+ 3012  git push -u origin master
+ 3013  pip list
+ 3014  ls
+ 3015  v README.md
+ 3016  ls -R
+ 3017  touch data/git-stats/tmp.txt
+ 3018  git status
+ 3019  touch data/r-libs/tmp.txt
+ 3020  git add *
+ 3021  git status
+ 3022  git commit -m 'README start and tmp files add'
+ 3023  git push
+ 3024  git status
+ 3025  git pull
+ 3026  cd Documents/informatyczne/iadstudia/twd
+ 3027  cd linux_me_project/
+ 3028  git status
+ 3029  git pull
+ 3030  git log
+ 3031  git
+ 3032  git help 
+ 3033  git help -g
+ 3034  git help -a
+ 3035  cd ..
+ 3036  ls
+ 3037  cd 2023Z-DataVisualizationTechniques/
+ 3038  ls
+ 3039  git status
+ 3040  git pull
+ 3041  git status
+ 3042  cd ..
+ 3043  cd linux_me_project/
+ 3044  ls
+ 3045  git checkout master
+ 3046  git fetch origin
+ 3047  git merge dashboard
+ 3048  git merge origin/dashboard
+ 3049  git log
+ 3050  git status
+ 3051  git push origin master
+ 3052  git push origin --delete origin/dashboard
+ 3053  git push origin --delete dashboard
+ 3054  cd ..
+ 3055  ls
+ 3056  cd 2023Z-DataVisualizationTechniques/
+ 3057  git pull
+ 3058  cd homeworks/
+ 3059  ls
+ 3060  cd hw4
+ 3061  ls
+ 3062  mkdir FrydrysiakNorbert
+ 3063  ls
+ 3064  cd FrydrysiakNorbert/
+ 3065  ls
+ 3066  ls -A
+ 3067  ls
+ 3068  touch task.ipynb
+ 3069  ls
+ 3070  git add task.ipynb
+ 3071  ls
+ 3072  open plot.html
+ 3073  ls -A
+ 3074  git status
+ 3075  git add task.ipynb plot.html
+ 3076  ls
+ 3077  git commit -m 'Norbert Frydrysiak HW4 add'
+ 3078  git status
+ 3079  git push
+ 3080  git status
+ 3081  open plot.html
+ 3082  cd Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/homeworks/hw4/FrydrysiakNorbert/
+ 3083  ls
+ 3084  open plot.html
+ 3085  brew list
+ 3086  neofetch
+ 3087  history | grep sudo | wc -l
+ 3088  history | wc -l
+ 3089  ls
+ 3090  cd ../../../../linux_me_project/
+ 3091  ls
+ 3092  touch XDDDDD.txt
+ 3093  ls
+ 3094  git pull
+ 3095  ls
+ 3096  rm XDDDDD.txt
+ 3097  ls
+ 3098  cd Documents/informatyczne/iadstudia/po_project/
+ 3099  ls
+ 3100  git status
+ 3101  mkdir data_exploration
+ 3102  mkdir data
+ 3103  ls
+ 3104  mv data_collect_rlanguage.R data_exploration/
+ 3105  ls
+ 3106  mv data_collect.ipynb data_exploration/
+ 3107  ls
+ 3108  ls -R
+ 3109  ls
+ 3110  cd
+ 3111  cd /Users/fantasy2fry/
+ 3112  ls -A
+ 3113  ls -A | grep .m2
+ 3114  ls
+ 3115  cd Documents/informatyczne/iadstudia/twd
+ 3116  ls
+ 3117  mkdir lab10
+ 3118  kls
+ 3119  ls
+ 3120  cd lab10
+ 3121  ls
+ 3122  mv ~/Downloads/lab10.R .
+ 3123  ls
+ 3124  R
+ 3125  clear
+ 3126  R
+ 3127  cd Documents/informatyczne/iadstudia/twd
+ 3128  cd linux_me_project/
+ 3129  ls
+ 3130  git pull
+ 3131  git status
+ 3132  cd data/git-stats/
+ 3133  ls
+ 3134  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > norbert_git_stats.txt
+ 3135  ls
+ 3136  v norbert_git_stats.txt
+ 3137  ls
+ 3138  cd ..
+ 3139  ls
+ 3140  cd ..
+ 3141  ls -R
+ 3142  R
+ 3143  ls
+ 3144  cd ..
+ 3145  ls
+ 3146  cd  linux_me_project/
+ 3147  ls
+ 3148  cd data/system-packages/
+ 3149  ls
+ 3150  brew list
+ 3151  ls
+ 3152  brew list > norbert_system_packages_macos.txt
+ 3153  ls
+ 3154  v norbert_system_packages_macos.txt
+ 3155  ls
+ 3156  pwd
+ 3157  git status
+ 3158  git branch feat-norbert-syspacks
+ 3159  git status
+ 3160  git branch feat-norbert-syspacks
+ 3161  git add ../../app.R ../git-stats/norbert_git_stats.txt ../../server/system_packages_server.R ../../ui/system_packages_ui.R norbert_system_packages_macos.txt
+ 3162  git branch --delete feat-norbert-syspacks
+ 3163  git status
+ 3164  git commit -m 'Norbert git stats and first attempt for sys packs part add'
+ 3165  git push
+ 3166  git pull
+ 3167  git branch feat-norbert-syspacks
+ 3168  git checkout feat-norbert-syspacks
+ 3169  git status
+ 3170  cd ..
+ 3171  ls
+ 3172  cd ..
+ 3173  ls
+ 3174  v README.md
+ 3175  git status
+ 3176  ls
+ 3177  git status
+ 3178  ls
+ 3179  cd Documents/informatyczne/iadstudia/sowid1/
+ 3180  ls
+ 3181  cd skypty/
+ 3182  ls
+ 3183  cd zaliczenie/
+ 3184  ls
+ 3185  cat zad1i2.sh
+ 3186  cat zad3_regexgotowy.txt
+ 3187  ls
+ 3188  htop
+ 3189  bpytop
+ 3190  git status
+ 3191  ls
+ 3192  git status
+ 3193  git add README.md app.R server/system_packages_server.R ui/system_packages_ui.R
+ 3194  git status
+ 3195  git commit -m 'syspacks first plot that it is not working XD add'
+ 3196  git push
+ 3197  git push --set-upstream origin feat-norbert-syspacks
+ 3198  git pull
+ 3199  man git-merge
+ 3200  git merge master
+ 3201  git merge feat-norbert-syspacks
+ 3202  git checkout master
+ 3203  git pull
+ 3204  git merge feat-norbert-syspacks
+ 3205  git checkout master
+ 3206  git pull
+ 3207  git checkout feat-norbert-syspacks
+ 3208  git merge master
+ 3209  git status
+ 3210  git push
+ 3211  git status
+ 3212  git add server/system_packages_server.R
+ 3213  git status
+ 3214  git commit -m 'syspacks first plot working a little bit add'
+ 3215  git push
+ 3216  cd Documents/informatyczne/iadstudia/twd
+ 3217  ls
+ 3218  cd linux_me_project/
+ 3219  cd data/bash-history/
+ 3220  ls
+ 3221  v norbert_linux.txt
+ 3222  v norbert_macos.txt
+ 3223  pwd
+ 3224  v norbert_linux.txt
+ 3225  v kuba_bash_history.txt
+ 3226  v norbert_linux.txt
+ 3227  R
+ 3228  git status
+ 3229  git restore ../../server/bash_history_server.R
+ 3230  git status
+ 3231  git add ../../server/bash_history_server.R
+ 3232  git status
+ 3233  git commit -m 'norbert linux bash commends added to dataframe'
+ 3234  git push
+ 3235  git pull
+ 3236  git checkout master
+ 3237  git pull
+ 3238  git checkout feat-norbert-syspacks
+ 3239  git pull
+ 3240  git merge master
+ 3241  git status
+ 3242  git push
+ 3243  git pull
+ 3244  git checkout master
+ 3245  git pull
+ 3246  history | wc -l
+ 3247  echo $HISTSIZE
+ 3248  brew install tree
+ 3249  tree
+ 3250  tree -L 1
+ 3251  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3252  git status
+ 3253  git pull
+ 3254  git checkout feat-norbert-syspacks
+ 3255  git pull
+ 3256  git checkout master
+ 3257  v
+ 3258  vim
+ 3259  clear
+ 3260  neofetch
+ 3261  cmatrix
+ 3262  clear
+ 3263  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3264  ls
+ 3265  git status
+ 3266  git add server/system_packages_server.R ui/system_packages_ui.R server/bash_history_server.R ui/bash_history_ui.R
+ 3267  git status
+ 3268  git commit -m 'bash plots modification and one plot added to pacakges analysis'
+ 3269  git push
+ 3270  git checkout master
+ 3271  git merge feat-norbert-syspacks
+ 3272  git push
+ 3273  git checkout
+ 3274  git checkout feat-norbert-syspacks
+ 3275  git merge master
+ 3276  git status
+ 3277  v ui/bash_history_ui.R
+ 3278  git status
+ 3279  git log
+ 3280  git checkout master
+ 3281  v ui/bash_history_ui.R
+ 3282  git push
+ 3283  git checkout feat-norbert-syspacks
+ 3284  git push
+ 3285  ls -R
+ 3286  clear
+ 3287  v data/bash-history/norbert_linux.txt
+ 3288  clear
+ 3289  cd ..
+ 3290  ls
+ 3291  mkdir lab11
+ 3292  cd lab11
+ 3293  ls
+ 3294  mv ~/Downloads/lab11.ipynb .
+ 3295  mv ~/Downloads/Zadanie1.png .
+ 3296  mv ~/Downloads/Zadanie1white.png .
+ 3297  ls
+ 3298  open Zadanie1.png
+ 3299  cd ..
+ 3300  ls
+ 3301  cd linux_me_project/
+ 3302  clear
+ 3303  cd data/
+ 3304  ls
+ 3305  v git-stats/norbert_git_stats.txt
+ 3306  v git-stats/mateusz_git_stats.txt
+ 3307  clear
+ 3308  neofetch
+ 3309  cd Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/
+ 3310  git status
+ 3311  git pull
+ 3312  cd homeworks/hw5/
+ 3313  ls
+ 3314  v hw5.R
+ 3315  mkdir FrydrysiakNorbert
+ 3316  ls
+ 3317  cd FrydrysiakNorbert/
+ 3318  R
+ 3319  ls
+ 3320  R
+ 3321  ls
+ 3322  ls -A
+ 3323  mkdir xmas_tree.ipnyb
+ 3324  touch xmas_tree.ipnyb
+ 3325  ls
+ 3326  ls -l
+ 3327  rm xmas_tree.ipnyb/
+ 3328  ls
+ 3329  ls -l
+ 3330  rmdir xmas_tree.ipnyb/
+ 3331  ls
+ 3332  touch xmas_tree.ipnyb
+ 3333  touch xmas_tree.ipynb
+ 3334  ls
+ 3335  rm xmas_tree.ipnyb
+ 3336  ls
+ 3337  touch xmas_tree.py
+ 3338  ls
+ 3339  rm xmas_tree.ipynb
+ 3340  ls
+ 3341  v xmas_tree.py
+ 3342  python3 xmas_tree.py
+ 3343  v xmas_tree.py
+ 3344  python3 xmas_tree.py
+ 3345  v xmas_tree.py
+ 3346  python3 xmas_tree.py
+ 3347  v xmas_tree.py
+ 3348  python3 xmas_tree.py
+ 3349  v xmas_tree.py
+ 3350  python3 xmas_tree.py
+ 3351  v xmas_tree.py
+ 3352  python3 xmas_tree.py
+ 3353  v xmas_tree.py
+ 3354  python3 xmas_tree.py
+ 3355  v xmas_tree.py
+ 3356  ls
+ 3357  rm xmas_tree.py
+ 3358  ls
+ 3359  mkdir xmas_tree.R
+ 3360  ls
+ 3361  rmdir xmas_tree.R/
+ 3362  touch xmas_tree.R
+ 3363  ls
+ 3364  R
+ 3365  ls
+ 3366  bpytop
+ 3367  mvn
+ 3368  brew search maven
+ 3369  java --version
+ 3370  cd Documents/informatyczne
+ 3371  cd iadstudia/po_project/
+ 3372  ls
+ 3373  git status
+ 3374  cd out/
+ 3375  ls
+ 3376  cd production/
+ 3377  ls
+ 3378  cd po_project/data/collect/
+ 3379  ls
+ 3380  cd ../../../../
+ 3381  ls
+ 3382  cd ../
+ 3383  ls
+ 3384  javac src/data/collect/MenuOptionsGetter.java
+ 3385  cd ..
+ 3386  ls
+ 3387  cd po_programy/
+ 3388  ls
+ 3389  cd ..
+ 3390  ls
+ 3391  rm -rf po_project/
+ 3392  ls
+ 3393  cd Documents/informatyczne/iadstudia/numerki/
+ 3394  ls
+ 3395  mkdir project_2
+ 3396  ls
+ 3397  cd project_2/
+ 3398  ls
+ 3399  ping wp.pl
+ 3400  clear
+ 3401  ping wp.pl
+ 3402  clear
+ 3403  bpytop
+ 3404  fig doctor
+ 3405  cd Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/
+ 3406  git status
+ 3407  git add homeworks/hw5/FrydrysiakNorbert/
+ 3408  git status
+ 3409  cd homeworks/hw5/
+ 3410  ls
+ 3411  cd FrydrysiakNorbert/
+ 3412  pwd
+ 3413  ls
+ 3414  pwd
+ 3415  ls
+ 3416  open xmas_tree.png
+ 3417  cd Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/
+ 3418  cd homeworks/hw5/
+ 3419  ls
+ 3420  cd FrydrysiakNorbert/
+ 3421  ls
+ 3422  open xmas_tree.png
+ 3423  rm xmas_tree.png
+ 3424  open xmas_tree.pdf
+ 3425  git status
+ 3426  git add xmas_tree.pdf
+ 3427  git status
+ 3428  git add xmas_tree.R
+ 3429  git status
+ 3430  git commit -m 'hw5 FrydrysiakNorbert add'
+ 3431  git push
+ 3432  ls
+ 3433  cd
+ 3434  cd Documents/informatyczne/iadstudia/numerki/project_2/
+ 3435  ls
+ 3436  cd
+ 3437  cd Downloads/
+ 3438  ls
+ 3439  cd projekt_16_Kukla_Michaˆ/
+ 3440  ls
+ 3441  v projekt16_skrypt.m
+ 3442  cd Documents/informatyczne/iadstudia/twd
+ 3443  cd linux_me_project/
+ 3444  git pull
+ 3445  git checkout master
+ 3446  git status
+ 3447  git pull
+ 3448  R
+ 3449  clear
+ 3450  cd
+ 3451  ls
+ 3452  cd Documents/informatyczne/iadstudia/twd
+ 3453  cd linux_me_project/
+ 3454  git status
+ 3455  git pull
+ 3456  git status
+ 3457  git restore app.R
+ 3458  git pull
+ 3459  cd Documents/informatyczne/iadstudia/twd
+ 3460  ls
+ 3461  mkdir lab12
+ 3462  ls
+ 3463  cd lab12
+ 3464  mv ~/Downloads/lab12.ipynb .
+ 3465  ls
+ 3466  which pip3
+ 3467  which pip
+ 3468  cd ..
+ 3469  ls
+ 3470  cd linux_me_project/
+ 3471  cd data/bash-history/
+ 3472  ls
+ 3473  v norbert_linux.txt
+ 3474  v
+ 3475  clear
+ 3476  v
+ 3477  history | wc -l
+ 3478  ls
+ 3479  cd Downloads/
+ 3480  ls
+ 3481  open projekt2mn.pdf
+ 3482  mv projekt2mn.pdf ../Documents/informatyczne/iadstudia/numerki/project_2/
+ 3483  cd ..
+ 3484  cd Documents/informatyczne/iadstudia/numerki/
+ 3485  cd project_2/
+ 3486  l
+ 3487  ls
+ 3488  ll
+ 3489  ls
+ 3490  history | grep zip
+ 3491  ls
+ 3492  zip MN_IAD_Projekt2_Frydrysiak.zip *
+ 3493  ls
+ 3494  ll
+ 3495  ls -A
+ 3496  ls -a
+ 3497  du MN_IAD_Projekt2_Frydrysiak.zip
+ 3498  du -h MN_IAD_Projekt2_Frydrysiak.zip
+ 3499  du -h *
+ 3500  cp MN_IAD_Projekt2_Frydrysiak.zip ~/Downloads/
+ 3501  ls
+ 3502  lvim
+ 3503  clear
+ 3504  brew search arc
+ 3505  brew info arc
+ 3506  cd Documents/informatyczne/iadstudia/twd/
+ 3507  ls
+ 3508  ll
+ 3509  ls
+ 3510  cd linux_me_project/
+ 3511  ls
+ 3512  git status
+ 3513  git fetch
+ 3514  ls
+ 3515  git pull
+ 3516  git checkout feat-norbert-syspacks
+ 3517  git merge master
+ 3518  git push
+ 3519  cd data/
+ 3520  ls
+ 3521  ls -R
+ 3522  cd r-libs/
+ 3523  ls
+ 3524  R
+ 3525  ls
+ 3526  git status
+ 3527  cat kuba_r_libs.txt
+ 3528  cat norbert_r_libs.txt
+ 3529  git add norbert_r_libs.txt
+ 3530  git status
+ 3531  git commit -m 'norbert r-libs add'
+ 3532  git push
+ 3533  git checkout master
+ 3534  git merge feat-norbert-syspacks
+ 3535  git push
+ 3536  cd ..
+ 3537  ls
+ 3538  cd ..
+ 3539  ls
+ 3540  cd server
+ 3541  ls
+ 3542  v git_stats_server.R
+ 3543  R
+ 3544  brew search emutls_w
+ 3545  git status
+ 3546  git checkout feat-norbert-syspacks
+ 3547  git merge master
+ 3548  ls -R
+ 3549  cd ..
+ 3550  ls -R
+ 3551  ls
+ 3552  git commit -m 'my plan for git stats add'
+ 3553  git add server/git_stats_server.R
+ 3554  git commit -m 'my plan for git stats add'
+ 3555  git status
+ 3556  git push
+ 3557  history | wc -l
+ 3558  brew list
+ 3559  clear
+ 3560  cd
+ 3561  cd Documents/informatyczne/iadstudia/numerki/project_2/
+ 3562  ls
+ 3563  open projekt2mn.pdf
+ 3564  git fetch
+ 3565  cd ../../twd/linux_me_project/
+ 3566  ls
+ 3567  git fetch
+ 3568  git checkout feat-kuba-rlibs
+ 3569  git pull
+ 3570  git checkout master
+ 3571  git fetch
+ 3572  git pull
+ 3573  git checkout feat-norbert-syspacks
+ 3574  git merge master
+ 3575  git checkout feat-kuba-rlibs
+ 3576  R
+ 3577  brew search gcc
+ 3578  brew reinstall gcc
+ 3579  R
+ 3580  ls
+ 3581  git checkout feat-norbert-syspacks
+ 3582  ls
+ 3583  git pull
+ 3584  R
+ 3585  git status
+ 3586  ls -R
+ 3587  R
+ 3588  git status
+ 3589  git add server/git_stats_server.R app.R ui/system_packages_ui.R server/system_packages_server.R ui/git_stats_ui.R
+ 3590  git commit -m 'figthting with calendar plot (aka heatmap) and some adding of boxes from shinydashboard'
+ 3591  git push
+ 3592  brew
+ 3593  neofetch
+ 3594  brew install opera-gx
+ 3595  brew remove opera-gx
+ 3596  ls
+ 3597  clear
+ 3598  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3599  ls
+ 3600  git status
+ 3601  ls -R
+ 3602  git config  --list
+ 3603  git status
+ 3604  ls
+ 3605  cd data/
+ 3606  ls
+ 3607  cd git-stats/
+ 3608  ls
+ 3609  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > norbert_git_stats.txt
+ 3610  git status
+ 3611  v norbert_git_stats.txt
+ 3612  cat norbert_git_stats.txt | wc -l
+ 3613  cd ..
+ 3614  ls
+ 3615  cd bash-history/
+ 3616  ls
+ 3617  v norbert_macos.txt
+ 3618  history | head

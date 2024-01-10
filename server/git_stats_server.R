@@ -26,11 +26,43 @@ gitStatsServer <- function(input, output, session) {
     do.call(rbind, list(
       processData(readLines("data/git-stats/mateusz_git_stats.txt"), "Mateusz"),
       processData(readLines("data/git-stats/kuba_git_stats.txt"), "Kuba"),
-      processData(readLines("data/git-stats/norbert_git_stats.txt"), "Norbert"),
+      processData(readLines("data/git-stats/norbert_git_stats.txt"), "Norbert")
     ))
   }
   
   df <- init()
+  
+  personDf <- reactive({
+    df %>%
+      filter(person == case_when(input$person_w == "vecel" ~ "Mateusz",
+                                 input$person_w == "Norbert Frydrysiak" ~ "Norbert",
+                                 input$person_w == "kuba-kapron" ~ "Kuba"))
+  })
+  personDf_only_his_commits = reactive({
+    if(input$person_w == "vecel"){
+      personDf() %>%filter(author =="vecel" | author =="Mateusz Karandys")
+    } else if(input$person_w == "Norbert Frydrysiak"){
+      personDf() %>%
+        filter(author == "Norbert Frydrysiak" | author=="fantasy2fry")
+    } else if(input$person_w == "kuba-kapron"){
+      personDf() %>% 
+        filter(author == "kuba-kapron")
+    }
+    
+  })
+  
+  output$how_many_repos=renderInfoBox({
+    infoBox("Total Repositories", 
+            paste0(n_distinct(personDf()$repo)))
+  })
+  output$total_commits_person=renderInfoBox({
+    infoBox("Total Commits By Person", 
+            paste0(nrow(personDf_only_his_commits())))
+  })
+  output$average_commits_per_repo=renderInfoBox({
+    infoBox("Average Commits Per Repo", 
+            paste0(nrow(personDf_only_his_commits())/n_distinct(personDf()$repo)))
+  })
   
   output$heatmap <- renderPlotly({
     
