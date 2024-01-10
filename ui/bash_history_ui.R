@@ -57,7 +57,7 @@ bashHistoryUI <- function(id) {
           title = "Description",
           width = NULL,
           includeMarkdown(
-          "While working with the terminal, the user often performs certain sequences of operations, such as `git add`, `git commit`, `git push`. The table above presents a compilation of the most frequently used sequences for a given number of consecutive commands (2-6). During the analysis, consecutive invocations of the same command were counted as one. This means that the consecutive usage of `cd cd cd` is treated simply as single `cd`."
+          "While working with the terminal, the user often performs certain sequences of operations, such as `git add`, `git commit`, `git push`. The table above presents a compilation of the most frequently used sequences for a given number of consecutive commands (2-6). During the analysis, consecutive invocations of the same command were counted as one. This means that the consecutive usage of `cd` `cd` `cd` is treated simply as single `cd`."
           )
         )
       )
