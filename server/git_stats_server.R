@@ -1,9 +1,5 @@
 # mogę analizować najczęstrze słowo pojawiące się w commitach
-# mogę liczyć ilość repozytoriów u danej osoby
-# mogę liczyć ilość commitów u danej osoby
-# mogę liczyć ilość commitów w danym repozytorium (średnio)
-# a tak to kalendarz plot i ilość commitów w danym dniu
-# podobno jest jakaś tabelka z dniami tygodnia od daty (może analizować dni tygodnia i ilosc commitow)
+# TODO dodac analize tresci commitow dla kazdej osoby
 gitStatsServer <- function(input, output, session) {
   
   processData <- function(lines, person) {
