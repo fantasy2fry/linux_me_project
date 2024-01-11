@@ -38,10 +38,7 @@ find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log
 ```
 
 ### R packages:
-
-```bash
-R
-```
+To start a R session type `R` in the terminal and then follow with:
 ```r
 write.table(installed.packages(), "file.txt", sep=",")
 q()
