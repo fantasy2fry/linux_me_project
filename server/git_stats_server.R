@@ -73,7 +73,7 @@ gitStatsServer <- function(input, output, session) {
   })
   output$average_commits_per_repo_by_person=renderInfoBox({
     infoBox("Average Commits By Person Per Repo", 
-            paste0(nrow(personDf_only_his_commits())/n_distinct(personDf()$repo)))
+            paste0(round(nrow(personDf_only_his_commits())/n_distinct(personDf()$repo),2)))
   })
   
   output$unique_contributors=renderInfoBox({
@@ -83,7 +83,7 @@ gitStatsServer <- function(input, output, session) {
   
   output$average_total_commits_per_repo=renderInfoBox({
     infoBox("Average Commits Per Repo", 
-            paste0(nrow(personDf())/n_distinct(personDf()$repo)))
+            paste0(round(x=nrow(personDf())/n_distinct(personDf()$repo),digits=2)))
   })
   output$most_popular_day_for_commit=renderInfoBox({
     infoBox("Most Popular Day For Commit", 
