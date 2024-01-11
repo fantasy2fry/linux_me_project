@@ -14,6 +14,7 @@ library(tidyr)
 # Przy odpalaniu trzeba zmienic working dir
 #Norbert - setwd("~/Documents/informatyczne/iadstudia/twd/linux_me_project")
 
+source("ui/about_ui.R")
 source("ui/bash_history_ui.R")
 source("ui/system_packages_ui.R")
 source("ui/git_stats_ui.R")
@@ -30,6 +31,7 @@ ui <- dashboardPage(
   dashboardHeader(title = "Linux ME Project"),
   dashboardSidebar(
     sidebarMenu(
+      menuItem("About", tabName = "about"),
       menuItem("Bash History", tabName = "bashHistory"),
       menuItem("System Packages", tabName = "systemPackages"),
       menuItem("Git Statistics", tabName = "gitStats"),
@@ -69,6 +71,7 @@ ui <- dashboardPage(
     ),
     
     tabItems(
+      tabItem(tabName = "about", aboutUI("about")),
       tabItem(tabName = "bashHistory", bashHistoryUI("bashHistory")),
       tabItem(tabName = "systemPackages", systemPackagesUI("systemPackages")),
       tabItem(tabName = "gitStats", gitStatsUI("gitStats")),
