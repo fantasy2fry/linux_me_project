@@ -19,11 +19,13 @@ source("ui/bash_history_ui.R")
 source("ui/system_packages_ui.R")
 source("ui/git_stats_ui.R")
 source("ui/r_libs_ui.R")
+source("ui/python_libs_ui.R")
 
 source("server/bash_history_server.R")
 source("server/system_packages_server.R")
 source("server/git_stats_server.R")
 source("server/r_libs_server.R")
+source("server/python_libs_server.R")
 
 options(spinner.type = 7, spinner.color = "#3c8dbc")
 
@@ -34,7 +36,8 @@ ui <- dashboardPage(
       menuItem("Bash History", tabName = "bashHistory"),
       menuItem("System Packages", tabName = "systemPackages"),
       menuItem("Git Statistics", tabName = "gitStats"),
-      menuItem("R Packages", tabName = "rLibs")
+      menuItem("R Packages", tabName = "rLibs"),
+      menuItem("Python Packages", tabName = "pythonLibs")
     )
   ),
   dashboardBody(
@@ -73,7 +76,8 @@ ui <- dashboardPage(
       tabItem(tabName = "bashHistory", bashHistoryUI("bashHistory")),
       tabItem(tabName = "systemPackages", systemPackagesUI("systemPackages")),
       tabItem(tabName = "gitStats", gitStatsUI("gitStats")),
-      tabItem(tabName = "rLibs", rLibsUI("rLibs"))
+      tabItem(tabName = "rLibs", rLibsUI("rLibs")),
+      tabItem(tabName = "pythonLibs", pythonLibsUI("pythonLibs"))
     )
   )
 )
@@ -83,6 +87,7 @@ server <- function(input, output, session) {
   callModule(systemPackagesServer, "systemPackages")
   callModule(gitStatsServer, "gitStats")
   callModule(rLibsServer, "rLibs")
+  callModule(pythonLibsServer, "pythonLibs")
 }
 
 shinyApp(ui, server)
