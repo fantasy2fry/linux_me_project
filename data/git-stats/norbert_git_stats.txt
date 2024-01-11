@@ -26176,9 +26176,28 @@ f40be1c, Norbert Frydrysiak, 2023-11-08, spider_plots update
 7098524, Norbert Frydrysiak, 2023-10-19, Initial commit
 
 Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/twd/linux_me_project/.git
+1babf65, Norbert Frydrysiak, 2024-01-11, python libs tab added
+71f9368, Norbert Frydrysiak, 2024-01-11, Merge pull request #11 from fantasy2fry/feat-kuba-rlibs
+91d3a47, Norbert Frydrysiak, 2024-01-11, Merge pull request #10 from fantasy2fry/feat-norbert-syspacks
+b6d0c6a, Norbert Frydrysiak, 2024-01-11, Merge branch 'master' into feat-norbert-syspacks
+1821dee, Norbert Frydrysiak, 2024-01-11, system_packages version beta, added python libs tab choice
+55bd68a, kuba-kapron, 2024-01-11, added import of Mateusz's r-libs in r_libs_server.R
+2d6a274, Jakub Kaproń, 2024-01-11, Merge pull request #9 from fantasy2fry/feat-kuba-rlibs
+719f759, Jakub Kaproń, 2024-01-11, Merge pull request #8 from fantasy2fry/master
+16e490b, kuba-kapron, 2024-01-11, updated tutorial on how to get r-libs data in README
+a5cf327, Mateusz Karandys, 2024-01-11, Merge pull request #7 from fantasy2fry/about
+f078bf2, vecel, 2024-01-11, about tab template
+3f34050, vecel, 2024-01-11, small text fix
+4eecada, vecel, 2024-01-11, add mateusz r libs
+b9cdb3f, Norbert Frydrysiak, 2024-01-10, calendar heatmap add :D :D :D
+07ee372, Norbert Frydrysiak, 2024-01-10, git-stats 3 short info add and data update
 0c50789, Norbert Frydrysiak, 2024-01-09, figthting with calendar plot (aka heatmap) and some adding of boxes from shinydashboard
 8214bdb, Norbert Frydrysiak, 2024-01-08, my plan for git stats add
+b30dd48, kuba-kapron, 2024-01-08, added selectable number of most frequently imported packages to show in the network plot
+b12b8a5, kuba-kapron, 2024-01-08, added person selection in r-libs
+b97ed2c, Jakub Kaproń, 2024-01-08, Merge pull request #6 from fantasy2fry/master
 7486353, Norbert Frydrysiak, 2024-01-08, norbert r-libs add
+808ab35, kuba-kapron, 2024-01-08, add basic packages' imports network
 2404483, Jakub Kaproń, 2024-01-04, Merge pull request #5 from fantasy2fry/feat-kuba-rlibs
 39e693f, kuba-kapron, 2024-01-04, fixed missing r_libs_server.R import and added simple r libs data-loading function
 22cbb33, kuba-kapron, 2024-01-03, Merge pull request #4 from fantasy2fry/feat-kuba-rlibs
