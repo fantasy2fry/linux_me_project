@@ -11,8 +11,9 @@ rLibsServer <- function(input, output, session) {
       select(!row.names)
   }
   kubaDF <- loadRLibsData("kuba")
+  mateuszDF <- loadRLibsData("mateusz")
   norbertDF <- loadRLibsData("norbert")
-  df <- rbind(kubaDF, norbertDF)
+  df <- rbind(kubaDF, mateuszDF, norbertDF)
   
   completeImportsDF <- df %>% 
     select(person, Package, Imports) %>% 
