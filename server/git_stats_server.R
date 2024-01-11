@@ -1,5 +1,6 @@
 # mogę analizować najczęstrze słowo pojawiące się w commitach
 # TODO dodac analize tresci commitow dla kazdej osoby
+# MOZE ZANALIZOWAĆ TO JAKO TAKI "WORD CLOUD"??
 gitStatsServer <- function(input, output, session) {
   
   processData <- function(lines, person) {
