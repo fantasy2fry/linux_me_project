@@ -20,7 +20,43 @@ Repository /home/beart/programowanie/studia/PDU/pdu_2023/.git
 3a44c93, kuba-kapron, 2023-04-28, Delete .Rhistory
 8600d88, Kuba, 2023-04-28, wgranie do repo folderu z PDU
 
-Repository /home/beart/programowanie/studia/TWD/projekt2/linux_me_project/.git
+Repository /home/beart/programowanie/studia/TWD/Projekt2/linux_me_project/.git
+55bd68a, kuba-kapron, 2024-01-11, added import of Mateusz's r-libs in r_libs_server.R
+719f759, Jakub Kaproń, 2024-01-11, Merge pull request #8 from fantasy2fry/master
+16e490b, kuba-kapron, 2024-01-11, updated tutorial on how to get r-libs data in README
+a5cf327, Mateusz Karandys, 2024-01-11, Merge pull request #7 from fantasy2fry/about
+f078bf2, vecel, 2024-01-11, about tab template
+3f34050, vecel, 2024-01-11, small text fix
+4eecada, vecel, 2024-01-11, add mateusz r libs
+b30dd48, kuba-kapron, 2024-01-08, added selectable number of most frequently imported packages to show in the network plot
+b12b8a5, kuba-kapron, 2024-01-08, added person selection in r-libs
+b97ed2c, Jakub Kaproń, 2024-01-08, Merge pull request #6 from fantasy2fry/master
+7486353, Norbert Frydrysiak, 2024-01-08, norbert r-libs add
+808ab35, kuba-kapron, 2024-01-08, add basic packages' imports network
+2404483, Jakub Kaproń, 2024-01-04, Merge pull request #5 from fantasy2fry/feat-kuba-rlibs
+39e693f, kuba-kapron, 2024-01-04, fixed missing r_libs_server.R import and added simple r libs data-loading function
+22cbb33, kuba-kapron, 2024-01-03, Merge pull request #4 from fantasy2fry/feat-kuba-rlibs
+744f541, kuba-kapron, 2024-01-03, update app.R with ui and server functions for r libs
+3268c79, kuba-kapron, 2024-01-03, Merge branch 'master' into feat-kuba-rlibs with updated readme and kuba's r libs data
+b3966f5, kuba-kapron, 2024-01-03, initialize ui and server functions for r libs
+93b561a, kuba-kapron, 2023-12-30, Kuba's r libs and deletion of a placeholder text file
+39cb2ac, kuba-kapron, 2023-12-30, update REAMDE with info on r-libs
+f1ff0fa, vecel, 2023-12-26, remove todo
+b64f8e0, vecel, 2023-12-26, sequences table description
+6b2d9bc, vecel, 2023-12-26, most used commands sequences table
+7fd5c2f, vecel, 2023-12-26, write consecutiveCombinations function
+3c1256c, vecel, 2023-12-25, add shinycssloaders spinners
+b40b990, vecel, 2023-12-25, column layout
+c80a9c1, vecel, 2023-12-25, move styles to app.R
+70c393e, vecel, 2023-12-25, add styles for tabBox
+d50e08d, vecel, 2023-12-25, add boxes and dt table
+8575caa, Norbert Frydrysiak, 2023-12-21, bash plots modification and one plot added to pacakges analysis
+f8822b7, Norbert Frydrysiak, 2023-12-19, Merge pull request #3 from fantasy2fry/feat-norbert-syspacks
+89eac5a, Norbert Frydrysiak, 2023-12-19, norbert linux bash commends added to dataframe
+a50f917, Norbert Frydrysiak, 2023-12-18, syspacks first plot working a little bit add
+6dc6e44, Norbert Frydrysiak, 2023-12-18, Merge pull request #2 from fantasy2fry/feat-norbert-syspacks
+f155826, Norbert Frydrysiak, 2023-12-18, syspacks first plot that it is not working XD add
+1871a99, kuba-kapron, 2023-12-18, Kuba's data without r libs
 c1b5d91, Norbert Frydrysiak, 2023-12-17, Norbert git stats and first attempt for sys packs part add
 37223dc, vecel, 2023-12-17, heatmap sketch
 d443b69, vecel, 2023-12-17, update date in git statistics
@@ -78,6 +114,11 @@ ae3fce8, kuba-kapron, 2023-11-06, Merge branch 'main' of https://github.com/kuba
 ae35778, kuba-kapron, 2023-10-30, Delete Nawiedzone/src/pl/edu/pw/mini/zpoif/task1 directory
 efe2d9e, kuba-kapron, 2023-10-30, nawiedzone bez demonstratora i folder poprawiony
 fc5c861, kuba-kapron, 2023-10-30, nawiedzone bez demonstratora
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/.git
+23376d8, kuba-kapron, 2024-01-10, renaming .api package to .apiclients and adding GoldExchangeRate class to store json info from NBP API with temporal testing class
+29d77e9, kuba-kapron, 2024-01-10, .gitignore with pom.xml with maven dependencies
+a835792, kuba-kapron, 2023-12-31, add basic ui and basic NBP api enquiry (Happy New Year\!)
 
 Repository /home/beart/programowanie/studia/ZPOiF/my_repos/java_advanced_examples/.git
 348e10f, Maciej Bednarz, 2018-11-18, Lab4 Refleksje i adnotacje.

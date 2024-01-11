@@ -1,1000 +1,1000 @@
-  365  git push
-  366  cd
-  367  ls
-  368  shutdown 'now'
-  369  cd programowanie/studia/PDU/pdu_2023/R/Laby/Lab10/
-  370  ls
-  371  xdg-open .
-  372  git status
-  373  git add knitr-markdown.*
-  374  git status
-  375  git commit -m
-  376  git commit
-  377  git commit -m 'uzupelnianie'
-  378  git push
-  379  git status
-  380  git push
-  381  git pull
-  382  git status
-  383  git push
-  384  cd ~/programowanie/studia/PDU/
-  385  ls
-  386  cd pdu_2023/
-  387  git status
-  388  git push
-  389  git pull
-  390  git fetch  -h
-  391  git fetch
-  392  git status
-  393  git pull
-  394  git diff
-  395  git branch -a
-  396  git diff main remotes/origin/main
-  397  cd programowanie/studia/PDU/pdu_2023/
-  398  git status
-  399  git reset
-  400  git status
-  401  git reset
-  402  git status 
-  403  git reverse
-  404  git reset HEAD~1
-  405  git status
-  406  git pull
-  407  git status
-  408  cd R/Laby/Lab10/
-  409  ls
-  410  git status
-  411  git add knitr-markdown.*
-  412  git status
-  413  git pull
-  414  git commit -m 'dosyłanie'
-  415  git status
-  416  git push
-  417  git config --list
-  418  cd
-  419  git config --list
-  420  git cofing user.name "kuba-kapron"
-  421  git config user.name "kuba-kapron"
-  422  cd programowanie/studia/PDU/pdu_2023/
-  423  git config user.name "kuba-kapron"
-  424  git config user.email "kapronja@gmail.com"
-  425  git config --list 
-  426  cd
-  427  git config --list 
-  428  cd programowanie/studia/PO/my_repos/po_2023_training/
-  429  git config --list 
-  430  git config --global user.name "kuba-kapron"
-  431  git config --global user.email "kapronja@gmail.com"
-  432  cd
-  433  git config --list
-  434  cd programowanie/studia/PO/my_repos/po_2023_training/
-  435  git config --list 
-  436  cd ../po_2023_lessons/
-  437  git config --list
-  438  exit
-  439  shutdown 'now'
-  440  su
-  441  sudo apt update 
-  442  sudo apt upgrade 
-  443  sudo apt update 
-  444  sudo apt upgrade 
-  445  cd programowanie/studia/PO/my_repos/po_2023_training/
-  446  ls
-  447  git pull
-  448  ls
-  449  cd 02/Przejscie_graniczne/src/
-  450  git add *
-  451  git status
-  452  git commit -m "biblioteka - control() do dokonczenia"
-  453  git push
-  454  cd programowanie/studia/PO/my_repos/po_2023_training/02/Przejscie_graniczne/src/
-  455  ls
-  456  git status
-  457  git add *
-  458  git status
-  459  git commit -m 'przejscie graniczne - chyba zrobione'
-  460  git push
-  461  git status
-  462  cd programowanie/studia/PO/my_repos/po_2023_kapronj/
-  463  ls
-  464  cd zadanie_oceniane_2c/
-  465  cd src/
-  466  ls
-  467  git add *
-  468  git status
-  469  git commit -m 'zadanie oceniane nr 2c'
-  470  git push
-  471  sudo apt update 
-  472  shutdown -now'
-  473  shutdown 'now'
-  474  cd programowanie/studia/PO/my_repos/po_2023_lessons/
-  475  ls
-  476  git status
-  477  git pull
-  478  clear
-  479  ls
-  480  sudo apt update
-  481  conda activate
-  482  conda environment-name
-  483  conda activate environment-name
-  484  conda info --envs
-  485  exit
-  486  conda activate
-  487  which conda
-  488  ls
-  489  cd programowanie/studia/PDU/pdu_2023/Python/Lab12/
-  490  jupyter notebook
-  491  cd programowanie/studia/PDU/pdu_2023/
-  492  ls
-  493  git status
-  494  cd Python/Lab12/
-  495  ls
-  496  git add *
-  497  git status
-  498  git commit -m 'poczatek pythona'
-  499  git push
-  500  exit
-  501  conda activate
-  502  which conda
-  503  env lis
-  504  env list
-  505  conda env list
-  506  conda exit
-  507  exit
-  508  cd programowanie/studia/PDU/pdu_2023/Python/Lab12/
-  509  ls
-  510  rm main.py 
-  511  ls
-  512  cd 
-  513  cd Downloads/
-  514  ls
-  515  ls -a
-  516  rm .Rhistory 
-  517  rm pycharm-community-2023.1.1.tar.gz 
-  518  ls
-  519  ls -a
-  520  clear
-  521  cd programowanie/studia/PDU/pdu_2023/Python/Lab12/
-  522  ls -a
-  523  rm .ipynb_checkpoints/
-  524  rm -r  .ipynb_checkpoints/
-  525  ls
-  526  ls -a
-  527  exit
-  528  conda activate
-  529  where conda
-  530  which conda
-  531  conda env list
-  532  conda list
-  533  clear
-  534  sudo tar xzf pycharm-*.tar.gz -C /opt/
-  535  cd Downloads/
-  536  sudo tar xzf pycharm-*.tar.gz -C /opt/
-  537  cd /opt/pycharm-community-2023.1.1/
-  538  ls
-  539  cd bin/
-  540  sh pycharm.sh 
-  541  shutdown 'now'
-  542  cd programowanie/studia/PDU/
-  543  ls
-  544  git clone https://github.com/kuba-kapron/pdu_2023_projekt_2.git
-  545  ls
-  546  sudo apt update
-  547  cd programowanie/studia/PDU/pdu_2023_projekt_2/
-  548  ls
-  549  rm dataverse_files.zip 
-  550  sudo apt update
-  551  sudo apt upgrade 
-  552  exit
-  553  cd programowanie/studia/PDU/pdu_2023_projekt_2/
-  554  ls
-  555  git statsu
-  556  git status
-  557  git add pytanie*/*
-  558  git status
-  559  git commit -m '4'
-  560  git push
-  561  cd programowanie/studia/PDU/pdu_2023/Python/
-  562  git status
-  563  ls
-  564  cd Lab12/
-  565  ls
-  566  git status
-  567  git add zadanie_9.3.py 
-  568  git status
-  569  git commit -m 'zadanie 9.3 -- iloczyn skalarny'
-  570  git pull
-  571  git push
-  572  shutdown 'now'
-  573  conda activate
-  574  jupyer notebook
-  575  jupyter notebook
-  576  conda install pandadoc
-  577  conda install -c conda-forge pandoc
-  578  exi
-  579  exit
-  580  conda activate
-  581  conda install -c conda-forge pandoc
-  582  exit
-  583  sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
-  584  conda activate
-  585  jupyter notebook
-  586  conda deactivate
-  587  clear
-  588  ls
-  589  cd Downloads/
-  590  ls
-  591  rm *
-  592  ls
-  593  exit
-  594  shutdown 'now'
-  595  cd programowanie/studia/PO/my_repos/po_2023_kapronj/
-  596  ls
-  597  git status
-  598  cd Modul03_zadanie_1/
-  599  ls
-  600  git add src/
-  601  ls
-  602  git add src/*
-  603  git status
-  604  cd ../Modul03_zadanie_2
-  605  ls
-  606  git add src/* resource/*
-  607  git status
-  608  cd ../
-  609  git status
-  610  git commit -m 'zadania z zajęć z modułu 3'
-  611  git push
-  612  rm programowanie/studia/PDU/pdu_2023/Python/Lab13/*.zip
-  613  conda activate
-  614  jupyter notebook
-  615  cd programowanie/studia/PDU/pdu_2023/
-  616  ls
-  617  git status
-  618  git pull
-  619  cd Python/Lab13
-  620  ls
-  621  git status
-  622  ls nycflights13/
-  623  ls
-  624  git add *
-  625  git status
-  626  git commit -m 'Lab13'
-  627  git status
-  628  git push
-  629  sudo apt update
-  630  git status
-  631  git pull
-  632  sudo apt update
-  633  git pull
-  634  git status
-  635  git add src/* resources/*
-  636  git status
-  637  git commit -m 'zadanie oceniane 3'
-  638  git push
-  639  git status
-  640  git pull
-  641  git status
-  642  git restore Solutions/Task3/Asteroidy_pliki/asteroidy.txt
-  643  git status
-  644  cd programowanie/studia/PDU/pdu_2023
-  645  ls
-  646  git status
-  647  git pull
-  648  ls
-  649  cd Python/Projekt3/
-  650  ls
-  651  exut
-  652  exit
-  653  cd programowanie/studia/PO/
-  654  ls
-  655  cd my_repos/po_2023_kapronj/
-  656  git status
-  657  cd zadanie_oceniane_4a/
-  658  ls
-  659  git status
-  660  cd src/
-  661  git status
-  662  git add *
-  663  git status
-  664  git commit -m 'zadanie 4a'
-  665  git push
-  666  git pull
-  667  cd ~/Downloads/
-  668  ls
-  669  rm Kapron_Jakub_Kingston_Antoni_Kita_Milosz_PD3.zip 
-  670  ls
-  671  exit
-  672  sudo apt update
-  673  sudo apt upgrage
-  674  sudo apt upgrade 
-  675  sudo apt update
-  676  sudo apt upgrade
-  677  reboot now
-  678  sudo reboot now
-  679  restart now
-  680  sudo apt update
-  681  ls
-  682  sudo apt update
-  683  sudo apt upgrade 
-  684  sudo apt install grub-efi grub2-common grub-customizer
-  685  sudo update-grub
-  686  sudo apt update
-  687  sudo apt upgrade
-  688  sudo apt update
-  689  reboot now
-  690  sudo reboot now
-  691  shutdown now
-  692  sudo apt update
-  693  sudo apt upgrade
-  694  sudo grub-install 
-  695  sudo cp /boot/grub/x86_64-efi/grub.efi /boot/efi/EFI/pop/grubx64.efi
-  696  sudo reboot now
-  697  exit
-  698  cd programowanie/studia/ZPOiF/
-  699  ls
-  700  java --version 
-  701  touch Simple.java
-  702  cd programowanie/studia/ZPOiF/
-  703  ls
-  704  jdk21/bin/javac Simple.java
-  705  java --version 
-  706  ls
-  707  jdk21/bin/javac Simple.java
-  708  ls
-  709  ls -a
-  710  jdk21/bin/javac Simple.java
-  711  ls
-  712  jdk21/bin/javac Simple.java
-  713  jdk21/bin/java Simple.java
-  714  ls
-  715  uname -m
-  716  clear
-  717  ech %path$
-  718  ech %path%
-  719  echo %path%
-  720  clear
-  721  ~/programowanie/studia/ZPOiF/jdk21/
-  722  ~/programowanie/studia/ZPOiF/jdk21/bin/javac 
-  723  echo $path
-  724  echo $PATH
-  725  clear
-  726  ~/programowanie/studia/ZPOiF/jdk21/bin/javac 
-  727  export path=/programowanie/studia/ZPOiF/jdk21/bin
-  728  java --version 
-  729  echo $path
-  730  export path="/programowanie/studia/ZPOiF/jdk21/bin"
-  731  echo $path
-  732  java --version 
-  733  java -version 
-  734  echo $path
-  735  export path="~/programowanie/studia/ZPOiF/jdk21/bin"
-  736  echo $path
-  737  java -version 
-  738  export path="/programowanie/studia/ZPOiF/jdk21/bin"
-  739  echo $path
-  740  java -version 
-  741  touch NotSimple.java
-  742  jdk21/bin/javac NotSimple.java 
-  743  ls
-  744  jdk21/bin/java NotSimple 
-  745  j
-  746  jdk21/bin/java pl.edu.pw.mini.zpoif.workshop.NotSimple
-  747  mkdir pl/edu
-  748  mkdir pl
-  749  mkdir pl/edu
-  750  mkdir pl/edu/pw
-  751  mkdir pl/edu/pw/mini
-  752  mkdir pl/edu/pw/mini/zpoif
-  753  mkdir pl/edu/pw/mini/zpoif/workshop
-  754  ls
-  755  help cp
-  756  man cp
-  757  cp NotSimple.java pl/edu/pw/mini/zpoif/workshop/
-  758  cp NotSimple.class pl/edu/pw/mini/zpoif/workshop/
-  759  ls
-  760  ls pl/edu/pw/mini/zpoif/workshop/
-  761  jdk21/bin/java NotSimple 
-  762  cp NotSimple.java pl/edu/pw/mini/zpoif/workshop/
-  763  jdk21/bin/javac pl/edu/pw/mini/zpoif/workshop/NotSimple.java 
-  764  cd pl/edu/pw/mini/zpoif/workshop/
-  765  ls
-  766  cd ../../../../../../
-  767  ls
-  768  java --version 
-  769  ls
-  770  echo $path
-  771  cd pl/edu/pw/mini/zpoif/workshop/
-  772  javac NotSimple.java 
-  773  java NotSimple 
-  774  java pl.edu.pw.mini.zpoif.workshop.NotSimple
-  775  echo $path
-  776  java -version 
-  777  ls
-  778  cd ../../../../../../
-  779  java pl.edu.pw.mini.zpoif.workshop.NotSimple 
-  780  clear
-  781  echo $path
-  782  export path="~/programowanie/studia/ZPOiF/jdk21/bin"
-  783  echo $path
-  784  java -version 
-  785  clear
-  786  echo $PATH
-  787  clear
-  788  jdk21/bin/java pl.edu.pw.mini.zpoif.workshop.NotSimple 
-  789  jdk21/bin/javac pl/edu/pw/mini/zpoif/workshop/NotSimple.java 
-  790  jdk21/bin/java pl.edu.pw.mini.zpoif.workshop.NotSimple 
-  791  java pl.edu.pw.mini.zpoif.workshop.NotSimple 
-  792  java -version 
-  793  mkdir daleko
-  794  cd daleko/pl/edu/pw/mini/zpoif/workshop/
-  795  cd ~/programowanie/studia/ZPOiF/
-  796  ls
-  797  jdk21/bin/java pl.edu.pw.mini.zpoif.workshop.NotSimple
-  798  jdk21/bin/java -cp "daleko" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  799  set
-  800  env
-  801  export PATH="/programowanie/studia/ZPOiF/jdk21/bin"
-  802  echo $PATH
-  803  java -version
-  804  export PATH="/programowanie/studia/ZPOiF/jdk21/bin/"
-  805  java -version
-  806  echo $PATH
-  807  export PATH="~/programowanie/studia/ZPOiF/jdk21/bin/"
-  808  java -version
-  809  echo $PATH
-  810  man export
-  811  exit
-  812  java -version 
-  813  cd programowanie/studia/ZPOiF/
-  814  ls
-  815  export PATH="~/programowanie/studia/ZPOiF/jdk21/bin"
-  816  echo $PATH
-  817  java -version 
-  818  exit
-  819  java -version
-  820  echo $PATH
-  821  cd programowanie/studia/ZPOiF/
-  822  echo $PATH
-  823  exit
-  824  sudo apt update
-  825  sudo apt upgrade 
-  826  exit
-  827  cd programowanie/studia/ZPOiF/
-  828  ls
-  829  export PATH="~/programowanie/studia/ZPOiF/jdk21/bin"
-  830  java -version
-  831  java -cp "daleko" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  832  neofetch
-  833  clear
-  834  exi
-  835  exit
-  836  clear
-  837  neofetch 
-  838  clear
-  839  cd programowanie/studia/ZPOiF/
-  840  java -version 
-  841  export PATH="~/programowanie/studia/ZPOiF/jdk21/bin"
-  842  java -cp "daleko" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  843  neofetch
-  844  exit
-  845  export PATH="~/programowanie/studia/ZPOiF/jdk21/bin"
-  846  java -cp "daleko" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  847  clear
-  848  exit
-  849  cd programowanie/studia/ZPOiF/
-  850  export PATH="~/programowanie/studia/ZPOiF/jdk21/bin"
-  851  java -cp "daleko" pl.edu.pw.mini.zpoif.workshop.NotSim
-  852  ls
-  853  java -version 
-  854  ls
-  855  cd 
-  856  cd programowanie/studia/
-  857  cd ZPOiF/
-  858  ls
-  859  xit
-  860  exit
-  861  neofetch 
-  862  ls
-  863  cd programowanie/studia/ZPOiF/
-  864  export PATH="~/programowanie/studia/ZPOiF/jdk21/bin"
-  865  java -ver
-  866  java -versiob
-  867  java -version
-  868  clear
-  869  javac -cp "daleko" Simple.java
-  870  java -cp "daleko" Simple.java
-  871  javac -cp "daleko" Simple.java
-  872  javac Simple.java
-  873  javac -cp "daleko" Simple.java
-  874  java -cp "daleko" Simple
-  875  javac -cp "daleko;." Simple.java
-  876  java -cp "daleko;." Simple
-  877  dir
-  878  ls
-  879  java -cp "daleko:." Simple
-  880  javac -cp "daleko:." Simple.java
-  881  java -cp "daleko:." Simple
-  882  javac -cp "daleko:." Simple.java
-  883  cd daleko/
-  884  jar cf myjar.jar "pl
-  885  jar cf myjar.jar "pl"
-  886  ls
-  887  cd pl/
-  888  cd ../
-  889  ls
-  890  cd ../
-  891  javac -cp "daleko:." Simple.java
-  892  javac -cp "daleko:."Not Simple.java
-  893  java -cp "daleko/myjar.jar" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  894  javac -cp "daleko/myjar.jar" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  895  javac -cp "daleko/myjar.jar" Simple.java
-  896  javac -cp "daleko" Simple.java
-  897  dir
-  898  ls
-  899  java -cp "daleko/myjar.jar" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  900  java -cp "daleko" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  901  javac Simple.java 
-  902  java -cp "daleko/myjar.jar" pl.edu.pw.mini.zpoif.workshop.NotSimple
-  903  javac Simple.java 
-  904  javac -cp"daleko"  Simple.java 
-  905  javac -cp "daleko/myjar.jar" Simple.java
-  906  java -cp "daleko/myjar.jar" Simple.java
-  907  clear
-  908  cd daleko/
-  909  touch test
-  910  jar -cmf mymanifest 
-  911  jar -cmf mymanifest mymanifested.jar "pl"
-  912  java -jar mymanifested.jar 
-  913  jar -cmf mymanifest mymanifestedjar.jar "pl"
-  914  java -jar mymanifestedjar.jar 
-  915  exit
-  916  cd programowanie/studia/
-  917  cd ZPOiF/
-  918  mkdir
-  919  mkdir my_repos
-  920  cd my_repos/
-  921  git clone https://github.com/bednarzm/zpoif_2023_lessons.git
-  922  ls
-  923  cd ../
-  924  mkdir my_workspaces
-  925  cd my_workspaces/
-  926  ls
-  927  cd ~/programowanie/studia/PO/my_workspaces/
-  928  ls
-  929  cd ../../ZPOiF/
-  930  ls
-  931  cd my_workspaces/
-  932  ls
-  933  mkdir lab_workspace
-  934  ls
-  935  cd ../
-  936  cd programowanie/studia/ZPOiF/
-  937  ls
-  938  export PATH="~/programowanie/studia/ZPOiF/jdk21/bin"
-  939  java -version
-  940  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000
-  941  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 debugme.jar 
-  942  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 debugme.jar -jar
-  943  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 -jar  debugme.jar
-  944  clear
-  945  git pull
-  946  cd programowanie/studia/ZPOiF/
-  947  ls
-  948  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 -jar debugme.jar 
-  949  clear
-  950  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 -jar debugme.jar 
-  951  clear
-  952  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 -jar debugme.jar 
-  953  clear
-  954  neofetch 
-  955  clear
-  956  sudo apt update
-  957  sudo apt upgrade
-  958  cd programowanie/studia/ZPOiF/
-  959  cd my_repos/
-  960  ls
-  961  git clone https://github.com/kuba-kapron/zpoif_2023_training.git
-  962  ls
-  963  cd zpoif_2023_training/
-  964  ls
-  965  cd programowanie/studia/ZPOiF/
-  966  ls
-  967  cd my_repos/
-  968  ls
-  969  git clone https://github.com/bednarzm/po_2023_kapronj.git
-  970  ls
-  971  cd po_2023_kapronj/
-  972  ls
-  973  mkdir zpoif
-  974  ls
-  975  cd zpoif/
-  976  mkdir zadanie_ocenianie_1
-  977  ls
-  978  cd zadanie_ocenianie_1/
-  979  ls
-  980  cd ../
-  981  rename zadanie_ocenianie_1 zadanie_oceniane_1
-  982  mv  zadanie_ocenianie_1 zadanie_oceniane_1
-  983  ls
-  984  cd zadanie_oceniane_1/
-  985  cd ../
-  986  ls
-  987  cd zadanie_oceniane_1/
-  988  ls
-  989  cd
-  990  cd ./
-  991  cd programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/zpoif/zadanie_oceniane_1
-  992  ls
-  993  ls src/pl/edu/pw/mini/zpoif/zadanie1/ludzie/
-  994  git add src/
-  995  ls
-  996  git status
-  997  git commit -m "zadanie ocenianie 1 - zpoif"
-  998  git pull
-  999  git push
- 1000  sudo apt update
- 1001  sudo apt upgrade
- 1002  clear
- 1003  neofetch 
- 1004  ls /usr/lib/jvm/jdk20/bin/
- 1005  java -version
- 1006  gcc -v
- 1007  gdb
- 1008  gcc
- 1009  clear
- 1010  sudo apt-get install build-essential gdb
- 1011  gdb -v
- 1012  gcc -v
- 1013  cd programowanie/for_fun/
- 1014  ls
- 1015  git clone https://github.com/kuba-kapron/cpp_learning.git
- 1016  ls
- 1017  ls cpp_learning/
- 1018  ls cpp_learning/ -a
- 1019  cd ../
- 1020  ls
- 1021  cat tok
- 1022  clear
- 1023  java --version
- 1024  java -v
- 1025  clear
- 1026  java -versin
- 1027  java -version 
- 1028  clear
- 1029  java -version 
- 1030  cat $PATH
- 1031  ls /usr
- 1032  ls /usr/lib/jvm/
- 1033  cat /etc/environment
- 1034  nano /etc/environment
- 1035  man mv
- 1036  mv /usr/lib/jvm/jdk-20 /usr/lib/jvm/jdk20/
- 1037  sudo mv /usr/lib/jvm/jdk-20 /usr/lib/jvm/jdk20/
- 1038  ls /usr/lib/jvm/
- 1039  nano /etc/environment
- 1040  sudo nano /etc/environment
- 1041  cat $PATH
- 1042  java -version 
- 1043  ls
- 1044  ls /usr/libexec/java_home -v1.8
- 1045  ls ~/
- 1046  ls /
- 1047  ls opt/
- 1048  cd pot
- 1049  cd opt
- 1050  cd /opt/
- 1051  ls
- 1052  cd ../
- 1053  ls
- 1054  ls lib
- 1055  ls
- 1056  ls lib64
- 1057  ls usr/
- 1058  ls usr/lib
- 1059  ls
- 1060  ls dev/
+ 1034  clear
+ 1035  cd programowanie/dla_sportu/
+ 1036  ls
+ 1037  cd cpp_learning/
+ 1038  git status
+ 1039  git add hello_world/hello_world.cpp
+ 1040  git status
+ 1041  git commit -m "hello world"
+ 1042  git push
+ 1043  git push --set-upstream origin main 
+ 1044  clear
+ 1045  shutdown
+ 1046  shutdown -now
+ 1047  shutdown now
+ 1048  git push
+ 1049  git pull
+ 1050  code .
+ 1051  claer
+ 1052  clear
+ 1053  cd programowanie/studia/
+ 1054  ls
+ 1055  cd ZPOiF/
+ 1056  cd my_repos/zpoif_2023_training/
+ 1057  git status
+ 1058  git pull
+ 1059  ls ~/programowanie/studia/
+ 1060  ls ~/programowanie/
  1061  clear
- 1062  ls
- 1063  ls var
- 1064  clear
- 1065  ls
- 1066  ls lib
- 1067  ls home/
- 1068  ls home/beart/
- 1069  ls
- 1070  ls bin
- 1071  clear
+ 1062  cd
+ 1063  sudo apt update
+ 1064  sudo apt upgrade 
+ 1065  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_lessons/
+ 1066  git pull
+ 1067  ls Examples/
+ 1068  exit
+ 1069  cd programowanie/studia/ZPOiF/my
+ 1070  cd programowanie/studia/ZPOiF/my_repos/
+ 1071  cd po_2023_kapronj/
  1072  ls
- 1073  ls lib32
- 1074  ls usr/
- 1075  ls usr/lib
- 1076  ls usr/
- 1077  ls usr/local/
- 1078  ls usr/local/ecl
- 1079  cd usr/local/eclipse/
+ 1073  cd zpoif/
+ 1074  ls
+ 1075  mkdir zadanie_oceniane_2
+ 1076  ls
+ 1077  exit
+ 1078  ls
+ 1079  cd programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/zpoif/
  1080  ls
- 1081  cd configuration/
- 1082  ls
- 1083  cd ..;
- 1084  cd ../
- 1085  cd eclipse/
- 1086  ls
- 1087  ls =a
- 1088  ls -a
- 1089  cat eclipse.ini 
- 1090  nano eclipse.ini 
- 1091  sudo nano eclipse.ini 
- 1092  java -version
- 1093  cd /usr/lib/jvm/
- 1094  ls
- 1095  mv jdk-21-oracle-x64 jdk21
- 1096  sudo mv jdk-21-oracle-x64 jdk21
- 1097  ls
- 1098  sudo nano /etc/environment
- 1099  cat /etc/environment
- 1100  cat $PATH
- 1101  cd
- 1102  PATH= cat /etc/environment
- 1103  cat /etc/environment
- 1104  PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk21/bin"
- 1105  cat $PATH
- 1106  java -version 
- 1107  clear
- 1108  java -version 
- 1109  clear
- 1110  cd "/home/beart/programowanie/for_fun/cpp_learning/hello_world/" && g++ hello_world.cpp -o hello_world && "/home/beart/programowanie/for_fun/cpp_learning/hello_world/"hello_world
- 1111  clear
- 1112  exit
- 1113  cd "/home/beart/programowanie/for_fun/cpp_learning/hello_world/" && g++ hello_world.cpp -o hello_world && "/home/beart/programowanie/for_fun/cpp_learning/hello_world/"hello_world
- 1114  clear
- 1115  cd "/home/beart/programowanie/for_fun/cpp_learning/hello_world/" && g++ hello_world.cpp -o hello_world && "/home/beart/programowanie/for_fun/cpp_learning/hello_world/"hello_world
- 1116  cd programowanie/for_fun/cpp_learning/
- 1117  ls
- 1118  code .
- 1119  cd "/home/beart/programowanie/dla_sportu/cpp_learning/hello_world/" && g++ hello_world.cpp -o hello_world && "/home/beart/programowanie/dla_sportu/cpp_learning/hello_world/"hello_world
- 1120  clear
- 1121  cd "/home/beart/programowanie/dla_sportu/cpp_learning/hello_world/" && g++ hello_world.cpp -o hello_world && "/home/beart/programowanie/dla_sportu/cpp_learning/hello_world/"hello_world
- 1122  clear
- 1123  cd programowanie/
- 1124  ls
- 1125  mv for_fun dla_sportu
- 1126  ls
- 1127  cd dla_sportu/
- 1128  ls
- 1129  cd cpp_learning/
- 1130  code .
- 1131  cd hello_world/
+ 1081  ls zadanie_oceniane_2
+ 1082  exit
+ 1083  vim
+ 1084  shutdown now
+ 1085  cd programowanie/studia/ZPOiF/
+ 1086  cd my_repos/po_2023_kapronj/
+ 1087  git statu
+ 1088  git status
+ 1089  git add zpoif/zadanie_oceniane_2/src/*
+ 1090  git statsu
+ 1091  git status
+ 1092  git commit -m "zpoif - zadanie oceniane 2a"
+ 1093  git push
+ 1094  shutdown now
+ 1095  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_training/
+ 1096  git pull
+ 1097  ls 03/
+ 1098  exit
+ 1099  cd programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/
+ 1100  ls
+ 1101  cd zpoif/
+ 1102  l
+ 1103  ls
+ 1104  mkdir zadanie_oceniane_3
+ 1105  ls
+ 1106  shutdown now
+ 1107  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_lessons/
+ 1108  git pull
+ 1109  cd ~/programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/
+ 1110  cd zpoif/zadanie_oceniane_3
+ 1111  git status
+ 1112  git add src/*
+ 1113  git status
+ 1114  git commit -m "zpoif - zadanie oceniane 3a"
+ 1115  git push
+ 1116  clear
+ 1117  cd
+ 1118  shutdown now
+ 1119  cd programowanie/studia/ZPOiF/my_repos/
+ 1120  ls
+ 1121  cd po_2023_kapronj/
+ 1122  cd zpoif/
+ 1123  ls
+ 1124  mkdir zadanie_oceniane_4
+ 1125  ls
+ 1126  cd ../../zpoif_2023_lessons/
+ 1127  git pull
+ 1128  cd ../po_2023_kapronj/
+ 1129  cd zpoif/zadanie_oceniane_4/
+ 1130  ls
+ 1131  cd src
  1132  ls
- 1133  ./hello_world 
- 1134  clear
- 1135  ./hello_world 
- 1136  clear
- 1137  g++ -v
- 1138  vlrst
- 1139  clear
- 1140  ls
- 1141  g++ hello_world.cpp 
- 1142  ls
- 1143  ./a.out 
- 1144  clear
- 1145  g++ hello_world.cpp -o hello
- 1146  ls
- 1147  ./hello
- 1148  clear
- 1149  ls
- 1150  rm hello a.out 
- 1151  ls
- 1152  rm hello_world
- 1153  ls
- 1154  g++ hello_world.cpp -o hello_world
- 1155  ./hello_world 
- 1156  clear
- 1157  cd ../
- 1158  ls
- 1159  cd hello_world/
- 1160  ls
- 1161  ./hello_world 
- 1162  shutdown -now
- 1163  shutdown now
- 1164  cd "/home/beart/programowanie/dla_sportu/cpp_learning/hello_world/" && g++ hello_world.cpp -o hello_world && "/home/beart/programowanie/dla_sportu/cpp_learning/hello_world/"hello_world
- 1165  sudo cat /etc/environment
- 1166  sudo nano  /etc/environment
- 1167  clear
- 1168  sudo cat /etc/xprofile
- 1169  ls /etc/
- 1170  ls -a
- 1171  cd programowanie/dla_sportu/
- 1172  ls
- 1173  cd cpp_learning/
- 1174  ls
- 1175  ls -a
- 1176  code .
- 1177  git status
- 1178  reboot -now
- 1179  reboot 
- 1180  cd programowanie/dla_sportu/
+ 1133  git status
+ 1134  git add *
+ 1135  git status
+ 1136  git commit -m "zadanie oceniane 4 zpoif"
+ 1137  git push
+ 1138  cd programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/zpoif/
+ 1139  ls
+ 1140  mkdir zadanie_oceniane_5
+ 1141  ls
+ 1142  cd zadanie_oceniane_5
+ 1143  cd ../../
+ 1144  cd ../
+ 1145  ls
+ 1146  cd zpoif_2023_lessons/
+ 1147  git pull
+ 1148  cd ../po_2023_kapronj/zpoif/zadanie_oceniane_5
+ 1149  cd ../../../
+ 1150  git clone https://github.com/bednarzm/java_advanced_examples.git
+ 1151  cd po_2023_kapronj/zpoif/zadanie_oceniane_5/
+ 1152  ls
+ 1153  cd src/pl/
+ 1154  ls
+ 1155  git status
+ 1156  git add *
+ 1157  git status
+ 1158  git commit -m "zpoif - zadanie oceniane 5"
+ 1159  git push
+ 1160  clear
+ 1161  sudo apt update
+ 1162  sudo apt upgrade
+ 1163  clear
+ 1164  cd programowanie/studia/
+ 1165  mkdir TWD/projekt2
+ 1166  mkdir -R TWD/projekt2
+ 1167  mkdir -r  TWD/projekt2
+ 1168  mkdir -r  TWD TWD/projekt2
+ 1169  mkdir  TWD TWD/projekt2
+ 1170  ls
+ 1171  ls TWD/
+ 1172  cd TW
+ 1173  cd TWD/projekt2/
+ 1174  clear
+ 1175  neofetch 
+ 1176  shutdown -now
+ 1177  shutdown "now"
+ 1178  ls
+ 1179  ls R
+ 1180  cd R/x86_64-pc-linux-gnu-library/
  1181  ls
- 1182  ls cpp_learning/
- 1183  cd cpp_learning/
- 1184  git status
- 1185  git branch --unset-upstream 
- 1186  git staus
- 1187  git status
- 1188  code .
- 1189  git status
- 1190  clear
- 1191  cd programowanie/dla_sportu/
- 1192  ls
- 1193  cd cpp_learning/
- 1194  git status
- 1195  git add hello_world/hello_world.cpp
- 1196  git status
- 1197  git commit -m "hello world"
- 1198  git push
- 1199  git push --set-upstream origin main 
- 1200  clear
- 1201  shutdown
- 1202  shutdown -now
- 1203  shutdown now
- 1204  git push
- 1205  git pull
- 1206  code .
- 1207  claer
- 1208  clear
- 1209  cd programowanie/studia/
- 1210  ls
- 1211  cd ZPOiF/
- 1212  cd my_repos/zpoif_2023_training/
- 1213  git status
- 1214  git pull
- 1215  ls ~/programowanie/studia/
- 1216  ls ~/programowanie/
- 1217  clear
- 1218  cd
- 1219  sudo apt update
- 1220  sudo apt upgrade 
- 1221  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_lessons/
- 1222  git pull
- 1223  ls Examples/
- 1224  exit
- 1225  cd programowanie/studia/ZPOiF/my
- 1226  cd programowanie/studia/ZPOiF/my_repos/
- 1227  cd po_2023_kapronj/
- 1228  ls
- 1229  cd zpoif/
- 1230  ls
- 1231  mkdir zadanie_oceniane_2
- 1232  ls
- 1233  exit
- 1234  ls
- 1235  cd programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/zpoif/
+ 1182  exit
+ 1183  cd ../linux_me_project/
+ 1184  cd data
+ 1185  ls
+ 1186  cd bash-history/
+ 1187  ls
+ 1188  cd ../
+ 1189  ls
+ 1190  cd git-stats/
+ 1191  ls
+ 1192  cd ../
+ 1193  ls
+ 1194  ls python-libs/
+ 1195  ls system-packages/
+ 1196  ls bash-history/
+ 1197  mv bash-history/kuba_bash_history.txt ~/programowanie/studia/TWD/projekt2/testy/
+ 1198  ls bash-history/
+ 1199  git status
+ 1200  git restore bash-history/kuba_bash_history.txt
+ 1201  git status
+ 1202  git branch kuba-data-without-r-libs
+ 1203  git checkout kuba-data-without-r-libs 
+ 1204  git status
+ 1205  git add -all
+ 1206  git add --all
+ 1207  git status
+ 1208  git commit -m "Kuba's data without r libs"
+ 1209  git checkout master 
+ 1210  git merge kuba-data-without-r-libs 
+ 1211  git push
+ 1212  ls
+ 1213  cd programowanie/
+ 1214  ls
+ 1215  cd studia/TWD/
+ 1216  ls
+ 1217  cd projekt2/
+ 1218  ls
+ 1219  ls -a
+ 1220  sudo apt update
+ 1221  sudo apt upgrade
+ 1222  git clone https://github.com/fantasy2fry/linux_me_project.git
+ 1223  ls
+ 1224  cd
+ 1225  cd .../
+ 1226  cd programowanie/studia/TWD/projekt2/linux_me_project/
+ 1227  ls
+ 1228  cat README.md 
+ 1229  clear
+ 1230  cd ../
+ 1231  ls
+ 1232  mkdir testy
+ 1233  ls
+ 1234  cd testy/
+ 1235  apt list --installed > installed_packages.txt
  1236  ls
- 1237  ls zadanie_oceniane_2
- 1238  exit
- 1239  vim
- 1240  shutdown now
- 1241  cd programowanie/studia/ZPOiF/
- 1242  cd my_repos/po_2023_kapronj/
- 1243  git statu
- 1244  git status
- 1245  git add zpoif/zadanie_oceniane_2/src/*
- 1246  git statsu
- 1247  git status
- 1248  git commit -m "zpoif - zadanie oceniane 2a"
- 1249  git push
- 1250  shutdown now
- 1251  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_training/
- 1252  git pull
- 1253  ls 03/
- 1254  exit
- 1255  cd programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/
- 1256  ls
- 1257  cd zpoif/
- 1258  l
+ 1237  cat installed_packages.txt 
+ 1238  clear
+ 1239  cd
+ 1240  cd -
+ 1241  ls
+ 1242  history > bash_history.txt
+ 1243  cat bash_history.txt 
+ 1244  clear
+ 1245  pip freeze > python_packages.txt
+ 1246  sudo apt install python3-pip
+ 1247  pip freeze > python_packages.txt
+ 1248  cat python_packages.txt 
+ 1249  clear
+ 1250  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > git_stats.txt
+ 1251  cat git_stats.txt 
+ 1252  cd ../linux_me_project/
+ 1253  cd data/
+ 1254  ls
+ 1255  ls bash-history/
+ 1256  cd ../../testy/
+ 1257  ls
+ 1258  mv bash_history.txt kuba_bash_history.txt
  1259  ls
- 1260  mkdir zadanie_oceniane_3
+ 1260  mv git_stats.txt kuba_git_stats.txt
  1261  ls
- 1262  shutdown now
- 1263  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_lessons/
- 1264  git pull
- 1265  cd ~/programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/
- 1266  cd zpoif/zadanie_oceniane_3
- 1267  git status
- 1268  git add src/*
- 1269  git status
- 1270  git commit -m "zpoif - zadanie oceniane 3a"
- 1271  git push
- 1272  clear
- 1273  cd
- 1274  shutdown now
- 1275  cd programowanie/studia/ZPOiF/my_repos/
- 1276  ls
- 1277  cd po_2023_kapronj/
- 1278  cd zpoif/
- 1279  ls
- 1280  mkdir zadanie_oceniane_4
- 1281  ls
- 1282  cd ../../zpoif_2023_lessons/
- 1283  git pull
- 1284  cd ../po_2023_kapronj/
- 1285  cd zpoif/zadanie_oceniane_4/
- 1286  ls
- 1287  cd src
- 1288  ls
- 1289  git status
- 1290  git add *
- 1291  git status
- 1292  git commit -m "zadanie oceniane 4 zpoif"
- 1293  git push
- 1294  cd programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/zpoif/
- 1295  ls
- 1296  mkdir zadanie_oceniane_5
+ 1262  mv python_packages.txt kuba_python_libs.txt
+ 1263  ls
+ 1264  mv installed_packages.txt kuba_system_packages.txt
+ 1265  ls\
+ 1266  ls
+ 1267  mv kuba_bash_history.txt ../linux_me_project/data/bash-history/
+ 1268  ls
+ 1269  mv kuba_bash_history.txt ../linux_me_project/data/bash-history/
+ 1270  ls
+ 1271  mv kuba_git_stats.txt ../linux_me_project/data/git-stats/
+ 1272  ls
+ 1273  mv kuba_python_libs.txt ../linux_me_project/data/python-libs/
+ 1274  mv kuba_system_packages.txt ../linux_me_project/data/system-packages/
+ 1275  ls
+ 1276  shutdown "now"
+ 1277  P5JDFMIXtg
+ 1278  history
+ 1279  clear
+ 1280  rm
+ 1281  clear
+ 1282  sudo apt update
+ 1283  sudo apt upgrade
+ 1284  apt list --installed 
+ 1285  r
+ 1286  R
+ 1287  R.home() q()
+ 1288  R
+ 1289  cd /usr/lib/R
+ 1290  ls
+ 1291  ls bin/
+ 1292  ls bin/R/
+ 1293  cd bin/
+ 1294  ls
+ 1295  cd R
+ 1296  cd ../
  1297  ls
- 1298  cd zadanie_oceniane_5
- 1299  cd ../../
- 1300  cd ../
- 1301  ls
- 1302  cd zpoif_2023_lessons/
- 1303  git pull
- 1304  cd ../po_2023_kapronj/zpoif/zadanie_oceniane_5
- 1305  cd ../../../
- 1306  git clone https://github.com/bednarzm/java_advanced_examples.git
- 1307  cd po_2023_kapronj/zpoif/zadanie_oceniane_5/
- 1308  ls
- 1309  cd src/pl/
- 1310  ls
+ 1298  ls lib
+ 1299  ls library/
+ 1300  cd
+ 1301  R
+ 1302  clear
+ 1303  cd programowanie/studia/TWD/projekt2/linux_me_project/
+ 1304  ls
+ 1305  git pull
+ 1306  ls
+ 1307  git status
+ 1308  rm linux_me_project.Rproj 
+ 1309  git status
+ 1310  git restore .gitignore
  1311  git status
- 1312  git add *
- 1313  git status
- 1314  git commit -m "zpoif - zadanie oceniane 5"
- 1315  git push
- 1316  clear
- 1317  sudo apt update
- 1318  sudo apt upgrade
- 1319  clear
- 1320  cd programowanie/studia/
- 1321  mkdir TWD/projekt2
- 1322  mkdir -R TWD/projekt2
- 1323  mkdir -r  TWD/projekt2
- 1324  mkdir -r  TWD TWD/projekt2
- 1325  mkdir  TWD TWD/projekt2
- 1326  ls
- 1327  ls TWD/
- 1328  cd TW
- 1329  cd TWD/projekt2/
- 1330  clear
- 1331  neofetch 
- 1332  shutdown -now
- 1333  shutdown "now"
- 1334  ls
- 1335  cd programowanie/
- 1336  ls
- 1337  cd studia/TWD/
- 1338  ls
- 1339  cd projekt2/
- 1340  ls
- 1341  ls -a
- 1342  sudo apt update
- 1343  sudo apt upgrade
- 1344  git clone https://github.com/fantasy2fry/linux_me_project.git
- 1345  ls
- 1346  cd
- 1347  cd .../
- 1348  cd programowanie/studia/TWD/projekt2/linux_me_project/
+ 1312  ls
+ 1313  ls -a
+ 1314  rm -r .Rproj.user/
+ 1315  git status
+ 1316  ls -a
+ 1317  rm .Rhistory 
+ 1318  git status
+ 1319  la -a
+ 1320  cat .gitignore 
+ 1321  cd 
+ 1322  cd R
+ 1323  ls
+ 1324  cd x86_64-pc-linux-gnu-library/
+ 1325  ls
+ 1326  cd 4.3/
+ 1327  ls
+ 1328  cd
+ 1329  cd programowanie/studia/TWD/projekt2/
+ 1330  cd linux_me_project/
+ 1331  $PATH
+ 1332  $PKG_CONFIG_PATH
+ 1333  sudo apt install libcurl4-openssl-dev
+ 1334  clear
+ 1335  pwd
+ 1336  curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
+ 1337  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+ 1338  sudo apt-get update && sudo apt-get install spotify-client
+ 1339  R
+ 1340  cd programowanie/studia/TWD/projekt2/testy/
+ 1341  R
+ 1342  ls
+ 1343  rm test.txt 
+ 1344  R | installed.packages() q()
+ 1345  R
+ 1346  exit
+ 1347  shutdown 'now'
+ 1348  cd Downloads/
  1349  ls
- 1350  cat README.md 
- 1351  clear
- 1352  cd ../
- 1353  ls
- 1354  mkdir testy
- 1355  ls
- 1356  cd testy/
- 1357  apt list --installed > installed_packages.txt
+ 1350  rm *.zip
+ 1351  ls
+ 1352  exit
+ 1353  sudo apt install gnome-tweaks 
+ 1354  ls -a
+ 1355  cd .themes
+ 1356  shutdown 'now'
+ 1357  cd /usr/share/
  1358  ls
- 1359  cat installed_packages.txt 
- 1360  clear
- 1361  cd
- 1362  cd -
- 1363  ls
- 1364  history > bash_history.txt
+ 1359  cd .themes
+ 1360  cd
+ 1361  ls
+ 1362  ls -a
+ 1363  ls /usr/share/backgrounds
+ 1364  ls /usr/share/backgrounds/pop/
+ 1365  clear
+ 1366  sudo apt update
+ 1367  cd programowanie/studia/TWD/projekt2/linux_me_project/
+ 1368  git pull
+ 1369  rstudio 
+ 1370  cd
+ 1371  mkdir .themes
+ 1372  ls -a
+ 1373  cd .themes/
+ 1374  git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
+ 1375  ls
+ 1376  cd Colloid-gtk-theme/
+ 1377  ls
+ 1378  install.sh --tweaks nord
+ 1379  ./install.sh --tweaks nord
+ 1380  ls
+ 1381  cd ../
+ 1382  ls
+ 1383  rm Colloid-gtk-theme/
+ 1384  rm -r Colloid-gtk-theme/
+ 1385  rm -r Colloid-gtk-theme
+ 1386  ls
+ 1387  cd Colloid-gtk-theme/
+ 1388  cd 
+ 1389  cd Downloads/
+ 1390  git clone https://github.com/vinceliuice/Colloid-icon-theme.git
+ 1391  ls
+ 1392  Colloid-icon-theme/install.sh 
+ 1393  ls
+ 1394  rm -r Colloid-icon-theme/
+ 1395  ls
+ 1396  cd
+ 1397  clear
+ 1398  neofetch 
+ 1399  cd Downloads/
+ 1400  git clone https://github.com/vinceliuice/Colloid-icon-theme.git
+ 1401  cd Colloid-icon-theme/
+ 1402  ls
+ 1403  cd cursors/
+ 1404  ls
+ 1405  ./install.sh 
+ 1406  cd
+ 1407  ls
+ 1408  cd Downloads/
+ 1409  ls
+ 1410  rm -r Colloid-icon-theme/
+ 1411  exit
+ 1412  shutdown 'now'
+ 1413  sudo apt update
+ 1414  apt list --upgradable 
+ 1415  sudo pt upgrade
+ 1416  sudo apt upgrade
+ 1417  clear
+ 1418  cd programowanie/studia/TWD/projekt2/
+ 1419  cd linux_me_project/
+ 1420  git status
+ 1421  git pull
+ 1422  git branch
+ 1423  git merge kuba-data-without-r-libs 
+ 1424  git branch -d kuba-data-without-r-libs 
+ 1425  ls
+ 1426  git status
+ 1427  git branch
+ 1428  git fetch
+ 1429  git branch
+ 1430  git fetch origin 
+ 1431  git branch
+ 1432  git branch -a
+ 1433  git branch -r
+ 1434  git diff master origin/master 
+ 1435  git diff master origin/feat-norbert-syspacks 
+ 1436  shutdown 'now'
+ 1437  cd programowanie/studia/TWD/
+ 1438  cd projekt2/linux_me_project/
+ 1439  clear
+ 1440  git pull
+ 1441  git branch 
+ 1442  git branch -a
+ 1443  cd ../../../ZPOiF/
+ 1444  ls
+ 1445  clear
+ 1446  ls
+ 1447  cd my_repos/
+ 1448  ls
+ 1449  git clone https://github.com/bednarzm/zpoif_2023_kitam_kapronj.git
+ 1450  ls
+ 1451  cd zpoif_2023_kitam_kapronj/
+ 1452  ls
+ 1453  clear
+ 1454  ls
+ 1455  ls -a
+ 1456  cat .gitignore 
+ 1457  git status
+ 1458  clear
+ 1459  git status
+ 1460  ls
+ 1461  sudo apt update
+ 1462  apt list --upgradable 
+ 1463  sduo apt upgrade
+ 1464  sudo apt upgrade
+ 1465  clear
+ 1466  shutdown 'now'
+ 1467  sudo apt update
+ 1468  cd programowanie/studia/TWD/projekt2/linux_me_project/
+ 1469  clear
+ 1470  ls
+ 1471  git pull
+ 1472  git branch 
+ 1473  git branch -a
+ 1474  cat README.md 
+ 1475  vim
+ 1476  clar
+ 1477  clear
+ 1478  git branch -a
+ 1479  ls
+ 1480  ls server/
+ 1481  man git branch
+ 1482  git branch feat-kuba-rlibs
+ 1483  git branch -a
+ 1484  git checkout feat-kuba-rlibs 
+ 1485  git branch -a
+ 1486  cd data/
+ 1487  ls
+ 1488  cd r-libs/
+ 1489  ls
+ 1490  cat tmp.txt 
+ 1491  R
+ 1492  cd ..
+ 1493  ls
+ 1494  cd python-libs/
+ 1495  ls
+ 1496  cat kuba_python_libs.txt 
+ 1497  cd ..
+ 1498  ls
+ 1499  cat bash-history/kuba_bash_history.txt 
+ 1500  clear
+ 1501  ls
+ 1502  cat git-stats/kuba_git_stats.txt 
+ 1503  clear
+ 1504  cat ../README.md 
+ 1505  cd ../
+ 1506  ls
+ 1507  nano README.md 
+ 1508  cd data/r-libs/
+ 1509  clear
+ 1510  R
+ 1511  cd ../../../testy/
+ 1512  R
+ 1513  cat test.txt 
+ 1514  R
+ 1515  cat test.txt 
+ 1516  R
+ 1517  ls
+ 1518  man cat
+ 1519  cat -n 10 test.txt 
+ 1520  cat -n 1 test.txt 
+ 1521  cat -n '1' test.txt 
+ 1522  head test.txt 
+ 1523  clear
+ 1524  cd ../linux_me_project/
+ 1525  nano README.md 
+ 1526  git status
+ 1527  git branch 
+ 1528  git checkout master 
+ 1529  ls
+ 1530  git status
+ 1531  git pull
+ 1532  cat README.md 
+ 1533  git add README.md 
+ 1534  git status
+ 1535  git commit -m "update REAMDE with info on r-libs" 
+ 1536  git push
+ 1537  cd ../
+ 1538  cd testy/
+ 1539  R
+ 1540  cat test.txt 
+ 1541  clear
+ 1542  ls
+ 1543  ls -a
+ 1544  rm file*
+ 1545  ls
+ 1546  rm *.txt
+ 1547  ks
+ 1548  ls
+ 1549  clear
+ 1550  R
+ 1551  ls
+ 1552  head file.txt 
+ 1553  clear
+ 1554  rm file.txt 
+ 1555  ls
+ 1556  cd ../linux_me_project/
+ 1557  ls
+ 1558  git status
+ 1559  git branch 
+ 1560  cd data/r-libs/
+ 1561  ls
+ 1562  R
+ 1563  ls
+ 1564  rm file.txt 
+ 1565  rm tmp.txt 
+ 1566  ls
+ 1567  head kuba_r_libs.txt 
+ 1568  git status
+ 1569  git add kuba_r_libs.txt 
+ 1570  git add tmp.txt 
+ 1571  git status
+ 1572  git commit -m "Kuba's r libs and deletion of a placeholder text file"
+ 1573  git push
+ 1574  cd ../../../testy/
+ 1575  ls
+ 1576  exit
+ 1577  clear
+ 1578  shutdown 'now'
+ 1579  cd Downloads/
+ 1580  ls
+ 1581  mv AplikacjaJavaZip.zip ~/programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1582  cd ../programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1583  ls
+ 1584  unzip AplikacjaJavaZip.zip 
+ 1585  ls
+ 1586  rm bin/
+ 1587  rm -r bin/
+ 1588  ls
+ 1589  ls src/
+ 1590  mkdir tmp
+ 1591  ls
+ 1592  AplikacjaJavaZip/ls
+ 1593  ls AplikacjaJavaZip
+ 1594  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1595  ls
+ 1596  rm AplikacjaJavaZip.zip 
+ 1597  ls
+ 1598  exit
+ 1599  shutdown 'now'
+ 1600  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1601  lear
+ 1602  clear\
+ 1603  clear
+ 1604  ls
+ 1605  ls AplikacjaJavaZip/
+ 1606  ls src/
+ 1607  ls
+ 1608  rm -r AplikacjaJavaZip/
+ 1609  ls
+ 1610  clear
+ 1611  git status
+ 1612  cat .gitignore 
+ 1613  git add src/*
+ 1614  git status
+ 1615  git commit -m "add basic ui and basic NBP api enquiry (Happy New Year\!)"
+ 1616  cat "\!"
+ 1617  echo "\!"
+ 1618  echo "!"
+ 1619  git push
+ 1620  clear
+ 1621  shutdown 'now'
+ 1622  cd programowanie/studia/TWD/projekt2/linux_me_project/
+ 1623  git pull
+ 1624  git branch -a
+ 1625  git checkout feat-kuba-rlibs 
+ 1626  git pull
+ 1627  git status
+ 1628  ls data/r-libs/
+ 1629  git checkout master 
+ 1630  ls
+ 1631  ls server/
+ 1632  git status
+ 1633  ls data/
+ 1634  ls data/r-libs/
+ 1635  git checkout feat-kuba-rlibs 
+ 1636  ls
+ 1637  git status
+ 1638  ls data/r-libs/
+ 1639  git status
+ 1640  ls data/r-libs/
+ 1641  git checkout master 
+ 1642  git status
+ 1643  ls data/r-libs/
+ 1644  git checkout feat-kuba-rlibs 
+ 1645  rm data/r-libs/tmp.txt 
+ 1646  git checkout master 
+ 1647  git status
+ 1648  git fetch origin 
+ 1649  git status
+ 1650  git fetch -p origin 
+ 1651  git status
+ 1652  git checkout feat-kuba-rlibs 
+ 1653  git status
+ 1654  git add *
+ 1655  git status
+ 1656  git checkout master 
+ 1657  git status
+ 1658  git checkout feat-kuba-rlibs 
+ 1659  git status
+ 1660  ls data/r-libs/
+ 1661  git restore --staged app.R server/r_libs_server.R ui/r_libs_ui.R
+ 1662  git status
+ 1663  git checkout master 
+ 1664  git status
+ 1665  git checkout feat-kuba-rlibs 
+ 1666  git status
+ 1667  git branch -a
+ 1668  git status
+ 1669  git checkout master 
+ 1670  git status
+ 1671  git pull
+ 1672  git restore app.R
+ 1673  git status
+ 1674  git checkout feat-kuba-rlibs 
+ 1675  git status
+ 1676  git branch
+ 1677  git add *
+ 1678  git status
+ 1679  git commit -m "initialize ui and server functions for r libs"
+ 1680  git push -u origin feat-kuba-rlibs
+ 1681  git branch -a
+ 1682  git checkout master 
+ 1683  git status
+ 1684  ls server/
+ 1685  git checkout feat-kuba-rlibs 
+ 1686  git status
+ 1687  ls server/
+ 1688  ls data/r-libs/
+ 1689  git branch -a
+ 1690  git merge master 
+ 1691  git ls data/r-libs/
+ 1692  ls data/r-libs/
+ 1693  git status
+ 1694  ls server/
+ 1695  git push
+ 1696  git status
+ 1697  git checkout master 
+ 1698  git status
+ 1699  ls server/
+ 1700  ls data/r-libs/
+ 1701  git checkout feat-kuba-rlibs 
+ 1702  ls data/r-libs/
+ 1703  ls server/
+ 1704  clear
+ 1705  git branch 
+ 1706  git branch -a
+ 1707  git status
+ 1708  git add app.R 
+ 1709  git status 
+ 1710  git commit -m "update app.R with ui and server functions for r libs"
+ 1711  git push
+ 1712  git branch
+ 1713  git checkout master 
+ 1714  ls server/
+ 1715  git pull
+ 1716  git status
+ 1717  ls server/
+ 1718  ls data/r-libs/
+ 1719  clear
+ 1720  sudo apt update
+ 1721  apt list --upgradable 
+ 1722  sudo apt upgrade
+ 1723  shutdown 'now'
+ 1724  code .
+ 1725  restart 
+ 1726  reboot 
+ 1727  echo /usr/bin/bash
+ 1728  filezilla 
+ 1729  clear
+ 1730  cd programowanie/studia/TWD/
+ 1731  ls
+ 1732  cd Laby/
+ 1733  ls
+ 1734  cd ../
+ 1735  mv Laby/ laby
+ 1736  ls
+ 1737  cd laby/
+ 1738  ls
+ 1739  cd ../
+ 1740  ls
+ 1741  mv laby/ Laby
+ 1742  ls
+ 1743  cd Laby/
+ 1744  ls
+ 1745  rm Laby.Rproj 
+ 1746  ls -a
+ 1747  rm .Rhistory
+ 1748  ls -a
+ 1749  ls .Rproj.user/
+ 1750  rm .Rproj.user/
+ 1751  rm -r .Rproj.user/
+ 1752  ls
+ 1753  ls -a
+ 1754  code .
+ 1755  cd
+ 1756  sudo apt update 
+ 1757  apt list --upgradable 
+ 1758  sudo apt upgrade 
+ 1759  clear
+ 1760  firefox 
+ 1761  clear
+ 1762  steam
+ 1763  clear
+ 1764  clar
+ 1765  clear
+ 1766  shutdown 'now'
+ 1767  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1768  git branch 
+ 1769  git pull
+ 1770  git checkout feat-kuba-rlibs 
+ 1771  git pull
+ 1772  clear
+ 1773  rstudio
+ 1774  git status
+ 1775  git add *
+ 1776  git status
+ 1777  git commit -m "fixed missing r_libs_server.R import and added simple r libs data-loading function"
+ 1778  git push
+ 1779  shutdown 'now'
+ 1780  echo /usr/bin/bash
+ 1781  ls Downloads/
+ 1782  rm Downloads/*.xlsx
+ 1783  ls Downloads/
+ 1784  clear
+ 1785  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1786  ls
+ 1787  rstudio 
+ 1788  clear
+ 1789  cd ../../Laby/
+ 1790  ls
+ 1791  cd ../Projekt2/linux_me_project/
+ 1792  rstudio 
+ 1793  cd ../../Laby/
+ 1794  ls
+ 1795  ckear
+ 1796  clear
+ 1797  ls
+ 1798  code .
+ 1799  firefox .
+ 1800  clear
+ 1801  ls
+ 1802  mkdir lab12
+ 1803  ls
+ 1804  mv ~/Downloads/lab12.ipynb lab12/
+ 1805  ls lab12/
+ 1806  clear
+ 1807  cd lab11
+ 1808  ls
+ 1809  ls -a
+ 1810  rm -r .ipynb_checkpoints/
+ 1811  ls
+ 1812  ls -a
+ 1813  cd ../
+ 1814  cd lab12
+ 1815  ls
+ 1816  clear
+ 1817  c
+ 1818  cd
+ 1819  shutdown 'now'
+ 1820  sudo apt update
+ 1821  apt list --upgradable 
+ 1822  sudo apt upgrade
+ 1823  clear
+ 1824  neofetch 
+ 1825  shutdown 'now'
+ 1826  sudo apt update
+ 1827  clear
+ 1828  cd programowanie/studia/TWD/Projekt2/
+ 1829  ls
+ 1830  clear
+ 1831  ls
+ 1832  run projekt2.Rproj 
+ 1833  clear
+ 1834  rstudio .
+ 1835  clear
+ 1836  cd linux_me_project/
+ 1837  git pull
+ 1838  git branch 
+ 1839  git checkout master 
+ 1840  git pull
+ 1841  git checkout feat-kuba-rlibs 
+ 1842  clear
+ 1843  git branch 
+ 1844  clear
+ 1845  shutdown 'now'
+ 1846  clear
+ 1847  shutdown 'now'
+ 1848  sudo apt update
+ 1849  clear
+ 1850  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1851  git status
+ 1852  git branch 
+ 1853  git status
+ 1854  git add *
+ 1855  git status
+ 1856  git commit -m "add basic packages' imports network"
+ 1857  git push
+ 1858  shutdown 'now'\
+ 1859  shutdown 'now'
+ 1860  sudo apt update
+ 1861  clear
+ 1862  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1863  ls
+ 1864  git branch 
+ 1865  git status 
+ 1866  git status
+ 1867  clear
+ 1868  git pull
+ 1869  git status
+ 1870  clear
+ 1871  git branch 
+ 1872  git status
+ 1873  git add *
+ 1874  git commit -m "added person selection in r-libs"
+ 1875  git push
+ 1876  git status
+ 1877  git add *
+ 1878  git commit -m "added selectable number of most frequently imported packages to show in the network plot"
+ 1879  git status
+ 1880  git push
+ 1881  clear
+ 1882  shutdown 'now'
+ 1883  sudo apt update
+ 1884  apt list --upgradable 
+ 1885  sudo apt upgrade
+ 1886  clear
+ 1887  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1888  ls
+ 1889  clear
+ 1890  git status
+ 1891  git branch 
+ 1892  man git branch
+ 1893  git branch feature-api-client
+ 1894  git branch 
+ 1895  git checkout feature-api-client 
+ 1896  git branch 
+ 1897  LS
+ 1898  ls
+ 1899  cat pom.xml 
+ 1900  clear
+ 1901  ls -a
+ 1902  cat .gitignore 
+ 1903  cd ../
+ 1904  ls
+ 1905  cd ../
+ 1906  ls
+ 1907  cd my_repos/
+ 1908  ls
+ 1909  cd zpoif_2023_training/
+ 1910  ls
+ 1911  cd ../
+ 1912  ls
+ 1913  cd ../
+ 1914  ls
+ 1915  cd daleko/
+ 1916  ls
+ 1917  cd pl/edu/pw/mini/zpoif/workshop/
+ 1918  ls
+ 1919  cd ~/programowanie/studia/ZPOiF/
+ 1920  ls
+ 1921  ls GetJar/
+ 1922  clear
+ 1923  ls
+ 1924  cd my_repos/
+ 1925  ls
+ 1926  cd zpoif_2023_kitam_kapronj/
+ 1927  ls
+ 1928  git status
+ 1929  cat .gitignore 
+ 1930  clear
+ 1931  git branch 
+ 1932  git branch
+ 1933  clear
+ 1934  git branch
+ 1935  git status
+ 1936  git add src/*
+ 1937  git status
+ 1938  git add pom.xml .gitignore 
+ 1939  git status
+ 1940  git restore --staged src/*
+ 1941  git status
+ 1942  git commit -m ".gitignore with pom.xml with maven dependencies"
+ 1943  git status
+ 1944  git add src/*
+ 1945  git status
+ 1946  git commit -m "renaming .api package to .apiclients and adding GoldExchangeRate class to store json info from NBP API with temporal testing class"
+ 1947  git status
+ 1948  git push origin feature-api-client 
+ 1949  git branch 
+ 1950  git checkout main 
+ 1951  git pull
+ 1952  git status
+ 1953  git checkout feature-api-client 
+ 1954  git pull
+ 1955  git branch --set-upstream-to=origin/feature-api-client feature-api-client 
+ 1956  git status
+ 1957  git pull
+ 1958  git status
+ 1959  ls
+ 1960  cat pom.xml 
+ 1961  clear
+ 1962  cat .gitignore 
+ 1963  clear
+ 1964  shutdown 'now'
+ 1965  echo /usr/bin/bash
+ 1966  sudo apt update
+ 1967  apt list --upgradable 
+ 1968  sudo apt upgrade
+ 1969  clear
+ 1970  man R
+ 1971  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1972  git sta
+ 1973  git status 
+ 1974  git add README.md 
+ 1975  git status 
+ 1976  git commit -m "updated tutorial on how to get r-libs data in README"
+ 1977  git push
+ 1978  git status 
+ 1979  git pull
+ 1980  git branch 
+ 1981  git status
+ 1982  git add server/*
+ 1983  ls
+ 1984  git status
+ 1985  git commit -m"added import of Mateusz's r-libs in r_libs_server.R"
+ 1986  git push
+ 1987  cd ../../
+ 1988  cd Laby/
+ 1989  code .
+ 1990  cd
+ 1991  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1992  git status
+ 1993  ccd
+ 1994  cd
+ 1995  clear
+ 1996  shutdown 'now'
+ 1997  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1998  git branch 
+ 1999  shutdown 'now'
+ 2000  ls Downloads/
+ 2001  cd
+ 2002  cd programowanie/studia/TWD/Laby/
+ 2003  ls
+ 2004  code .
+ 2005  mkdir lab13
+ 2006  mv ~/Downloads/lab13.ipynb lab13/
+ 2007  cd ../Projekt2/
+ 2008  ls
+ 2009  cd linux_me_project/
+ 2010  git status
+ 2011  git restore server/*
+ 2012  clear
+ 2013  git status
+ 2014  git checkout master 
+ 2015  git pull
+ 2016  man history
+ 2017  env
+ 2018  env | grep history
+ 2019  env | grep hist
+ 2020  clear
+ 2021  cd data/
+ 2022  ls
+ 2023  apt list --installed > ./system-packages/kuba_system_packages.txt 
+ 2024  history > ./bash-history/kuba_bash_history.txt 
+ 2025  pip freeze > python-libs/kuba_python_libs.txt 
+ 2026  git branch 
+ 2027  git status
+ 2028  git restore *
+ 2029  git status
+ 2030  git checkout feat-kuba-rlibs 
+ 2031  git status
+ 2032  apt list --installed > ./system-packages/kuba_system_packages.txt 
+ 2033  history > ./bash-history/kuba_bash_history.txt 
