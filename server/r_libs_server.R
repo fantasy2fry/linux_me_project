@@ -1,5 +1,3 @@
-# TODO strzalki
-
 rLibsServer <- function(input, output, session) {
   
   # LOADING DATA AND HELPERS
