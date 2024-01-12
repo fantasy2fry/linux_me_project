@@ -38,7 +38,48 @@ rLibsServer <- function(input, output, session) {
     df %>% filter(Imports %in% importFrequency)
   })
   
+  personDF <- reactive({
+    df %>% 
+      filter(person == case_when(input$person == "Mateusz" ~ "mateusz",
+                                 input$person == "Norbert" ~ "norbert",
+                                 input$person == "Kuba" ~ "kuba")) %>% 
+      select(!person)
+  })
+  
+  basePackages <- reactive({
+    personDF() %>% 
+      group_by(Priority) %>% 
+      summarise(count = n()) %>% 
+      mutate(percentage = count / sum(count)) %>% 
+      filter(Priority == 'base') %>% 
+      pull(percentage)
+  })
+  
   # OUTPUTS
+  output$rVersion <- renderInfoBox({
+    infoBox(
+      "R version", 
+      personDF() %>% 
+        filter(Package == 'base') %>% 
+        pull(Version)
+    )
+  })
+  
+  output$allPackages <- renderInfoBox({
+    infoBox(
+      "All packages",
+      personDF() %>% 
+        nrow()
+    )
+  })
+  
+  output$basePackages <- renderInfoBox({
+    infoBox(
+      "Base packages",
+      paste(round(basePackages() * 100, digits = 2), "%")
+    )
+  })
+  
   output$importsNetwork <- renderSimpleNetwork({
     simpleNetwork(importsDF())
   })
