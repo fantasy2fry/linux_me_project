@@ -29,13 +29,20 @@ rLibsServer <- function(input, output, session) {
       select(!person)
     
     importFrequency <- df %>% 
-      select(Imports) %>% 
       group_by(Imports) %>%
-      summarise(n = n()) %>% 
-      slice_max(n, n = input$mostFrequentlyImported) %>% 
-      pull(Imports)
+      summarise(frequency = n())
     
-    df %>% filter(Imports %in% importFrequency)
+    df %>% 
+      merge(importFrequency, by = 'Imports', all = T) %>% 
+      select(Package, Imports, frequency)
+  })
+  
+  mostFrequentlyImported <- reactive({
+    importsDF() %>% 
+      select(Imports, frequency) %>% 
+      unique() %>% 
+      slice_max(frequency, n = input$mostFrequentlyImported) %>% 
+      pull(Imports)
   })
   
   personDF <- reactive({
@@ -80,8 +87,26 @@ rLibsServer <- function(input, output, session) {
     )
   })
   
+  output$importsHistogram <- renderPlotly({
+    importsDF() %>% 
+      select(Imports, frequency) %>% 
+      unique() %>% 
+      ggplot(
+        aes(
+          x = frequency
+        )
+      ) +
+      geom_histogram() +
+      labs(
+        x = "Import frequency",
+        y = element_blank()
+      ) +
+      theme_minimal() +
+      scale_x_continuous(expand = c(0, 0))
+  })
+  
   output$importsNetwork <- renderSimpleNetwork({
-    simpleNetwork(importsDF())
+    simpleNetwork(importsDF() %>% filter(Imports %in% mostFrequentlyImported()))
   })
   
 }

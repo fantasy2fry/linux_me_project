@@ -38,12 +38,21 @@ rLibsUI <- function(id) {
           infoBoxOutput(ns("rVersion"), width = 4) %>% withSpinner(),
           infoBoxOutput(ns("allPackages"), width = 4) %>% withSpinner(),
           infoBoxOutput(ns("basePackages"), width = 4) %>% withSpinner(),
+        ),
+        fluidRow(
+          box(
+            title = "Import frequency histogram",
+            width = NULL,
+            status = "primary",
+            solidHeader = TRUE,
+            plotlyOutput(ns("importsHistogram")) %>% withSpinner()
+          )
         )
       )
     ),
     fluidRow(
       box(
-        title = "Packages' imports network",
+        title = "Graph of imports",
         width = NULL,
         status = "primary",
         solidHeader = TRUE,
