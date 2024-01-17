@@ -4,10 +4,9 @@ gitStatsUI <- function(id) {
   fluidPage(
     fluidRow(
       column(width=8,box(
-        title="Git Repositories on our Computers Information",
+        title="",
         width=NULL,
-        solidHeader = TRUE,
-        status = "primary",
+        status = "success",
         plotOutput(ns("calendar_heatmap")) %>% withSpinner()
       ),
        box(
@@ -23,6 +22,21 @@ gitStatsUI <- function(id) {
           value = 6,
           step = 1),
         plotlyOutput(ns("message_lollipop")) %>% withSpinner()
+      ), 
+      box(
+        title="Repositories and their number of commits",
+        width=NULL,
+        solidHeader = TRUE,
+        status="danger",
+        sliderInput(
+          ns("number_of_repos"),
+          label = "Select number of repositories to show",
+          min = 3,
+          max = 10,
+          value = 5,
+          step = 1),
+        plotlyOutput(ns("repo_barplot")) %>% withSpinner()
+      
       )
       ),
       column(width = 4,
@@ -49,12 +63,18 @@ gitStatsUI <- function(id) {
                infoBoxOutput(ns("most_popular_day_for_commit"), width = NULL) %>% withSpinner(),
                infoBoxOutput(ns("most_popular_contrybutor"), width = NULL) %>% withSpinner(),
                infoBoxOutput(ns("average_number_of_words_per_commit"), width = NULL) %>% withSpinner(),
+               infoBoxOutput(ns("repo_with_the_most_commits"),width = NULL) %>% withSpinner()
              ),
              box(
-               title="Description",
+               title="Git Enthusiasts",
                width=NULL,
                includeMarkdown(
-                 "#### Introduction"
+                 "- **Norbert, Kuba, and Mateusz** are currently novice users of Git and GitHub.
+- **Norbert** also uses Bitbucket alongside GitHub.
+- They primarily employ Git for coursework at their university, focusing on subjects such as *Object-Oriented Programming in Java* and *Data Visualization Techniques*.
+- The trio has developed a strong liking for this version control system, seamlessly integrating it with their enthusiasm for working in the terminal and using Linux.
+- They plan to continue leveraging Git in future projects and incorporate it into their professional endeavors.
+"
                )
              )
              )

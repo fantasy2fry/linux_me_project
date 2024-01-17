@@ -113,6 +113,16 @@ gitStatsServer <- function(input, output, session) {
     infoBox("Average Number Of Words Per Commit", 
             paste0(round(nrow(personDf_only_his_commits_messages())/nrow(personDf_only_his_commits()),2)))
   })
+  #NAME OF THE REPO WITH THE MOST COMMITS
+  output$repo_with_the_most_commits=renderInfoBox({
+    infoBox("Repo With The Most Commits", 
+            paste0(personDf() %>% 
+                     group_by(repo) %>% 
+                     summarise(count = n()) %>% 
+                     arrange(desc(count)) %>% 
+                     slice(1) %>% 
+                     pull(repo)))
+  })
   
   output$calendar_heatmap=renderPlot({
     pdff=personDf_with_date_groupped()
@@ -147,6 +157,18 @@ gitStatsServer <- function(input, output, session) {
       head(input$number_of_most_used_words) %>%
       plot_ly(y = ~reorder(message, -count), x = ~count, type = 'scatter', mode = 'markers', marker = list(size = 10))%>%
       layout(yaxis = list(title = ''), xaxis = list(title = '')) %>% 
+      config(displayModeBar = FALSE)
+  })
+  
+  #plotly plot that shows how many commits in each repo
+  output$repo_barplot <- renderPlotly({
+    personDf() %>%
+      group_by(repo) %>%
+      summarise(count = n()) %>%
+      arrange(desc(count)) %>%
+      head(input$number_of_repos) %>% 
+      plot_ly(x = ~reorder(repo, -count), y = ~count, type = 'bar', marker = list(color = 'rgb(26, 118, 255)')) %>%
+      layout(yaxis = list(title = '', type="log"), xaxis = list(title = '')) %>% 
       config(displayModeBar = FALSE)
   })
   
