@@ -61,7 +61,7 @@ systemPackagesServer <- function(input, output, session) {
               x=~user,
               y=~count, 
               type='bar',
-              color = '#00a65a') %>% layout(yaxis = list(title="Number of Packages",type = "log"),
+              marker = list(color='#00a65a')) %>% layout(yaxis = list(title="Number of Packages",type = "log"),
                                      xaxis=list(title="User"))
     
     #p

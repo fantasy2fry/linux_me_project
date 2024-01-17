@@ -47,6 +47,13 @@ gitStatsServer <- function(input, output, session) {
     }
     
   })
+  # every message in new row
+  personDf_only_his_commits_messages=reactive({
+    personDf_only_his_commits() %>% 
+      select(person, message) %>% 
+      mutate(message = str_split(message, pattern = " ")) %>%
+      unnest(message)
+  })
   
   #converting date to date format
   personDf_with_date = reactive({
@@ -91,6 +98,21 @@ gitStatsServer <- function(input, output, session) {
                      slice(1) %>% 
                      pull(day)))
   })
+  output$most_popular_contrybutor=renderInfoBox({
+    infoBox("Most Popular Contributor", 
+            paste0(personDf() %>% 
+                     group_by(author) %>% 
+                     summarise(count = n()) %>% 
+                     arrange(desc(count)) %>% 
+                     slice(1) %>% 
+                     pull(author)))
+  })
+  
+  # average number of words per commit
+  output$average_number_of_words_per_commit=renderInfoBox({
+    infoBox("Average Number Of Words Per Commit", 
+            paste0(round(nrow(personDf_only_his_commits_messages())/nrow(personDf_only_his_commits()),2)))
+  })
   
   output$calendar_heatmap=renderPlot({
     pdff=personDf_with_date_groupped()
@@ -116,6 +138,16 @@ gitStatsServer <- function(input, output, session) {
     
     heatmaply(matrix(hm$count, nrow = 7),
               show_dendrogram = c(FALSE, FALSE))
+  })
+  output$message_lollipop <- renderPlotly({
+    personDf_only_his_commits_messages() %>%
+      group_by(message) %>%
+      summarise(count = n()) %>%
+      arrange(desc(count)) %>%
+      head(input$number_of_most_used_words) %>%
+      plot_ly(y = ~reorder(message, -count), x = ~count, type = 'scatter', mode = 'markers', marker = list(size = 10))%>%
+      layout(yaxis = list(title = ''), xaxis = list(title = '')) %>% 
+      config(displayModeBar = FALSE)
   })
   
 }
