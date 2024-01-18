@@ -29,6 +29,11 @@ history > file.txt
 ```bash
 pip freeze > file.txt
 ```
+For dependencies:
+```bash
+pip3 install pipdeptree
+pipdeptree --json > file.json
+```
 
 ### Git stats:
 ```
