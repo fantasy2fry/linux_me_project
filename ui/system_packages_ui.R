@@ -37,19 +37,6 @@ These diverse computing environments showcase the flexibility of operating syste
     
     
       column(4,
-             box(
-               title = "Input",width = NULL,
-               status = "warning",
-               solidHeader = TRUE,
-               collapsible = TRUE,
-              checkboxGroupInput(ns("kogo_komendy"), 
-                                 "Select the person or persons for the system packages to analyze (You can choose multiple times):",
-                                 c("Norbert - Linux" = "norlinux",
-                                   "Norbert - MacOS" = "normacos",
-                                   "Mateusz" = "mat",
-                                   "Kuba"= "kuba"),
-                                 selected = "norlinux")
-      ), 
       box(title = "Plot of Number of Packages installed in logarithmic scale",width = NULL,
           status = "success",
           solidHeader = TRUE,
@@ -61,7 +48,7 @@ These diverse computing environments showcase the flexibility of operating syste
     ,
   
     column(4, box(
-      title = "Input Prefixes of Packages",
+      title = "Input",
       status = "warning",
       width = NULL,
       collapsible = TRUE,

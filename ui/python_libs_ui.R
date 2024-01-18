@@ -7,7 +7,21 @@ pythonLibsUI <- function(id) {
              status = "primary",
              solidHeader = TRUE,
              width = NULL,
-             includeMarkdown("BLA BLA BAL")
+             includeMarkdown("
+- **Norbert, Kuba, and Mateusz** extensively use Python across various aspects of their work, including:
+  - Algebra
+  - Data scraping from the internet
+  - Creating plots and charts
+  - Working with dataframes
+  - Algorithm development
+  - Graph visualization
+
+- They encountered Python in courses such as:
+  - Data Visualization Techniques
+  - Fundamentals of Programming and Data Processing
+  - Structured Data Processing
+
+- The trio has a strong affinity for Python, particularly enjoying its usage through Jupyter Notebooks and IDEs like *Data Spell* or *Visual Studio Code*. They express a keen interest in further developing their Python skills, with future plans to explore machine learning using Python's rich array of libraries.")
            )
            ),
     column(4,

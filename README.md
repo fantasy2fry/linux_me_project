@@ -1,5 +1,3 @@
-# linux_me_project
-
 ## How have we gathered the data?
 
 ### System installed packages:
