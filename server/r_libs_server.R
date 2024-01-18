@@ -1,5 +1,3 @@
-# TODO strzalki
-
 rLibsServer <- function(input, output, session) {
   
   # LOADING DATA AND HELPERS
@@ -31,18 +29,84 @@ rLibsServer <- function(input, output, session) {
       select(!person)
     
     importFrequency <- df %>% 
-      select(Imports) %>% 
       group_by(Imports) %>%
-      summarise(n = n()) %>% 
-      slice_max(n, n = input$mostFrequentlyImported) %>% 
-      pull(Imports)
+      summarise(frequency = n())
     
-    df %>% filter(Imports %in% importFrequency)
+    df %>% 
+      merge(importFrequency, by = 'Imports', all = T) %>% 
+      select(Package, Imports, frequency)
+  })
+  
+  mostFrequentlyImported <- reactive({
+    importsDF() %>% 
+      select(Imports, frequency) %>% 
+      unique() %>% 
+      slice_max(frequency, n = input$mostFrequentlyImported) %>% 
+      pull(Imports)
+  })
+  
+  personDF <- reactive({
+    df %>% 
+      filter(person == case_when(input$person == "Mateusz" ~ "mateusz",
+                                 input$person == "Norbert" ~ "norbert",
+                                 input$person == "Kuba" ~ "kuba")) %>% 
+      select(!person)
+  })
+  
+  basePackages <- reactive({
+    personDF() %>% 
+      group_by(Priority) %>% 
+      summarise(count = n()) %>% 
+      mutate(percentage = count / sum(count)) %>% 
+      filter(Priority == 'base') %>% 
+      pull(percentage)
   })
   
   # OUTPUTS
+  output$rVersion <- renderInfoBox({
+    infoBox(
+      "R version", 
+      personDF() %>% 
+        filter(Package == 'base') %>% 
+        pull(Version)
+    )
+  })
+  
+  output$allPackages <- renderInfoBox({
+    infoBox(
+      "All packages",
+      personDF() %>% 
+        nrow()
+    )
+  })
+  
+  output$basePackages <- renderInfoBox({
+    infoBox(
+      "Base packages",
+      paste(round(basePackages() * 100, digits = 2), "%")
+    )
+  })
+  
+  output$importsHistogram <- renderPlotly({
+    importsDF() %>% 
+      select(Imports, frequency) %>% 
+      unique() %>% 
+      ggplot(
+        aes(
+          x = frequency
+        )
+      ) +
+      geom_histogram() +
+      labs(
+        x = "Import frequency",
+        y = element_blank()
+      ) +
+      theme_minimal() +
+      scale_x_continuous(expand = c(0, 0))
+  })
+  
   output$importsNetwork <- renderSimpleNetwork({
-    simpleNetwork(importsDF())
+    simpleNetwork(importsDF() %>% filter(Imports %in% mostFrequentlyImported()))
   })
   
 }
