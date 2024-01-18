@@ -1,5 +1,3 @@
-# linux_me_project
-
 ## How have we gathered the data?
 
 ### System installed packages:
@@ -30,6 +28,11 @@ history > file.txt
 ### Python packages:
 ```bash
 pip freeze > file.txt
+```
+For dependencies:
+```bash
+pip3 install pipdeptree
+pipdeptree --json > file.json
 ```
 
 ### Git stats:

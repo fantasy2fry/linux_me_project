@@ -1,3 +1,6 @@
+# mogę analizować najczęstrze słowo pojawiące się w commitach
+# TODO dodac analize tresci commitow dla kazdej osoby
+# MOZE ZANALIZOWAĆ TO JAKO TAKI "WORD CLOUD"??
 gitStatsServer <- function(input, output, session) {
   
   processData <- function(lines, person) {
@@ -18,13 +21,115 @@ gitStatsServer <- function(input, output, session) {
   
   init <- function() {
     do.call(rbind, list(
-      processData(readLines("data/git-stats/mateusz_git_stats.txt"), "Mateusz")
-      # processData(readLines("data/git-stats/kuba_git_stats.txt"), "Kuba"),
-      # processData(readLines("data/git-stats/norbert_git_stats.txt"), "Norbert"),
+      processData(readLines("data/git-stats/mateusz_git_stats.txt"), "Mateusz"),
+      processData(readLines("data/git-stats/kuba_git_stats.txt"), "Kuba"),
+      processData(readLines("data/git-stats/norbert_git_stats.txt"), "Norbert")
     ))
   }
   
   df <- init()
+  
+  personDf <- reactive({
+    df %>%
+      filter(person == case_when(input$person_w == "vecel" ~ "Mateusz",
+                                 input$person_w == "Norbert Frydrysiak" ~ "Norbert",
+                                 input$person_w == "kuba-kapron" ~ "Kuba"))
+  })
+  personDf_only_his_commits = reactive({
+    if(input$person_w == "vecel"){
+      personDf() %>%filter(author =="vecel" | author =="Mateusz Karandys")
+    } else if(input$person_w == "Norbert Frydrysiak"){
+      personDf() %>%
+        filter(author == "Norbert Frydrysiak" | author=="fantasy2fry")
+    } else if(input$person_w == "kuba-kapron"){
+      personDf() %>% 
+        filter(author == "kuba-kapron")
+    }
+    
+  })
+  # every message in new row
+  personDf_only_his_commits_messages=reactive({
+    personDf_only_his_commits() %>% 
+      select(person, message) %>% 
+      mutate(message = str_split(message, pattern = " ")) %>%
+      unnest(message)
+  })
+  
+  #converting date to date format
+  personDf_with_date = reactive({
+    personDf_only_his_commits() %>%
+      mutate(date = as.Date(date)) %>% 
+      mutate(day = weekdays(date))
+  })
+  personDf_with_date_groupped=reactive({
+    personDf_with_date() %>%
+      group_by(date) %>%
+      summarise(count = n())
+  })
+  
+  output$how_many_repos=renderInfoBox({
+    infoBox("Total Repositories", 
+            paste0(n_distinct(personDf()$repo)))
+  })
+  output$total_commits_person=renderInfoBox({
+    infoBox("Total Commits By Person", 
+            paste0(nrow(personDf_only_his_commits())))
+  })
+  output$average_commits_per_repo_by_person=renderInfoBox({
+    infoBox("Average Commits By Person Per Repo", 
+            paste0(round(nrow(personDf_only_his_commits())/n_distinct(personDf()$repo),2)))
+  })
+  
+  output$unique_contributors=renderInfoBox({
+    infoBox("Unique Contributors", 
+            paste0(n_distinct(personDf()$author)))
+  })
+  
+  output$average_total_commits_per_repo=renderInfoBox({
+    infoBox("Average Commits Per Repo", 
+            paste0(round(x=nrow(personDf())/n_distinct(personDf()$repo),digits=2)))
+  })
+  output$most_popular_day_for_commit=renderInfoBox({
+    infoBox("Most Popular Day For Commit", 
+            paste0(personDf_with_date() %>% 
+                     group_by(day) %>% 
+                     summarise(count = n()) %>% 
+                     arrange(desc(count)) %>% 
+                     slice(1) %>% 
+                     pull(day)))
+  })
+  output$most_popular_contrybutor=renderInfoBox({
+    infoBox("Most Popular Contributor", 
+            paste0(personDf() %>% 
+                     group_by(author) %>% 
+                     summarise(count = n()) %>% 
+                     arrange(desc(count)) %>% 
+                     slice(1) %>% 
+                     pull(author)))
+  })
+  
+  # average number of words per commit
+  output$average_number_of_words_per_commit=renderInfoBox({
+    infoBox("Average Number Of Words Per Commit", 
+            paste0(round(nrow(personDf_only_his_commits_messages())/nrow(personDf_only_his_commits()),2)))
+  })
+  #NAME OF THE REPO WITH THE MOST COMMITS
+  output$repo_with_the_most_commits=renderInfoBox({
+    infoBox("Repo With The Most Commits", 
+            paste0(personDf() %>% 
+                     group_by(repo) %>% 
+                     summarise(count = n()) %>% 
+                     arrange(desc(count)) %>% 
+                     slice(1) %>% 
+                     pull(repo)))
+  })
+  
+  output$calendar_heatmap=renderPlot({
+    pdff=personDf_with_date_groupped()
+    calendarHeat(pdff$date, pdff$count, varname = "Commits")
+    
+  })
+  
   
   output$heatmap <- renderPlotly({
     
@@ -43,6 +148,28 @@ gitStatsServer <- function(input, output, session) {
     
     heatmaply(matrix(hm$count, nrow = 7),
               show_dendrogram = c(FALSE, FALSE))
+  })
+  output$message_lollipop <- renderPlotly({
+    personDf_only_his_commits_messages() %>%
+      group_by(message) %>%
+      summarise(count = n()) %>%
+      arrange(desc(count)) %>%
+      head(input$number_of_most_used_words) %>%
+      plot_ly(y = ~reorder(message, -count), x = ~count, type = 'scatter', mode = 'markers', marker = list(size = 10))%>%
+      layout(yaxis = list(title = ''), xaxis = list(title = '')) %>% 
+      config(displayModeBar = FALSE)
+  })
+  
+  #plotly plot that shows how many commits in each repo
+  output$repo_barplot <- renderPlotly({
+    personDf() %>%
+      group_by(repo) %>%
+      summarise(count = n()) %>%
+      arrange(desc(count)) %>%
+      head(input$number_of_repos) %>% 
+      plot_ly(x = ~reorder(repo, -count), y = ~count, type = 'bar', marker = list(color = 'rgb(26, 118, 255)')) %>%
+      layout(yaxis = list(title = '', type="log"), xaxis = list(title = '')) %>% 
+      config(displayModeBar = FALSE)
   })
   
 }

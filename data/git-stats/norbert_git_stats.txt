@@ -26176,6 +26176,62 @@ f40be1c, Norbert Frydrysiak, 2023-11-08, spider_plots update
 7098524, Norbert Frydrysiak, 2023-10-19, Initial commit
 
 Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/twd/linux_me_project/.git
+30f062c, Norbert Frydrysiak, 2024-01-18, python description & sys packs one input del
+5d6fc13, Norbert Frydrysiak, 2024-01-17, git part finish prototype
+e4d19f9, Norbert Frydrysiak, 2024-01-17, git message analysis add
+44e7b18, Norbert Frydrysiak, 2024-01-11, Merge branch 'feat-norbert-syspacks'
+3854155, Norbert Frydrysiak, 2024-01-11, todo to git_stats add 2
+822bcf0, Jakub Kaproń, 2024-01-11, Merge pull request #12 from fantasy2fry/feat-kuba-rlibs
+8e07afd, kuba-kapron, 2024-01-11, update Kuba's data
+27e21ae, Norbert Frydrysiak, 2024-01-11, todo to git_stats add
+a931220, Norbert Frydrysiak, 2024-01-11, git stats norbert update and about_ui small change
+1babf65, Norbert Frydrysiak, 2024-01-11, python libs tab added
+71f9368, Norbert Frydrysiak, 2024-01-11, Merge pull request #11 from fantasy2fry/feat-kuba-rlibs
+91d3a47, Norbert Frydrysiak, 2024-01-11, Merge pull request #10 from fantasy2fry/feat-norbert-syspacks
+b6d0c6a, Norbert Frydrysiak, 2024-01-11, Merge branch 'master' into feat-norbert-syspacks
+1821dee, Norbert Frydrysiak, 2024-01-11, system_packages version beta, added python libs tab choice
+55bd68a, kuba-kapron, 2024-01-11, added import of Mateusz's r-libs in r_libs_server.R
+2d6a274, Jakub Kaproń, 2024-01-11, Merge pull request #9 from fantasy2fry/feat-kuba-rlibs
+719f759, Jakub Kaproń, 2024-01-11, Merge pull request #8 from fantasy2fry/master
+16e490b, kuba-kapron, 2024-01-11, updated tutorial on how to get r-libs data in README
+a5cf327, Mateusz Karandys, 2024-01-11, Merge pull request #7 from fantasy2fry/about
+f078bf2, vecel, 2024-01-11, about tab template
+3f34050, vecel, 2024-01-11, small text fix
+4eecada, vecel, 2024-01-11, add mateusz r libs
+b9cdb3f, Norbert Frydrysiak, 2024-01-10, calendar heatmap add :D :D :D
+07ee372, Norbert Frydrysiak, 2024-01-10, git-stats 3 short info add and data update
+0c50789, Norbert Frydrysiak, 2024-01-09, figthting with calendar plot (aka heatmap) and some adding of boxes from shinydashboard
+8214bdb, Norbert Frydrysiak, 2024-01-08, my plan for git stats add
+b30dd48, kuba-kapron, 2024-01-08, added selectable number of most frequently imported packages to show in the network plot
+b12b8a5, kuba-kapron, 2024-01-08, added person selection in r-libs
+b97ed2c, Jakub Kaproń, 2024-01-08, Merge pull request #6 from fantasy2fry/master
+7486353, Norbert Frydrysiak, 2024-01-08, norbert r-libs add
+808ab35, kuba-kapron, 2024-01-08, add basic packages' imports network
+2404483, Jakub Kaproń, 2024-01-04, Merge pull request #5 from fantasy2fry/feat-kuba-rlibs
+39e693f, kuba-kapron, 2024-01-04, fixed missing r_libs_server.R import and added simple r libs data-loading function
+22cbb33, kuba-kapron, 2024-01-03, Merge pull request #4 from fantasy2fry/feat-kuba-rlibs
+744f541, kuba-kapron, 2024-01-03, update app.R with ui and server functions for r libs
+3268c79, kuba-kapron, 2024-01-03, Merge branch 'master' into feat-kuba-rlibs with updated readme and kuba's r libs data
+b3966f5, kuba-kapron, 2024-01-03, initialize ui and server functions for r libs
+93b561a, kuba-kapron, 2023-12-30, Kuba's r libs and deletion of a placeholder text file
+39cb2ac, kuba-kapron, 2023-12-30, update REAMDE with info on r-libs
+f1ff0fa, vecel, 2023-12-26, remove todo
+b64f8e0, vecel, 2023-12-26, sequences table description
+6b2d9bc, vecel, 2023-12-26, most used commands sequences table
+7fd5c2f, vecel, 2023-12-26, write consecutiveCombinations function
+3c1256c, vecel, 2023-12-25, add shinycssloaders spinners
+b40b990, vecel, 2023-12-25, column layout
+c80a9c1, vecel, 2023-12-25, move styles to app.R
+70c393e, vecel, 2023-12-25, add styles for tabBox
+d50e08d, vecel, 2023-12-25, add boxes and dt table
+8575caa, Norbert Frydrysiak, 2023-12-21, bash plots modification and one plot added to pacakges analysis
+f8822b7, Norbert Frydrysiak, 2023-12-19, Merge pull request #3 from fantasy2fry/feat-norbert-syspacks
+89eac5a, Norbert Frydrysiak, 2023-12-19, norbert linux bash commends added to dataframe
+a50f917, Norbert Frydrysiak, 2023-12-18, syspacks first plot working a little bit add
+6dc6e44, Norbert Frydrysiak, 2023-12-18, Merge pull request #2 from fantasy2fry/feat-norbert-syspacks
+f155826, Norbert Frydrysiak, 2023-12-18, syspacks first plot that it is not working XD add
+1871a99, kuba-kapron, 2023-12-18, Kuba's data without r libs
+c1b5d91, Norbert Frydrysiak, 2023-12-17, Norbert git stats and first attempt for sys packs part add
 37223dc, vecel, 2023-12-17, heatmap sketch
 d443b69, vecel, 2023-12-17, update date in git statistics
 f876185, vecel, 2023-12-17, data preprocessing for git statistics server
@@ -26196,10 +26252,90 @@ f82a622, vecel, 2023-12-07, mateusz data for bash, python and system
 6e6037f, Norbert Frydrysiak, 2023-12-07, init
 
 Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/.git
+51ca33e, Norbert Frydrysiak, 2023-12-30, hw5 FrydrysiakNorbert add
+94d90ab, Anna Kozak, 2023-12-22, Merge pull request #384 from IgorRudolf/main
+f30278d, Anna Kozak, 2023-12-22, Merge pull request #411 from katarzynarogalska/main
+75c2e3f, Anna Kozak, 2023-12-22, Merge pull request #386 from samselA/main
+34653e9, katarzynarogalska, 2023-12-22, HW5_RogalskaKasia
+cb0587d, Anna Kozak, 2023-12-22, Merge pull request #372 from fantasy2fry/main
+1a0c904, Anna Kozak, 2023-12-22, Merge pull request #393 from Sebislaw/main
+9eaed84, Anna Kozak, 2023-12-22, Merge pull request #390 from Bartekb3/main
+3f00bba, Anna Kozak, 2023-12-22, Merge pull request #394 from glebbadzeika/main
+3bae0f4, Anna Kozak, 2023-12-22, Merge pull request #397 from Zajaczkowskim/main
+f29f9d3, Anna Kozak, 2023-12-22, Merge pull request #399 from malgosiam2/main
+a03ff94, Anna Kozak, 2023-12-22, Merge pull request #403 from wiktoriaboguszewska/main
+22a1493, Anna Kozak, 2023-12-22, Merge pull request #401 from WojcikAleksandra/main
+584b53c, Anna Kozak, 2023-12-22, Merge pull request #402 from JanOpala/main
+1f83314, krzyzinskim, 2023-12-21, fix typos
+b51c12a, Anna Kozak, 2023-12-19, Merge pull request #363 from MaciejMomot/main
+423584e, Anna Kozak, 2023-12-19, Merge pull request #353 from krukj/main
+924fe4a, Anna Kozak, 2023-12-19, Merge pull request #356 from qw1mi/main
+11cea0e, Anna Kozak, 2023-12-19, Merge pull request #352 from Zyziek055/main
+3938218, Anna Kozak, 2023-12-19, Merge pull request #354 from FilipLangiewicz/main
+dc12933, Anna Kozak, 2023-12-19, Merge pull request #351 from nataliachoszczyk/main
+b2da48d, Anna Kozak, 2023-12-19, Merge pull request #350 from kateqwerty001/main
+d9c777d, Anna Kozak, 2023-12-19, Merge pull request #407 from nazaribih/main
+030760c, Anna Kozak, 2023-12-19, Merge pull request #405 from ulaszczesna/main
+a2b4bf3, Anna Kozak, 2023-12-19, Merge pull request #404 from AdamKaniasty/main
+ec4c903, Anna Kozak, 2023-12-18, Update README.md
+2dd2836, AdamKaniasty, 2023-12-16, Merge branch 'kozaka93:main' into main
+59ea330, Anna Kozak, 2023-12-15, Update README.md
+c634593, Anna Kozak, 2023-12-15, add lab11
+8bc9545, Anna Kozak, 2023-12-15, Update README.md
+91a8ecc, Anna Kozak, 2023-12-15, add .R file
+75d4ba6, Anna Kozak, 2023-12-15, Create .gitkeep
+9a4ed40, Anna Kozak, 2023-12-15, Merge pull request #347 from kaminskaz/main
+ab89228, Anna Kozak, 2023-12-15, add lab10 solutions
+3da0c71, AdamKaniasty, 2023-12-14, Merge branch 'kozaka93:main' into main
+1716829, Anna Kozak, 2023-12-14, add lecture 10
+ec313ac, Anna Kozak, 2023-12-14, Update README.md
+0149cd8, Anna Kozak, 2023-12-14, add lab10
+161e8fe, Nazarii Bihniak, 2023-12-13, NazariiBihniakHW4
+82d8bc0, Anna Kozak, 2023-12-12, Update README.md
+576ca1e, Anna Kozak, 2023-12-12, Merge pull request #346 from xxkaro/main
+481f237, Anna Kozak, 2023-12-12, Merge pull request #345 from tomaszzywicki/main
+ce32c6d, Anna Kozak, 2023-12-12, Merge pull request #344 from vecel/main
+6415743, Anna Kozak, 2023-12-12, Merge pull request #343 from AristocratesJ/main
+65d689b, Anna Kozak, 2023-12-12, Merge pull request #342 from kacperrodziewicz8814/main
+a28fc79, Anna Kozak, 2023-12-12, Merge pull request #341 from KAdamczykk/hw4
+efd5418, Anna Kozak, 2023-12-12, Merge pull request #340 from katarzynarogalska/main
+74403db, ulaszczesna, 2023-12-11, SzczesnaUrszula HW4
+658d7eb, AdamKaniasty, 2023-12-11, Merge remote-tracking branch 'origin/main'
+92ba3f6, AdamKaniasty, 2023-12-11, hw4
+7626ccf, wiktoriaboguszewska, 2023-12-11, BoguszewskaWiktoria HW4
+862cc06, JanOpala, 2023-12-11, OpalaJan HW4
+b42fcfa, WojcikAleksandra, 2023-12-11, WojcikAleksandra HW4
+08738f3, malgosiam2, 2023-12-11, MokwaMalgorzata HW4
+b4c9525, Zajaczkowskim, 2023-12-11, Zajączkowski Michał HW4
+d24d10e, Gleb Badzeika, 2023-12-11, HlebBadzeikaHW4
+89aca3b, Sebislaw, 2023-12-11, Sebastian Pergała HW4
+fff94b4, Bartek Borycki, 2023-12-11, Add files via upload
+695cc7a, samselA, 2023-12-11, Samsel Aleksandra HW4
+5ed1ea6, Igor, 2023-12-11, RudolfIgor HW4
 18601ba, Norbert Frydrysiak, 2023-12-10, Norbert Frydrysiak HW4 add
+634b87b, Anna Kozak, 2023-12-10, Merge pull request #369 from hubsonsss/main
+5513dba, hubsonsss, 2023-12-10, SobocinskiHubert HW4
+4c25bbf, MaciejMomot, 2023-12-10, Momot Maciej HW4
+09bab01, Milanna Pahasian, 2023-12-09, Milanna Pahasian HW4
+a101d59, FilipLangiewicz, 2023-12-09, Langiewicz Filip HW4
+a3cdd58, Julia Kruk, 2023-12-09, Kruk Julia HW4
+b2eb49c, Aleksander Mróz, 2023-12-09, Update PracaDomowa4.R
+2d56a8a, Aleksander Mróz, 2023-12-09, Mróz Aleksander HW4
+3eb22bf, nataliachoszczyk, 2023-12-09, add HW4
+89a3da6, kateqwerty001, 2023-12-09, BokhanKatsiaryna [HW4]
+6f12c0b, kaminskaz, 2023-12-08, KaminskaZofia HW4
+4041ba3, xxkaro, 2023-12-08, DunalKarolina HW4
+68218fc, tomaszzywicki, 2023-12-08, Zywicki Tomasz HW4
+703878f, Mateusz Karandys, 2023-12-08, KarandysMateusz HW 4
+6dac0ae, AristocratesJ, 2023-12-08, Add files via upload
 b8a71bd, Anna Kozak, 2023-12-08, add lab9 solutions
 a0e67a2, Anna Kozak, 2023-12-08, Update README.md
 4bd0dc9, Anna Kozak, 2023-12-08, add lecture 9
+730d74e, kacperrodziewicz8814, 2023-12-08, Add files via upload
+f2d8285, kacperrodziewicz8814, 2023-12-08, Delete homeworks/hw4
+9f92473, kacperrodziewicz8814, 2023-12-08, Create hw4
+162ab3f, Krzysztof Adamczyk, 2023-12-07, chad python > r
+126c12b, katarzynarogalska, 2023-12-07, Add files via upload
 202b351, Anna Kozak, 2023-12-04, Update README.md
 d8488ec, Anna Kozak, 2023-12-01, Update README.md
 b85e138, Anna Kozak, 2023-12-01, add lab9
@@ -27074,6 +27210,36 @@ bbdfeb4, Mateusz Nędzi, 2023-10-08, Update README.md
 85a93a4, Mateusz Nędzi, 2023-10-04, Create README.md
 f8d6ed6, Mateusz Nędzi, 2023-10-04, Initial commit
 
+Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/po_programy/zpoif_2023_zespol_18/.git
+66d332a, Norbert Frydrysiak, 2024-01-14, HashMap changed to TreeMap, lots of new clubs added and 2 seasons
+5aad40d, Norbert Frydrysiak, 2024-01-07, Merged in master-merging (pull request #8)
+eaa727c, Norbert Frydrysiak, 2024-01-07, 2playersplot gets attributes from gui (2branches merged)
+df575d9, Norbert Frydrysiak, 2024-01-07, Merged in Frames-opalajan (pull request #6)
+29476e9, Norbert Frydrysiak, 2024-01-07, Merged in feat-polish-statsgetter (pull request #5)
+8dff138, Norbert Frydrysiak, 2024-01-07, TwoPlayersPlot created
+8b5c8d7, jan.opala.business@gmail.com, 2024-01-07, Naprawiona zakładka 3
+53170ec, jan.opala.business@gmail.com, 2024-01-07, Zakładka 1 się rozjechała, ale działa tam wykres w plotly, we wszystkich zakładkach działa wczytanie danych
+e235384, Norbert Frydrysiak, 2024-01-06, Merge branch 'master' into Frames-opalajan
+41b5e8d, Norbert Frydrysiak, 2024-01-06, more clubs added and import functions to get info to GUI added
+6b4655a, Norbert Frydrysiak, 2024-01-06, Merged in master (pull request #3)
+bf81e38, Norbert Frydrysiak, 2024-01-06, Merged in Frames-opalajan (pull request #2)
+4d0ca3e, Norbert Frydrysiak, 2024-01-06, Merged in visualisation (pull request #1)
+a00481f, jan.opala.business@gmail.com, 2024-01-06, Norbert zobacz jak fajnie działają listy piłkarzy w 3 zakładce
+a902957, jan.opala.business@gmail.com, 2024-01-05, testing tabbed pane, planning to finish next day
+c0fa63a, domin, 2024-01-04, norbert jest madry
+8b5a378, Antoni Kingston, 2024-01-03, trochę działających i niedziałających funkcji zwracających wykresy
+d8a93ea, domin, 2023-12-31, Started app - mainPanel add
+4eaf198, domin, 2023-12-31, Started app - mainPanel add
+9873fa4, Norbert Frydrysiak, 2023-12-28, pom.xml jsplot add
+14545d0, Norbert Frydrysiak, 2023-12-28, players Stats parser finished add
+915b0ce, Norbert Frydrysiak, 2023-12-27, too few rows problem solved
+b466a96, Norbert Frydrysiak, 2023-12-27, not working but seems to work converting list of list of String to dataframe add
+d8c7f5e, Norbert Frydrysiak, 2023-12-26, project structure and tables with data parser add
+0d83ae6, Norbert Frydrysiak, 2023-12-14, jsoup and first attempts to get data from website fbref
+5dfbc96, Norbert Frydrysiak, 2023-12-12, java main and first data exploration add
+8942a56, Norbert Frydrysiak, 2023-12-03, overview add
+c117440, Norbert Frydrysiak, 2023-12-03, init and first data exploration add
+
 Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/po_programy/lista_2023/.git
 be987ef, Norbert Frydrysiak, 2023-04-23, 23.04 Zrobienie zabawy z monetami
 08d84bd, Norbert Frydrysiak, 2023-04-22, 22.04 Dodanie findów i metody insertAfter
@@ -27230,12 +27396,6 @@ Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/po_programy/fabr
 2386731, Norbert Frydrysiak, 2023-11-27, fajniejsze zadanko niż tydzień temu
 0be9825, Janusz Rafałko, 2023-11-27, init
 
-Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/po_project/.git
-0d83ae6, Norbert Frydrysiak, 2023-12-14, jsoup and first attempts to get data from website fbref
-5dfbc96, Norbert Frydrysiak, 2023-12-12, java main and first data exploration add
-8942a56, Norbert Frydrysiak, 2023-12-03, overview add
-c117440, Norbert Frydrysiak, 2023-12-03, init and first data exploration add
-
 Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/pdu/pd5/.git
 Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/pdu/pd4/.git
 f3e0b1a, Norbert Frydrysiak, 2023-07-29, added description-like files in polish
@@ -27271,6 +27431,75 @@ a6c34c2, Norbert Frydrysiak, 2023-09-22, added LaTeX
 bc075cd, Norbert Frydrysiak, 2023-07-27, Initial commit
 
 Repository /Users/fantasy2fry/.oh-my-zsh/.git
+f74add6, Nidelson Gimenez, 2023-12-24, feat(react-native): add aliases for iPhone 15 (#12114)
+9004c17, Gautam krishna R, 2023-12-22, fix(bgnotify): make it work with `set -e` (#12111)
+17e96bf, Gautam krishna R, 2023-12-21, fix(changelog): use longer hashes for commits (#12096)
+2a15741, Oleg Grigoriev, 2023-12-20, fix(rake-fast): make `.rake_tasks` write atomic (#12108)
+0bb00ed, Carlo Sala, 2023-12-20, ci(dependencies): fix typo
+dd3be61, Marc Cornellà, 2023-12-20, ci(dependencies): add automation for updating external dependencies (#12109)
+48ccc7b, Jasmin, 2023-12-06, feat(dotnet): update completion script (#12028)
+346bd1c, Josh Hubbard, 2023-12-06, feat(frontend-search): add `I am lucky` option
+c37df3e, Josh Hubbard, 2023-12-06, feat(frontend-search): add nextjs
+1ae0515, Marc Cornellà, 2023-12-06, fix(lib): patch `omz_urlencode` to not encode UTF-8 chars in Termux (#12076)
+0a9d827, Benjamin Neff, 2023-12-01, feat(bgnotify): add option to disable terminal bell (#12077)
+b6afbbe, Marc Cornellà, 2023-12-01, fix(installer): fix path logic and improve clarity on ZDOTDIR use
+9b5b389, Johan Sjöblom, 2023-11-25, refactor(bgnotify): get Sway AppId with `awk` as fallback (#12062)
+f9993d0, Olivia (Zoe), 2023-12-01, docs: document the off-GitHub installation URL (#12079)
+7a30bca, Marc Cornellà, 2023-11-30, ci(installer): fix token passing and only run on main repo
+418046e, cohml, 2023-11-29, feat(per-directory-history): add option to reduce verbosity (#12069)
+7e3fdf3, Bernard Grymonpon, 2023-11-27, fix(misc): only set PAGER if `less` or `more` are available (#12060)
+e11d813, Yuxuan Lu, 2023-11-24, fix(robbyrussell): line wrapping for some systems (#12058)
+ddf673b, MikuHatsune39, 2023-11-24, fix(python): set `py` alias if `py` is not installed (#12059)
+76a1dfc, Mamad Kajbaf, 2023-11-23, feat(docker-compose): add `dclF` alias (#10603)
+6c5586c, Johan Sjöblom, 2023-11-23, docs(bgnotify): match README with current features (#12057)
+38e80e9, Johan Sjöblom, 2023-11-23, feat(bgnotify): add icon parameter (#12055)
+44a5513, Saduff, 2023-11-22, fix(per-directory-history): print toggle message properly (#10872)
+18073af, Carlo Sala, 2023-11-22, fix(bgnotify): detect properly if `swaymsg` is installed
+e6a1db2, bretello, 2023-11-20, feat(bgnotify): add support to wayland (#12045)
+22f9a8d, Babak K. Shandiz, 2023-11-20, fix(juju): add `public-address` fallback to `jaddr` (#12046)
+e021334, Þórhallur Sverrisson, 2023-11-20, feat(vi-mode): add option to disable clipboard (#12037)
+6165c25, nexpspace, 2023-11-20, fix(grc): source grc.zsh on gentoo (#12050)
+c8e600f, Thomas Luzat, 2023-11-15, fix(direnv): initialize properly direnv
+b6bb133, Marc Cornellà, 2023-11-08, fix(git): fix repository detection in `gccd` function (#12023)
+632ed41, Carlo Sala, 2023-11-01, fix(wd): use `(( ))` instead of `[[ ]]`
+38c01a2, Sarah Noor, 2023-10-28, feat(npm): add alias for `npm run build` (#12012)
+cb86d37, Josh Hubbard, 2023-10-28, feat(git-auto-fetch): fetch also submodules (#12001)
+7733e3a, Marc Cornellà, 2023-10-28, ci: fix path filtering in installer workflow
+7348d12, Marc Cornellà, 2023-10-28, ci(vercel): add Content-Disposition header on installer
+048455c, Marc Cornellà, 2023-10-25, fix(git-commit): fix revert alias conflict (#12007)
+5c22c58, alps2006, 2023-10-24, feat(vi-mode): allow replacing on visual mode (#12006)
+b7904ae, 家鳖大帝, 2023-10-24, fix(firewalld): remove ` (default)` from the end of zone string (#11998)
+1868c15, Marc Cornellà, 2023-10-23, chore: remove mentions of huntr.dev
+4652533, Amir Hosseini, 2023-10-22, fix(direnv): use `hook` instead of `export` (#12000)
+8428442, Marc Cornellà, 2023-10-19, fix(termsupport): add workaround for directory tracking issues in Konsole
+ff6dac5, Marc Cornellà, 2023-10-19, fix(git): fix smart cd to cloned directory in `gccd` function
+f79647d, Marc Cornellà, 2023-10-19, fix(git): fix check in `gbds` function
+207d29b, Zeeshan, 2022-10-04, fix(git)!: standardize `git pull --rebase` aliases (#11224)
+9f84ba0, Marc Cornellà, 2023-10-19, feat(command-not-found): add support for Homebrew on Linux
+d082d87, Marc Cornellà, 2023-10-19, refactor(lando): add `LANDO_ZSH_WRAPPED_COMMANDS` setting and refactor
+a8dee63, Ryan Tvenge, 2023-10-19, feat(lando): bypass `lando` if command is not available in container (#11993)
+104041a, Peat Bakke, 2023-10-19, feat(tmux): add `tds` alias for directory sessions (#11987)
+0da4169, Vishal Sharma, 2023-10-18, fix(ssh-agent): add error message if `~/.ssh` is not found (#11929)
+8152dc6, Marc Cornellà, 2023-10-18, fix(git): move squash-merged branch deletion from `gbda` to `gbds` function (#11991)
+b696288, Jérémy, 2023-10-18, feat(kubectl): add `kgdsa` alias (#11863)
+f10cd52, Patryk Krawaczyński, 2023-10-18, feat(history): add `hl` alias (#11990)
+d3112d6, Vyacheslav Scherbinin, 2023-10-18, feat(vscode): allow arguments to `vsc` alias (#11903)
+96c9766, nishanthps-cai, 2023-10-17, feat(bazel): use completion also for bazelisk (#11984)
+f939768, Marc Cornellà, 2023-10-14, fix(git): fix fallback to develop branch if `master` not found (#11966)
+f7130bb, Robby Russell, 2023-10-13, fix(gnzh): Don't show .local for local hostnames in theme
+2db53ff, Steve Lessard Jr, 2023-10-13, fix(avit): RPROMPT Fix for #10307 (#11131)
+48a62a9, Kapil Pau, 2023-10-13, feat(span): Introducing Snapcraft CLI plugin (#9357)
+8d9c9b6, Sandesh  Pyakurel, 2023-10-13, chore(postgres): fix typo (#11967)
+3efdbf9, Sandesh  Pyakurel, 2023-10-13, chore(hitchhiker): fix typos (#11961)
+772b41e, Sandesh  Pyakurel, 2023-10-12, chore(zsh-navigation-tools): fix typo (#11960)
+7329b2f, Marc Cornellà, 2023-10-12, docs(debian): clarify override behavior for `apt_pref` and `apt_upgr`
+5743198, Preston Button, 2023-10-12, docs(aliases): fix typo (#11958)
+6768906, sattisumasri, 2023-10-12, chore: change headings in README to Title Case (#11956)
+408330e, Marc Cornellà, 2023-10-11, ci: remove redundant macos runner for CI tests
+53cb50a, Marc Cornellà, 2023-10-11, refactor(systemadmin): use `ss` instead of `netstat` when available (#11957)
+fedef5d, Marc Cornellà, 2023-10-11, fix(xcode): open Xcode in current Desk if already open in another (#10384)
+da3b8fc, Lukas Elmer, 2023-10-11, fix(yarn): output completion entries in UTF-8 (#11955)
+b1821a2, Adam Johnson, 2023-10-10, fix(git): restore showing patch in `gsts` (#11951)
 38db3e1, Adam Henley, 2023-10-10, feat(kind): add plugin for Kind k8s tool (#9827)
 24b2600, tobi1805, 2023-10-09, feat(git): delete squash-merged branches in `gbda` (#11948)
 29b99c2, Marc Cornellà, 2023-10-09, feat(updater): add `background-alpha` update mode (preview) (#11928)
