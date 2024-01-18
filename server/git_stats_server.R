@@ -1,6 +1,4 @@
-# mogę analizować najczęstrze słowo pojawiące się w commitach
-# TODO dodac analize tresci commitow dla kazdej osoby
-# MOZE ZANALIZOWAĆ TO JAKO TAKI "WORD CLOUD"??
+# TODO dodac opisy osi na wykresach wszystkich np. Nazwa repozytoriów, ilość commitów
 gitStatsServer <- function(input, output, session) {
   
   processData <- function(lines, person) {
@@ -126,7 +124,7 @@ gitStatsServer <- function(input, output, session) {
   
   output$calendar_heatmap=renderPlot({
     pdff=personDf_with_date_groupped()
-    calendarHeat(pdff$date, pdff$count, varname = "Commits")
+    calendarHeat(pdff$date, pdff$count, varname = "Commits", color="w2b")
     
   })
   
