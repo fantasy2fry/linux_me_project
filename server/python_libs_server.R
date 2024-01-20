@@ -20,6 +20,24 @@ pythonLibsServer <- function(input, output, session){
   }
   df=init()
   
+  loadDependencies <- function(person) {
+    PATH <- paste("data/python-libs/dependencies/", person, "_dep.json", 
+                  sep = "")
+    list <- fromJSON(file = PATH)
+    packages <- sapply(list, function(x) x$package$key)
+    dependencies <- sapply(list, function(x) sapply(x$dependencies, function(y) y$key))
+    dependencies <- sapply(dependencies, function(x) paste(unlist(x), collapse = ", "))
+    data.frame(person = rep(person, times = length(list)),
+               packages,
+               dependencies) %>%
+      separate_longer_delim(dependencies, delim = ", ") %>% 
+      filter(dependencies != "")
+  }
+  
+  dependenciesDF <- rbind(loadDependencies('kuba'),
+                          
+                          loadDependencies('norbert'))
+  
   first_letters_df = reactive({
     df %>% 
       mutate(packages=str_sub(lib,1,input$prefixy_python)) %>% 
@@ -33,6 +51,22 @@ pythonLibsServer <- function(input, output, session){
     df %>%
       group_by(person) %>%
       summarise(number_of_packages=n())
+  })
+  
+  dependenciesNetworkDF <- reactive({
+    dependenciesDF %>% 
+      filter(person == case_when(input$person_python == "Mateusz" ~ "mateusz",
+                                 input$person_python == "Norbert" ~ "norbert",
+                                 input$person_python == "Kuba" ~ "kuba")) %>% 
+      select(!person)
+  })
+  
+  mostFrequentDependencies <- reactive({
+    dependenciesNetworkDF() %>% 
+      group_by(dependencies) %>% 
+      summarise(frequency = n()) %>% 
+      slice_max(frequency, n = input$numberOfDependencies) %>% 
+      pull(dependencies)
   })
   
   output$plot_how_many_packages=renderPlotly({
@@ -55,5 +89,10 @@ pythonLibsServer <- function(input, output, session){
       config(displayModeBar = FALSE)
     
   })
+  
+  output$dependenciesNetwork <- renderSimpleNetwork(
+    simpleNetwork(dependenciesNetworkDF() %>% 
+                    filter(dependencies %in% mostFrequentDependencies()))
+  )
   
 }

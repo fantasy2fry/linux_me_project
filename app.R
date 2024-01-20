@@ -11,6 +11,7 @@ library(shinycssloaders)
 library(networkD3)
 library(tidyr)
 library(heatmaply)
+library(rjson)
 #Load the function to the local through Paul Bleicher's GitHub page
 source("imports/calendarheatmap.R")
 
