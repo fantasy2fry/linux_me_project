@@ -67,25 +67,30 @@ gitStatsServer <- function(input, output, session) {
   
   output$how_many_repos=renderInfoBox({
     infoBox("Total Repositories", 
-            paste0(n_distinct(personDf()$repo)))
+            paste0(n_distinct(personDf()$repo)), 
+            icon = icon("hashtag"))
   })
   output$total_commits_person=renderInfoBox({
     infoBox("Total Commits By Person", 
-            paste0(nrow(personDf_only_his_commits())))
+            paste0(nrow(personDf_only_his_commits())), 
+            icon = icon("user"))
   })
   output$average_commits_per_repo_by_person=renderInfoBox({
     infoBox("Average Commits By Person Per Repo", 
-            paste0(round(nrow(personDf_only_his_commits())/n_distinct(personDf()$repo),2)))
+            paste0(round(nrow(personDf_only_his_commits())/n_distinct(personDf()$repo),2)),
+            icon = icon("flag"))
   })
   
   output$unique_contributors=renderInfoBox({
     infoBox("Unique Contributors", 
-            paste0(n_distinct(personDf()$author)))
+            paste0(n_distinct(personDf()$author)),
+            icon = icon("star"))
   })
   
   output$average_total_commits_per_repo=renderInfoBox({
     infoBox("Average Commits Per Repo", 
-            paste0(round(x=nrow(personDf())/n_distinct(personDf()$repo),digits=2)))
+            paste0(round(x=nrow(personDf())/n_distinct(personDf()$repo),digits=2)),
+            icon = icon("paperclip"))
   })
   output$most_popular_day_for_commit=renderInfoBox({
     infoBox("Most Popular Day For Commit", 
@@ -94,7 +99,8 @@ gitStatsServer <- function(input, output, session) {
                      summarise(count = n()) %>% 
                      arrange(desc(count)) %>% 
                      slice(1) %>% 
-                     pull(day)))
+                     pull(day)),
+            icon = icon("calendar-days"))
   })
   output$most_popular_contrybutor=renderInfoBox({
     infoBox("Most Popular Contributor", 
@@ -103,13 +109,15 @@ gitStatsServer <- function(input, output, session) {
                      summarise(count = n()) %>% 
                      arrange(desc(count)) %>% 
                      slice(1) %>% 
-                     pull(author)))
+                     pull(author)),
+            icon = icon("user-check"))
   })
   
   # average number of words per commit
   output$average_number_of_words_per_commit=renderInfoBox({
     infoBox("Average Number Of Words Per Commit", 
-            paste0(round(nrow(personDf_only_his_commits_messages())/nrow(personDf_only_his_commits()),2)))
+            paste0(round(nrow(personDf_only_his_commits_messages())/nrow(personDf_only_his_commits()),2)),
+            icon = icon("spell-check"))
   })
   #NAME OF THE REPO WITH THE MOST COMMITS
   output$repo_with_the_most_commits=renderInfoBox({
@@ -119,7 +127,8 @@ gitStatsServer <- function(input, output, session) {
                      summarise(count = n()) %>% 
                      arrange(desc(count)) %>% 
                      slice(1) %>% 
-                     pull(repo)))
+                     pull(repo)),
+            icon = icon("house-circle-check"))
   })
   
   output$calendar_heatmap=renderPlot({

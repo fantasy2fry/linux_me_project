@@ -68,7 +68,8 @@ rLibsServer <- function(input, output, session) {
       "R version", 
       personDF() %>% 
         filter(Package == 'base') %>% 
-        pull(Version)
+        pull(Version),
+      icon = icon("star")
     )
   })
   
@@ -76,14 +77,16 @@ rLibsServer <- function(input, output, session) {
     infoBox(
       "All packages",
       personDF() %>% 
-        nrow()
+        nrow(),
+      icon = icon("hashtag")
     )
   })
   
   output$basePackages <- renderInfoBox({
     infoBox(
       "Base packages",
-      paste(round(basePackages() * 100, digits = 2), "%")
+      paste(round(basePackages() * 100, digits = 2), "%"),
+      icon = icon("pen")
     )
   })
   
