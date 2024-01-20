@@ -69,7 +69,7 @@ gitStatsUI <- function(id) {
                title="Git Enthusiasts",
                width=NULL,
                includeMarkdown(
-                 "- **Norbert, Kuba, and Mateusz** are currently novice users of Git and GitHub.
+                 "- **Norbert, Kuba, and Mateusz** are currently users of Git and GitHub.
 - **Norbert** also uses Bitbucket alongside GitHub.
 - They primarily employ Git for coursework at their university, focusing on subjects such as *Object-Oriented Programming in Java* and *Data Visualization Techniques*.
 - The trio has developed a strong liking for this version control system, seamlessly integrating it with their enthusiasm for working in the terminal and using Linux.
