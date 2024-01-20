@@ -154,7 +154,7 @@ gitStatsServer <- function(input, output, session) {
       arrange(desc(count)) %>%
       head(input$number_of_most_used_words) %>%
       plot_ly(y = ~reorder(message, -count), x = ~count, type = 'scatter', mode = 'markers', marker = list(size = 10))%>%
-      layout(yaxis = list(title = ''), xaxis = list(title = '')) %>% 
+      layout(yaxis = list(title = 'Word in commits'), xaxis = list(title = 'Number of occurrences')) %>% 
       config(displayModeBar = FALSE)
   })
   
@@ -165,8 +165,8 @@ gitStatsServer <- function(input, output, session) {
       summarise(count = n()) %>%
       arrange(desc(count)) %>%
       head(input$number_of_repos) %>% 
-      plot_ly(x = ~reorder(repo, -count), y = ~count, type = 'bar', marker = list(color = 'rgb(26, 118, 255)')) %>%
-      layout(yaxis = list(title = '', type="log"), xaxis = list(title = '')) %>% 
+      plot_ly(x = ~reorder(repo, -count), y = ~count, type = 'bar', marker = list(color = "#3c8dbc")) %>%
+      layout(yaxis = list(title = 'Number of commits', type="log"), xaxis = list(title = 'Repository')) %>% 
       config(displayModeBar = FALSE)
   })
   
