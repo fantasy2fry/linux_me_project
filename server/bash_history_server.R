@@ -1,8 +1,3 @@
-# TODO ustawic ikonki dla render info boxow
-# TODO ustawic odpowiednie naglowki kolumn w tabelce
-# TODO ustawic max dlugosc na label przy wykresie
-# TODO theme wykresu
-
 bashHistoryServer <- function(input, output, session) {
   
   # INITIALIZATION AND HELPERS
@@ -62,25 +57,25 @@ bashHistoryServer <- function(input, output, session) {
   
   # OUTPUTS
   output$sudoFraction <- renderInfoBox({
-    infoBox("Sudo Usage", paste(sudoFraction(), "%"), icon = icon("credit-card"))
+    infoBox("Sudo Usage", paste(sudoFraction(), "%"), icon = icon("user-tie"))
   })
   
   output$uniqueCommands <- renderInfoBox({
-    infoBox("Unique Commands", length(unique(personDf()$command)))
+    infoBox("Unique Commands", length(unique(personDf()$command)), icon = icon("star"))
   })
   
   output$totalCommands <- renderInfoBox({
-    infoBox("Total Commands", personDfLength())
+    infoBox("Total Commands", personDfLength(), icon = icon("hashtag"))
   })
   
   output$commandsUsagePlot <- renderPlotly({
-    personCommandsUsage() %>% 
+    p <- personCommandsUsage() %>% 
       slice_max(order_by = frac, n = input$hottestCommands, with_ties = FALSE) %>% 
       ggplot(aes(x = command, y = frac)) +
         geom_segment(aes(x = command, xend = command, y = 0, yend = frac), color = "orange") +
         geom_point(color = "orange", size = 4) +
         labs(
-          x = element_blank(),
+          x = "Command",
           y = "Usage fraction"
         ) +
         theme_minimal() +
@@ -93,6 +88,8 @@ bashHistoryServer <- function(input, output, session) {
           panel.border = element_blank(),
           axis.ticks.y = element_blank()
         )
+      ggplotly(p) %>% 
+      config(displayModeBar = FALSE)
   })
   
   output$commandsUsageTable <- DT::renderDataTable({
