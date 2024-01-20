@@ -2132,3 +2132,1284 @@
  2132  history 
  2133  ls
  2134  history > mateusz_bash_history.txt
+ 2135  cd ..
+ 2136  ls
+ 2137  cd python-libs/
+ 2138  ls
+ 2139  pip freeze > mateusz_python_libs.txt
+ 2140  ls
+ 2141  cat mateusz_python_libs.txt 
+ 2142  cd ..
+ 2143  cd bash-history/
+ 2144  cat mateusz_bash_history.txt 
+ 2145  cd ..
+ 2146  ls
+ 2147  cd r-libs/
+ 2148  ls
+ 2149  cd ..
+ 2150  ls
+ 2151  cd system-packages/
+ 2152  ls
+ 2153  apt list --installed > mateusz_system_packages.txt
+ 2154  ls
+ 2155  ls -l
+ 2156  ls -lh
+ 2157  cat mateusz_system_packages.txt 
+ 2158  cd ..
+ 2159  ls
+ 2160  cd ..
+ 2161  ls
+ 2162  git status
+ 2163  git add .
+ 2164  git origin
+ 2165  git branch -v
+ 2166  git status
+ 2167  git commit -m "mateusz data for bash, python and system"
+ 2168  git push
+ 2169  git log
+ 2170  cd
+ 2171  ls
+ 2172  cd -
+ 2173  ls
+ 2174  cd ..
+ 2175  ls
+ 2176  mkdir bash_test
+ 2177  cd bash_test/
+ 2178  ls
+ 2179  touch collect_git_stats.sh
+ 2180  vim collect_git_stats.sh 
+ 2181  ls
+ 2182  vim collect_git_stats.sh 
+ 2183  ./collect_git_stats.sh 
+ 2184  vim collect_git_stats.sh 
+ 2185  gedit collect_git_stats.sh 
+ 2186  chmod +x collect_git_stats.sh 
+ 2187  ./collect_git_stats.sh 
+ 2188  gedit collect_git_stats.sh 
+ 2189  ls
+ 2190  cd
+ 2191  ls
+ 2192  cd -
+ 2193  cd Downloads/
+ 2194  ls
+ 2195  mv github-recovery-codes.txt ../Documents/
+ 2196  cd ../Documents/
+ 2197  ls
+ 2198  cat github-recovery-codes.txt 
+ 2199  exit
+ 2200  git log
+ 2201  git log .
+ 2202  git log -- 
+ 2203  find ~/ -maxdepth 3 -name .git -execdir git log \;
+ 2204  find ~/ -maxdepth 3 -name .git -execdir git log; echo . \;
+ 2205  find ~/ -maxdepth 3 -name .git -execdir sh -c 'echo {} && git log -n 1' \;
+ 2206  find ~/ -maxdepth 3 -name .git -execdir sh -c 'echo "Processing $(realpath "{}")" && git log -n 1' \;
+ 2207  cd Mini/twd/
+ 2208  ls
+ 2209  cd bash_test/
+ 2210  ls
+ 2211  vim collect_git_stats.sh 
+ 2212  gedit collect_git_stats.sh 
+ 2213  ls -l
+ 2214  ./collect_git_stats.sh 
+ 2215  q
+ 2216  gedit collect_git_stats.sh 
+ 2217  ./collect_git_stats.sh 
+ 2218  ls
+ 2219  cat result.txt 
+ 2220  gedit collect_git_stats.sh 
+ 2221  ./collect_git_stats.sh 
+ 2222  ls -lh
+ 2223  gedit result.txt 
+ 2224  gedit collect_git_stats.sh 
+ 2225  ./collect_git_stats.sh 
+ 2226  ls
+ 2227  cat result_test.txt 
+ 2228  gedit collect_git_stats.sh 
+ 2229  ./collect_git_stats.sh 
+ 2230  cat result_test.txt 
+ 2231  gedit collect_git_stats.sh 
+ 2232  ./collect_git_stats.sh 
+ 2233  ls
+ 2234  cat result.txt 
+ 2235  gedit collect_git_stats.sh 
+ 2236  ./collect_git_stats.sh
+ 2237  gedit collect_git_stats.sh 
+ 2238  cd ..
+ 2239  ls
+ 2240  cd linux_me_project/
+ 2241  ls
+ 2242  gedit README.md 
+ 2243  git pull
+ 2244  git add README.md 
+ 2245  git status
+ 2246  git commit -m "git stats command"
+ 2247  git push
+ 2248  cd ..
+ 2249  ls
+ 2250  cd hw3
+ 2251  ls
+ 2252  cd KarandysMateusz/
+ 2253  ls
+ 2254  cd ..
+ 2255  ls
+ 2256  cd KarandysMateusz/
+ 2257  ls
+ 2258  cat HW_2Karandys.Rmd 
+ 2259  cd ..
+ 2260  ls
+ 2261  mkdir HW_4
+ 2262  cd HW_4/
+ 2263  mkdir KarandysMateusz
+ 2264  ;s
+ 2265  cd KarandysMateusz/
+ 2266  cd ../..
+ 2267  ls
+ 2268  cp KarandysMateusz/HW_2Karandys.Rmd HW_4/KarandysMateusz/
+ 2269  cd HW_4/KarandysMateusz/
+ 2270  rstudio 
+ 2271  cd ..
+ 2272  cd linux_me_project/
+ 2273  ls
+ 2274  git status
+ 2275  git branch
+ 2276  git add .
+ 2277  git commit -m "init"
+ 2278  git push origin dashboard
+ 2279  cp ../../KarandysMateusz/bad_plot.png .
+ 2280  ls
+ 2281  cd HW_2Karandys_files/
+ 2282  ls
+ 2283  cd ..
+ 2284  ls
+ 2285  rm -r HW_2Karandys_files/
+ 2286  rm HW_2Karandys.pdf 
+ 2287  ls
+ 2288  html HW_2Karandys.html 
+ 2289  cd
+ 2290  ls
+ 2291  cd Projects/RedditClone/
+ 2292  code .
+ 2293  cd ..
+ 2294  cd Mini/twd/
+ 2295  ls
+ 2296  cd linux_me_project/
+ 2297  git pull
+ 2298  ls
+ 2299  cd data/
+ 2300  ls
+ 2301  cd bash-history/
+ 2302  ls
+ 2303  cat mateusz_bash_history.txt 
+ 2304  cd ..
+ 2305  cd linux_me_project/
+ 2306  ls
+ 2307  git pull
+ 2308  git checkout -b dashboard
+ 2309  rstudio 
+ 2310  cd Projects/RedditClone/
+ 2311  code .
+ 2312  git status
+ 2313  git add src/main/resources/.
+ 2314  git commit -m "post fragment"
+ 2315  git status
+ 2316  git add src/main/resources/.
+ 2317  git commit -m "comment fragment"
+ 2318  git add src/main/resources/.
+ 2319  git commit -m "rename css files"
+ 2320  git status
+ 2321  git add src/main/resources/.
+ 2322  git commit -m "rename style.css to header.css""
+ 2323  git status
+ 2324  git commit -m "rename style.css to header.css"
+ 2325  cd
+ 2326  eclipse/eclipse/eclipse 
+ 2327  convert
+ 2328  convert stud_front.jpg stud_back.jpg -append stud_result.jpg
+ 2329  ls
+ 2330  exit
+ 2331  cd Projects/RedditClone/
+ 2332  git status
+ 2333  git add .
+ 2334  git commit -m "dynamically load commuinities list"
+ 2335  git add .
+ 2336  git commit -m "fix header width"
+ 2337  git push
+ 2338  cd Projects/RedditClone/
+ 2339  code .
+ 2340  git status
+ 2341  git add src/main/resources/.
+ 2342  git commit -m "add sidebar"
+ 2343  git add .
+ 2344  git commit -m "fix login controller, fix dbinit"
+ 2345  git push
+ 2346  ls
+ 2347  git status
+ 2348  cd
+ 2349  eclipse/eclipse/eclipse 
+ 2350  cd Mini/twd/linux_me_project/
+ 2351  git pull
+ 2352  git branch
+ 2353  git checkout master 
+ 2354  git pull
+ 2355  git branch -d dashboard 
+ 2356  git branch
+ 2357  ls
+ 2358  cd Downloads/
+ 2359  ls
+ 2360  mv shiny.pdf ../Documents/CheatSheets/
+ 2361  cd ../Documents/CheatSheets/
+ 2362  ls
+ 2363  cd Mini/twd/linux_me_project/
+ 2364  git pull
+ 2365  rstudio 
+ 2366  rstudio .
+ 2367  git status
+ 2368  git add .
+ 2369  git commit -m "add ui ids"
+ 2370  git push
+ 2371  git status
+ 2372  git add .
+ 2373  git commit -m "small changes in bash tab"
+ 2374  git push
+ 2375  cd Projects/RedditClone/
+ 2376  ls
+ 2377  cd src
+ 2378  ls
+ 2379  cd test/
+ 2380  ls
+ 2381  mkdir resources
+ 2382  ls
+ 2383  cd Projects/RedditClone/
+ 2384  git status
+ 2385  git add .
+ 2386  git commit -m "add tests"
+ 2387  git status
+ 2388  git add .
+ 2389  git commit -m "dynamically load community content"
+ 2390  git add .
+ 2391  git commit -m "dynamically load posts for community"
+ 2392  git push
+ 2393  eclipse/eclipse/eclipse 
+ 2394  cd Mini/twd/
+ 2395  ls
+ 2396  cd linux_me_project/
+ 2397  git pull
+ 2398  git add app.R 
+ 2399  git commit -m "dplyr import"
+ 2400  git push
+ 2401  open ~/Documents/CheatSheets/shiny.pdf 
+ 2402  open ~/Documents/CheatSheets/ggplot.pdf 
+ 2403  git add app.R 
+ 2404  git commit -m "add libraries"
+ 2405  git add .
+ 2406  git commit -m "bash history tab layout"
+ 2407  git push
+ 2408  exit
+ 2409  rstudio
+ 2410  exit
+ 2411  cd Projects/RedditClone/
+ 2412  ls
+ 2413  git add .
+ 2414  git commit -m "modify services and add integration tests"
+ 2415  git add .
+ 2416  git commit -m "remove redunant imports"
+ 2417  git status
+ 2418  git add .
+ 2419  git commit -m "add relations between tables in db"
+ 2420  exit
+ 2421  eclipse/eclipse/eclipse 
+ 2422  exit
+ 2423  eclipse/eclipse/eclipse 
+ 2424  cd Projects/RedditClone/
+ 2425  git branch
+ 2426  git checkout -b db-associations
+ 2427  git add .
+ 2428  git commit -m "fix associations between entities community, post and user"
+ 2429  git log
+ 2430  git reset --hard
+ 2431  eclipse/eclipse/eclipse 
+ 2432  cd Mini/twd/linux_me_project/
+ 2433  rstudio
+ 2434  rstudio 
+ 2435  exit
+ 2436  git pull
+ 2437  git status
+ 2438  git add .
+ 2439  git commit -m "reactivity and basic plot"
+ 2440  git push
+ 2441  cd ..
+ 2442  ls
+ 2443  cd bash_test/
+ 2444  ls
+ 2445  cat result.txt 
+ 2446  mv result.txt ../linux_me_project/data/git-stats/
+ 2447  cd ../linux_me_project/data/git-stats/
+ 2448  ls
+ 2449  cat tmp.txt 
+ 2450  rm tmp.txt 
+ 2451  mv result.txt mateusz_git_stats.txt
+ 2452  ls
+ 2453  cd ..
+ 2454  git add .gitignore 
+ 2455  git status
+ 2456  git rm --cached .Rhistory 
+ 2457  git status
+ 2458  git commit -m "untrack .Rhistory"
+ 2459  git push
+ 2460  git log
+ 2461  git status 
+ 2462  git add data/bash-history/ server/bash_history_server.R 
+ 2463  git commit -m "add temporary kuba's file and move initialization to server"
+ 2464  git status 
+ 2465  git add data/
+ 2466  git commit -m "add temporary files"
+ 2467  git add .
+ 2468  git commit -m "data preprocessing for git statistics server"
+ 2469  git push
+ 2470  history 
+ 2471  cd ..
+ 2472  cd bash_test/
+ 2473  ls
+ 2474  gedit collect_git_stats.sh 
+ 2475  ./collect_git_stats.sh 
+ 2476  ls
+ 2477  cat result_test.txt 
+ 2478  vim collect_git_stats.sh 
+ 2479  cat collect_git_stats.sh 
+ 2480  vim collect_git_stats.sh 
+ 2481  cd Mini/twd/linux_me_project/
+ 2482  cd ../bash_test/
+ 2483  ls
+ 2484  cat collect_git_stats.sh 
+ 2485  gedit collect_git_stats.sh 
+ 2486  ./collect_git_stats.sh 
+ 2487  cat result_test.txt 
+ 2488  gedit collect_git_stats.sh 
+ 2489  ./collect_git_stats.sh > mateusz_git_stats.txt
+ 2490  ls
+ 2491  cat mateusz_git_stats.txt 
+ 2492  mv mateusz_git_stats.txt ../linux_me_project/data/git-stats/
+ 2493  cd ../linux_me_project/data/git-stats/
+ 2494  ls
+ 2495  cat mateusz_git_stats.txt 
+ 2496  cd Mini/twd/linux_me_project/
+ 2497  rstudio
+ 2498  git add .
+ 2499  git commit -m "update date in git statistics"
+ 2500  git push
+ 2501  exit
+ 2502  cd Mini/twd/linux_me_project/
+ 2503  git pull
+ 2504  open ~/Documents/CheatSheets/shiny.pdf 
+ 2505  git add .
+ 2506  git commit -m "heatmap sketch"
+ 2507  git push
+ 2508  cd Projects/RedditClone/
+ 2509  git status
+ 2510  git add src/main/.
+ 2511  git status
+ 2512  git commit -m "default view"
+ 2513  eclipse/eclipse/eclipse 
+ 2514  cd Projects/RedditClone/
+ 2515  git status
+ 2516  git add .
+ 2517  git commit -m "fix associations and tests"
+ 2518  cd Documents/
+ 2519  cat git_token.txt 
+ 2520  exit
+ 2521  cd Projects/RedditClone/
+ 2522  code .
+ 2523  git add .
+ 2524  git branch
+ 2525  git commit -m "joinig community feature"
+ 2526  git branch -d migrate-to-rest 
+ 2527  git push
+ 2528  cd
+ 2529  eclipse/eclipse/eclipse 
+ 2530  ec
+ 2531  eclipse/eclipse/eclipse 
+ 2532  cd Mini/mntmp/
+ 2533  ls
+ 2534  mkdir pro2
+ 2535  cd pro2/
+ 2536  texstudio 
+ 2537  exit
+ 2538  df -h
+ 2539  cd Projects/RedditClone/
+ 2540  ls
+ 2541  cd src/
+ 2542  ls
+ 2543  cd main/
+ 2544  ls
+ 2545  cd resources/
+ 2546  ;s
+ 2547  ls
+ 2548  cd templates/
+ 2549  ls
+ 2550  cd fragments/
+ 2551  gedit header.html 
+ 2552  exit
+ 2553  ls
+ 2554  code .
+ 2555  cd ..
+ 2556  cd RedditClone/src/main/resources/static/
+ 2557  ls
+ 2558  cd css/
+ 2559  gedit header.css 
+ 2560  cd
+ 2561  cd Projects/FirstReactApp/
+ 2562  cd RedditClone/src/main/resources/static/
+ 2563  cd ../RedditClone/src/main/resources/static/
+ 2564  cd css/
+ 2565  sudo apt install xclip
+ 2566  xclip -sel c header.css 
+ 2567  cd -
+ 2568  cd ~/Projects/FirstReactApp/
+ 2569  cd ../RedditClone/src/main/resources/static/css/
+ 2570  cd -
+ 2571  xclip -sel c ../RedditClone/src/main/resources/static/css/default.css 
+ 2572  npm install @mui/material @emotion/react @emotion/styled
+ 2573  npm install @mui/icons-material
+ 2574  exit
+ 2575  curl --version
+ 2576  sudo apt update
+ 2577  sudo apt upgrade
+ 2578  df -h
+ 2579  sudo apt autoremove 
+ 2580  df -h
+ 2581  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+ 2582  export NVM_DIR="$HOME/.nvm"
+ 2583  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+ 2584  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+ 2585  command -v nvm
+ 2586  nvm install --lts
+ 2587  nvm use --lts
+ 2588  node -v
+ 2589  node
+ 2590  code
+ 2591  code 
+ 2592  cd Projects/
+ 2593  ls
+ 2594  mkdir FirstReactApp
+ 2595  rm -r FirstReactApp/
+ 2596  npm --version
+ 2597  npm create vito@latest FirstReactApp -- --template react
+ 2598  npm create vite@latest FirstReactApp -- --template react
+ 2599  cd First
+ 2600  npm install
+ 2601  cd FirstReactApp/
+ 2602  npm install
+ 2603  npm run dev
+ 2604  history
+ 2605  xclip -sel c ~/Documents/git_token.txt 
+ 2606  cd Mini/twd/linux_me_project/
+ 2607  git pull
+ 2608  git branch
+ 2609  git checkout -b bash-history-features
+ 2610  history
+ 2611  man disown
+ 2612  disown 
+ 2613  rstudio & disown
+ 2614  cd
+ 2615  open ./Documents/CheatSheets/ggplot.pdf 
+ 2616  open ./Documents/CheatSheets/shiny.pdf 
+ 2617  cd Mini/twd/linux_me_project/
+ 2618  git add .
+ 2619  git commit -m "add boxes and dt table"
+ 2620  git status
+ 2621  git add app.R 
+ 2622  git commit -m "add styles for tabBox"
+ 2623  git checkout master 
+ 2624  git checkout bash-history-features 
+ 2625  git branch
+ 2626  ls -a
+ 2627  cat .gitignore 
+ 2628  cd ui/
+ 2629  ls -a
+ 2630  cd ..
+ 2631  git status
+ 2632  git add .
+ 2633  git commit -m "move styles to app.R"
+ 2634  git status
+ 2635  git checkout master 
+ 2636  git pull
+ 2637  git branch
+ 2638  git merge bash-history-features 
+ 2639  git push
+ 2640  git status
+ 2641  git branch
+ 2642  git diff
+ 2643  git add .
+ 2644  git commit -m "column layout"
+ 2645  git pish
+ 2646  git push
+ 2647  history
+ 2648  git branch
+ 2649  git checkout bash-history-features 
+ 2650  git checkout master 
+ 2651  git branch -d bash-history-features 
+ 2652  git checkout -b "bash-history-features-2"
+ 2653  git branch
+ 2654  git status
+ 2655  git add .
+ 2656  git commit -m "add shinycssloaders spinners"
+ 2657  git status
+ 2658  cat linux_me_project.Rproj 
+ 2659  cd Mini/twd/linux_me_project/
+ 2660  git status
+ 2661  ls -a
+ 2662  cd .Rproj.user/
+ 2663  ls
+ 2664  cd ..
+ 2665  rm -rf linux_me_project.Rproj .Rproj.user/
+ 2666  ls
+ 2667  git status
+ 2668  git diff
+ 2669  git restore .gitignore
+ 2670  ls -a
+ 2671  cat .gitignore 
+ 2672  git status
+ 2673  ls -a
+ 2674  rm -rf .Rproj.user/
+ 2675  git status
+ 2676  history
+ 2677  cd ~/Documents/
+ 2678  ls
+ 2679  cd CheatSheets/
+ 2680  ls
+ 2681  gedit shiny-extensions.txt
+ 2682  cd -
+ 2683  cd ..
+ 2684  cd Mini/twd/linux_me_project/
+ 2685  cd ..
+ 2686  ls
+ 2687  touch dupa.R
+ 2688  cd linux_me_project/data/
+ 2689  ls
+ 2690  cd bash-history/
+ 2691  ls
+ 2692  cat mateusz_bash_history.txt | head n25
+ 2693  cat mateusz_bash_history.txt | head -n25
+ 2694  cd -
+ 2695  cd ..
+ 2696  cd data/bash-history/
+ 2697  cat mateusz_bash_history.txt | grep "-a"
+ 2698  cat mateusz_bash_history.txt | grep -a
+ 2699  cat mateusz_bash_history.txt
+ 2700  cat mateusz_bash_history.txt | grep '-a'
+ 2701  man grep
+ 2702  cat mateusz_bash_history.txt | head
+ 2703  cat mateusz_bash_history.txt | head -n1000
+ 2704  cd -
+ 2705  git branch 
+ 2706  git checkout master 
+ 2707  git branch 
+ 2708  git add .
+ 2709  git commit -m "write consecutiveCombinations function"
+ 2710  git status 
+ 2711  git checkout mas
+ 2712  git pull
+ 2713  git branch 
+ 2714  git checkout master 
+ 2715  git pull
+ 2716  git checkout bash-history-features-2 
+ 2717  git branch
+ 2718  rstudio 
+ 2719  cd Mini/twd/linux_me_project/
+ 2720  git branch 
+ 2721  git status
+ 2722  git add .
+ 2723  git commit -m "most used commands sequences table"
+ 2724  git status
+ 2725  git add .
+ 2726  git commit -m "sequences table description"
+ 2727  git checkout master 
+ 2728  git pull
+ 2729  git merge bash-history-features-2 
+ 2730  git push
+ 2731  git branch -d bash-history-features-2 
+ 2732  git checkout -b sequences-table-use-arg1
+ 2733  git branch
+ 2734  git branch -d sequences-table-use-arg1 
+ 2735  git branch
+ 2736  git status
+ 2737  git checkout master 
+ 2738  git branch
+ 2739  git branch -d sequences-table-use-arg1 
+ 2740  git pull
+ 2741  git status 
+ 2742  git add .
+ 2743  git diff
+ 2744  git restore --cached .
+ 2745  git restore --staged .
+ 2746  git status
+ 2747  git diff
+ 2748  git add .
+ 2749  git commit -m "remove todo"
+ 2750  git branch
+ 2751  git push
+ 2752  git checkout -b bash-history-features
+ 2753  exit
+ 2754  exit
+ 2755  history
+ 2756  xclip -sel c ~/Documents/git_token.txt 
+ 2757  exit
+ 2758  cd Mini/twd/
+ 2759  ls
+ 2760  rm dupa.R 
+ 2761  mkdir lab11
+ 2762  cd lab11/
+ 2763  jupyter lab 
+ 2764  pip install numpy
+ 2765  pip install pandas
+ 2766  cd ..
+ 2767  ls
+ 2768  exit
+ 2769  cd Mini/mntmp/
+ 2770  cd pro2/
+ 2771  ls
+ 2772  texstudio 
+ 2773  pip install matplotlib
+ 2774  ls
+ 2775  cd Mini/twd/
+ 2776  ls
+ 2777  cd KarandysMateusz/
+ 2778  ls
+ 2779  rm .
+ 2780  rm -a
+ 2781  rm  *
+ 2782  ls
+ 2783  jupyter lab
+ 2784  exit
+ 2785  cd Projects/FirstReactApp/
+ 2786  code .
+ 2787  npm run dev
+ 2788  eclipse/eclipse/eclipse 
+ 2789  cd Projects/RedditClone/
+ 2790  ls
+ 2791  ls -a
+ 2792  cat .project 
+ 2793  rm .project 
+ 2794  ls -a
+ 2795  ls -al
+ 2796  ls
+ 2797  ls -a
+ 2798  cd ..
+ 2799  rm -rf RedditClone/
+ 2800  ls
+ 2801  rm -rf RedditClone/
+ 2802  ls
+ 2803  cd RedditClone/
+ 2804  ls -la
+ 2805  git status
+ 2806  cd
+ 2807  ls -a
+ 2808  cd .jdks/
+ 2809  ;s
+ 2810  ls -a
+ 2811  cd corretto-1.8.0_392/
+ 2812  ;s
+ 2813  ls
+ 2814  cd ..
+ 2815  cd
+ 2816  cd Projects/RedditClone/
+ 2817  ls
+ 2818  git clone https://github.com/vecel/reddit-clone.git
+ 2819  ls
+ 2820  ls -la
+ 2821  rm -rf reddit-clone/
+ 2822  ls
+ 2823  ls -la
+ 2824  rm -rf .git
+ 2825  ls
+ 2826  ls -la
+ 2827  git clone https://github.com/vecel/reddit-clone.git
+ 2828  ls
+ 2829  ls -la
+ 2830  rm -rf reddit-clone/
+ 2831  git init
+ 2832  rm -rf .git
+ 2833  git init
+ 2834  cd ..
+ 2835  ls
+ 2836  rm -rf RedditClone/
+ 2837  git clone https://github.com/vecel/reddit-clone.git RedditClone
+ 2838  ls
+ 2839  cd RedditClone/
+ 2840  ls
+ 2841  ls -a
+ 2842  git status
+ 2843  cd Projects/RedditClone/
+ 2844  git status
+ 2845  git branch
+ 2846  cd ..
+ 2847  ls
+ 2848  cd First
+ 2849  cd FirstReactApp/
+ 2850  ls
+ 2851  cd public/
+ 2852  ls
+ 2853  cd ..
+ 2854  cd src/
+ 2855  ls
+ 2856  cd ..
+ 2857  cd..
+ 2858  cd ..
+ 2859  cd RedditClone/
+ 2860  ls
+ 2861  curl http://localhost:8080/
+ 2862  git branch
+ 2863  git checkout -b "migrate to rest"
+ 2864  git checkout -b migrate-to-rest
+ 2865  git branch
+ 2866  git checkout main 
+ 2867  git status
+ 2868  git checkout migrate-to-rest 
+ 2869  git status
+ 2870  code .
+ 2871  git checkout main 
+ 2872  git branch -d migrate-to-rest 
+ 2873  ls
+ 2874  git checkout -b migrate-to-rest
+ 2875  git pull
+ 2876  git checkout main 
+ 2877  git pull
+ 2878  gradle init
+ 2879  ./gradlew init
+ 2880  gradle init
+ 2881  ll
+ 2882  gradle init
+ 2883  gradle --stacktrace init
+ 2884  gradle init
+ 2885  ls
+ 2886  mv build.gradle ..
+ 2887  cd ..
+ 2888  mv build.gradle RedditClone/
+ 2889  mv RedditClone/pom.xml .
+ 2890  cd RedditClone/
+ 2891  ./gradlew clean
+ 2892  ./gradlew build
+ 2893  cat .classpath 
+ 2894  git status
+ 2895  git restore
+ 2896  git restore .
+ 2897  cat .gitignore 
+ 2898  cat .classpath 
+ 2899  ls
+ 2900  ll
+ 2901  ls -a
+ 2902  cd .idea/
+ 2903  ls
+ 2904  cd ..
+ 2905  ls
+ 2906  ls -a
+ 2907  cat .project 
+ 2908  gradle init
+ 2909  ./gradlew clean
+ 2910  ./gradlew build
+ 2911  gradle .
+ 2912  echo $JAVA_HOME
+ 2913  ./gradlew clean
+ 2914  ./gradlew build
+ 2915  gradle init
+ 2916  sudo apt upgrade gradle
+ 2917  rm -rf .
+ 2918  ls
+ 2919  rm -rf 
+ 2920  ls
+ 2921  rm -rf *
+ 2922  ls
+ 2923  ls -a
+ 2924  git pull
+ 2925  ls
+ 2926  ls -a
+ 2927  cd ..
+ 2928  ls
+ 2929  rm -rf RedditClone/
+ 2930  mkdir RedditClone
+ 2931  cd RedditClone/
+ 2932  ls
+ 2933  git clone https://github.com/vecel/reddit-clone.git
+ 2934  ls
+ 2935  ls -a
+ 2936  rm -rf reddit-clone/
+ 2937  cd ..
+ 2938  rm RedditClone/
+ 2939  rm -r RedditClone/
+ 2940  ls
+ 2941  git clone https://github.com/vecel/reddit-clone.git
+ 2942  mv reddit-clone/ RedditClone/
+ 2943  cd RedditClone/
+ 2944  ls
+ 2945  ls -a
+ 2946  ls
+ 2947  cd
+ 2948  ls
+ 2949  ls -a
+ 2950  cd Mini/
+ 2951  ls
+ 2952  mkdir redditclonedupa
+ 2953  cd redditclonedupa/
+ 2954  ~/intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 2955  ls -a
+ 2956  ~/intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 2957  cd ..
+ 2958  rm -r redditclonedupa/
+ 2959  cd
+ 2960  eclipse/eclipse/eclipse 
+ 2961  cd Projects/FirstReactApp/
+ 2962  code .
+ 2963  exit
+ 2964  cd ..
+ 2965  git status
+ 2966  git add app/.
+ 2967  git commit -m "Change Structure"
+ 2968  cd app/
+ 2969  npm install @mui/icons-material
+ 2970  npm install @mui/material @emotion/react @emotion/styled
+ 2971  cd ..
+ 2972  git status 
+ 2973  git add app/.
+ 2974  git commit -m "Rewrite header"
+ 2975  ls
+ 2976  ls src/
+ 2977  ls src/main/resources/templates/index.html 
+ 2978  ls src/main/resources/templates/
+ 2979  cd src/main/resources/templates/
+ 2980  cd fragments/
+ 2981  ls
+ 2982  cd ..
+ 2983  ls
+ 2984  cat index.html 
+ 2985  clear
+ 2986  cd -
+ 2987  cd ../..
+ 2988  cd
+ 2989  cd Projects/RedditClone/
+ 2990  cd src/main/resources/
+ 2991  ls
+ 2992  cd templates/
+ 2993  ls
+ 2994  code .
+ 2995  cd ..
+ 2996  ls
+ 2997  code .
+ 2998  cd -
+ 2999  cd ~/Projects/RedditClone/
+ 3000  ls
+ 3001  git status
+ 3002  git add app/.
+ 3003  git commit -m "Rewrite sidebar"
+ 3004  git push
+ 3005  git push --set-upstream origin react-frontend 
+ 3006  exit
+ 3007  cd
+ 3008  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3009  exit
+ 3010  cd eclipse/
+ 3011  ls
+ 3012  cd eclipse_workspace/
+ 3013  ls
+ 3014  cd Servers/
+ 3015  ls
+ 3016  cd 'Tomcat v10.0 Server at localhost-config'/
+ 3017  ls
+ 3018  cd
+ 3019  cd eclipse/
+ 3020  ls
+ 3021  cd eclipse
+ 3022  ls
+ 3023  cd configuration/
+ 3024  ls
+ 3025  cd
+ 3026  cd Projects/RedditClone/
+ 3027  l
+ 3028  ls -a
+ 3029  top
+ 3030  git status
+ 3031  git branch
+ 3032  git checkout -b react-frontend
+ 3033  git branch
+ 3034  ls
+ 3035  npx --version
+ 3036  npm --version
+ 3037  npx create-react-app app
+ 3038  ls
+ 3039  cd app
+ 3040  npm start
+ 3041  cd ..
+ 3042  git status
+ 3043  git add app/
+ 3044  git commit -m "Initial commit"
+ 3045  sudo apt update
+ 3046  npm update -g npm
+ 3047  man npm fund
+ 3048  npm fund
+ 3049  cd app/
+ 3050  code .
+ 3051  npm install react-router-dom
+ 3052  npm fund
+ 3053  npm audit fix
+ 3054  npm audit fix --force
+ 3055  npm run dev
+ 3056  npm start
+ 3057  exit
+ 3058  cd Projects/RedditClone/app/
+ 3059  code .
+ 3060  npm run dev
+ 3061  npm start
+ 3062  code .
+ 3063  npm start
+ 3064  code .
+ 3065  npm start
+ 3066  cd ..
+ 3067  cd
+ 3068  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3069  cd ..
+ 3070  git status
+ 3071  git add app/.
+ 3072  git commit -m "create components, render communities list"
+ 3073  git status
+ 3074  git add .
+ 3075  git commit -m "return json from community controller"
+ 3076  cd src/main/resources/
+ 3077  code .
+ 3078  cd -
+ 3079  ls
+ 3080  git status
+ 3081  git add .
+ 3082  git commit -m "fetch and display community"
+ 3083  git push
+ 3084  git branch
+ 3085  cd Mini/mntmp/pro2/
+ 3086  texstudio 
+ 3087  touch .gitigonre
+ 3088  gedit .gitigonre 
+ 3089  git init
+ 3090  git add .
+ 3091  touch README.md
+ 3092  gedit README.md 
+ 3093  git add README.md 
+ 3094  git commit -m "final commit"
+ 3095  git push
+ 3096  git status
+ 3097  git remote add origin https://github.com/vecel/iterative-jacobi-method.git
+ 3098  git branch -M main
+ 3099  git push -u origin main
+ 3100  exit
+ 3101  cd Projects/RedditClone/app/ && code .
+ 3102  npm run dev
+ 3103  npm run
+ 3104  npm start
+ 3105  exit
+ 3106  cd ..
+ 3107  cd
+ 3108  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3109  exit
+ 3110  cd Projects/RedditClone/src/main/resources/ && code .
+ 3111  cd ../../..
+ 3112  git add .
+ 3113  git commit -m "posts view"
+ 3114  git status
+ 3115  git add .
+ 3116  git commit -m "add user controller, modify view"
+ 3117  npm kill-port 8080
+ 3118  npx kill-port 8080
+ 3119  fuser 8080/tcp
+ 3120  fuser -k 8080/tcp
+ 3121  git status
+ 3122  git add .
+ 3123  git commit -m "fix json reference, add community endpoints"
+ 3124  git status
+ 3125  git diff
+ 3126  git add src/main/java/pl/.
+ 3127  git commit -m "rename endpoint"
+ 3128  git add .
+ 3129  git commit -m "refactor community view component"
+ 3130  git push
+ 3131  cd
+ 3132  cd Mini/twd/linux_me_project/
+ 3133  git pull
+ 3134  git branch
+ 3135  git checkout master
+ 3136  git pull
+ 3137  R
+ 3138  ls
+ 3139  cd data/
+ 3140  cd r-libs/
+ 3141  ls
+ 3142  R
+ 3143  ls
+ 3144  cat file.txt 
+ 3145  mv file.txt mateusz_r_libs.txt
+ 3146  ls
+ 3147  cd
+ 3148  cd Mini/twd/
+ 3149  cd linux_me_project/
+ 3150  git branch
+ 3151  git status
+ 3152  git diff
+ 3153  git add data/.
+ 3154  git commit -m "add mateusz r libs"
+ 3155  git add .
+ 3156  git commit -m "small text fix"
+ 3157  git push
+ 3158  git branch 
+ 3159  git checkout -b about
+ 3160  git brach
+ 3161  git branch
+ 3162  cd ui/
+ 3163  mv aboutUI.R about_ui.R
+ 3164  cd 
+ 3165  cd Downloads/
+ 3166  ls
+ 3167  mv Linux_Mint_logo_without_wordmark.svg.png mint_logo.svg.png
+ 3168  ls
+ 3169  cd 
+ 3170  cd Mini/twd/linux_me_project/
+ 3171  mkdir images
+ 3172  cd images/
+ 3173  mv ~/Downloads/mint_logo.svg.png .
+ 3174  ls
+ 3175  cd ..
+ 3176  rm -rf images/
+ 3177  cd server/
+ 3178  ls
+ 3179  rm about_server.R 
+ 3180  cd ..
+ 3181  git status
+ 3182  git branch
+ 3183  git add .
+ 3184  git commit -m "about tab template"
+ 3185  git push
+ 3186  git push --set-upstream origin about
+ 3187  git status
+ 3188  git checkout master 
+ 3189  git pull
+ 3190  ls
+ 3191  ls ui/
+ 3192  git branch
+ 3193  git branch -d about 
+ 3194  ls
+ 3195  git status
+ 3196  git push
+ 3197  git branch -a
+ 3198  git push origin -d about
+ 3199  exit
+ 3200  rstudio 
+ 3201  gedit linux_me.md 
+ 3202  exit
+ 3203  code .
+ 3204  cd ../src/main/resources/
+ 3205  code .
+ 3206  cd ../../..
+ 3207  git status
+ 3208  git add README.md 
+ 3209  git commit -m "add screenshots"
+ 3210  git push
+ 3211  git log
+ 3212  git revert 49ce524630f2b180925c6727975f85c7c4851fab
+ 3213  git status
+ 3214  git push
+ 3215  git checkout main 
+ 3216  git add .
+ 3217  git commit -m "initial version of Signup component"
+ 3218  git checkout main 
+ 3219  cat README.md 
+ 3220  git add README.md 
+ 3221  git commit -m "add screenshots"
+ 3222  git push
+ 3223  git checkout react-frontend 
+ 3224  exit
+ 3225  cd Projects/RedditClone/app/
+ 3226  npm start
+ 3227  exit
+ 3228  cd Projects/RedditClone/
+ 3229  cd
+ 3230  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3231  exit
+ 3232  cd Documents/
+ 3233  gedit reddit_clone.md
+ 3234  gedit linux_me.md
+ 3235  ls
+ 3236  gedit polynomial_interpolation.md
+ 3237  gedit planes_safety.md
+ 3238  gedit open_link_in_new_tab.md
+ 3239  exit
+ 3240  cd Mini/twd/linux_me_project/
+ 3241  rstudio
+ 3242  cd
+ 3243  cd Documents/
+ 3244  gedit about_me.md
+ 3245  cd ..
+ 3246  cd app/
+ 3247  code .
+ 3248  cd ../src/main/resources/
+ 3249  ls
+ 3250  code .
+ 3251  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3252  cd Projects/RedditClone/app/
+ 3253  npm start
+ 3254  top
+ 3255  exit
+ 3256  cd Projects/RedditClone/
+ 3257  git status
+ 3258  git add .
+ 3259  git commit -m "form submission on signup page"
+ 3260  git push
+ 3261  exit
+ 3262  cd
+ 3263  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3264  exit
+ 3265  cd Projects/RedditClone/app/ && code .
+ 3266  npm start
+ 3267  exit
+ 3268  cd Projects/RedditClone/app/
+ 3269  npm start
+ 3270  cd
+ 3271  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3272  cd Projects/RedditClone/app/
+ 3273  code .
+ 3274  npm start
+ 3275  cd ..
+ 3276  git statis
+ 3277  git status
+ 3278  git add .
+ 3279  git log
+ 3280  git commit -m "handle errors on signup page"
+ 3281  git push
+ 3282  cd
+ 3283  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3284  cd Projects/RedditClone/app/
+ 3285  cd ..
+ 3286  cd app/ && code .
+ 3287  npm start
+ 3288  exit
+ 3289  cd ..
+ 3290  git status
+ 3291  git add .
+ 3292  git commit -m "fix bug with clearing HttpSession when changing pages"
+ 3293  git push
+ 3294  git add .
+ 3295  git commit -m "logout feature"
+ 3296  git push
+ 3297  git add .
+ 3298  git commit -m "view without community"
+ 3299  git push
+ 3300  exit
+ 3301  exit
+ 3302  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3303  cd app/
+ 3304  npm start
+ 3305  cd Projects/RedditClone/
+ 3306  cd app/
+ 3307  code .
+ 3308  cd ..
+ 3309  git add app/.
+ 3310  git commit -m "fix page refreshing after logout"
+ 3311  git add .
+ 3312  git commit -m "update post controller"
+ 3313  git add .
+ 3314  git commit -m "user logging"
+ 3315  git push
+ 3316  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3317  cd Projects/RedditClone/app/
+ 3318  code .
+ 3319  npm start
+ 3320  cd ..
+ 3321  git add .
+ 3322  git commit -m "user can join community, remove redundant comments"
+ 3323  git checkout main 
+ 3324  git checkout react-frontend 
+ 3325  git push
+ 3326  cd src/main/resources/
+ 3327  ls
+ 3328  cd static/
+ 3329  ls -a
+ 3330  cd css/
+ 3331  ls -a
+ 3332  cd ..
+ 3333  cd
+ 3334  cd Projects/RedditClone/
+ 3335  git checkout main 
+ 3336  git pull
+ 3337  git branch 
+ 3338  cd Mini/twd/
+ 3339  ls
+ 3340  mkdir lab_iles_tam
+ 3341  cd lab_iles_tam/
+ 3342  mv ~/Downloads/lab14.ipynb .
+ 3343  ls
+ 3344  jupyter lab
+ 3345  pip install networkx
+ 3346  pip install scipy
+ 3347  mv ~/Downloads/calls.csv ..
+ 3348  cd ..
+ 3349  ls
+ 3350  cd KarandysMateusz/
+ 3351  ls
+ 3352  rm -a
+ 3353  rm tree.ipynb 
+ 3354  rm tree.png 
+ 3355  ls
+ 3356  cd ..
+ 3357  mv calls.csv KarandysMateusz/
+ 3358  cd KarandysMateusz/
+ 3359  ls
+ 3360  jupyter lab
+ 3361  ls
+ 3362  cd ..
+ 3363  cd lab_iles_tam/
+ 3364  jupyter lab
+ 3365  cd ..
+ 3366  git status
+ 3367  git branch
+ 3368  git add .
+ 3369  git commit -m "fix join community bug"
+ 3370  git checkout -b add-post
+ 3371  git add .
+ 3372  git commit -m "create frontend template"
+ 3373  git push
+ 3374  git push --set-upstream origin add-post
+ 3375  exit
+ 3376  cd Projects/RedditClone/app/ && code .
+ 3377  npm start
+ 3378  exit
+ 3379  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3380  exit
+ 3381  cd Mini/twd/KarandysMateusz/
+ 3382  ls
+ 3383  jupyter lab
+ 3384  exit
+ 3385  ls
+ 3386  mv calls.csv ..
+ 3387  ls
+ 3388  exit
+ 3389  git checkout bash-history-features 
+ 3390  git status
+ 3391  git diff
+ 3392  git add .
+ 3393  git commit -m "add bash history tab description"
+ 3394  git branch
+ 3395  git push
+ 3396  git checkout bash-history-features 
+ 3397  git status
+ 3398  git checkout master 
+ 3399  git branch -d bash-history-features 
+ 3400  git checkout -b bash-history-features
+ 3401  git status 
+ 3402  git add .
+ 3403  git commit -m "hide plot modebar"
+ 3404  git push --set-upstream origin bash-history
+ 3405  git push
+ 3406  git push --set-upstream origin bash-history-features 
+ 3407  git checkout master 
+ 3408  ls
+ 3409  git branch 
+ 3410  git pull
+ 3411  cd data/
+ 3412  ls
+ 3413  cd bash-history/
+ 3414  ls
+ 3415  history > mateusz_bash_history.txt 

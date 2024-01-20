@@ -12,7 +12,7 @@ library(networkD3)
 library(tidyr)
 library(heatmaply)
 #Load the function to the local through Paul Bleicher's GitHub page
-source("https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHeat.R")
+source("imports/calendarheatmap.R")
 
 # Przy odpalaniu trzeba zmienic working dir
 #Norbert - setwd("~/Documents/informatyczne/iadstudia/twd/linux_me_project")

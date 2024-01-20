@@ -1,6 +1,4 @@
-# mogę analizować najczęstrze słowo pojawiące się w commitach
-# TODO dodac analize tresci commitow dla kazdej osoby
-# MOZE ZANALIZOWAĆ TO JAKO TAKI "WORD CLOUD"??
+# TODO dodac opisy osi na wykresach wszystkich np. Nazwa repozytoriów, ilość commitów
 gitStatsServer <- function(input, output, session) {
   
   processData <- function(lines, person) {
@@ -126,7 +124,7 @@ gitStatsServer <- function(input, output, session) {
   
   output$calendar_heatmap=renderPlot({
     pdff=personDf_with_date_groupped()
-    calendarHeat(pdff$date, pdff$count, varname = "Commits")
+    calendarHeat(pdff$date, pdff$count, varname = "Commits", color="w2b")
     
   })
   
@@ -156,7 +154,7 @@ gitStatsServer <- function(input, output, session) {
       arrange(desc(count)) %>%
       head(input$number_of_most_used_words) %>%
       plot_ly(y = ~reorder(message, -count), x = ~count, type = 'scatter', mode = 'markers', marker = list(size = 10))%>%
-      layout(yaxis = list(title = ''), xaxis = list(title = '')) %>% 
+      layout(yaxis = list(title = 'Word in commits'), xaxis = list(title = 'Number of occurrences')) %>% 
       config(displayModeBar = FALSE)
   })
   
@@ -167,8 +165,8 @@ gitStatsServer <- function(input, output, session) {
       summarise(count = n()) %>%
       arrange(desc(count)) %>%
       head(input$number_of_repos) %>% 
-      plot_ly(x = ~reorder(repo, -count), y = ~count, type = 'bar', marker = list(color = 'rgb(26, 118, 255)')) %>%
-      layout(yaxis = list(title = '', type="log"), xaxis = list(title = '')) %>% 
+      plot_ly(x = ~reorder(repo, -count), y = ~count, type = 'bar', marker = list(color = "#3c8dbc")) %>%
+      layout(yaxis = list(title = 'Number of commits', type="log"), xaxis = list(title = 'Repository')) %>% 
       config(displayModeBar = FALSE)
   })
   

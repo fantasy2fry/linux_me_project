@@ -63,11 +63,85 @@ c23da8b, Maciej Bednarz, 2023-11-05, Jedno z dobrych rozwiazan zadania "Media".
 29e2f86, Maciej Bednarz, 2023-10-16, DebugMe
 a92cd25, Maciej Bednarz, 2023-10-10, Empty repo init.
 
+Repository /home/mateusz/Mini/mntmp/pro2/.git
+88dcb33, vecel, 2024-01-07, final commit
+
 Repository /home/mateusz/Mini/mntmp/.git
 0f60eb8, vecel, 2023-12-02, add README
 f041d92, vecel, 2023-12-02, final commit
 
 Repository /home/mateusz/Mini/twd/linux_me_project/.git
+bc5ca0e, Mateusz Karandys, 2024-01-20, Merge pull request #16 from fantasy2fry/bash-history-features
+35a8b89, vecel, 2024-01-20, hide plot modebar
+613dec7, vecel, 2024-01-20, add bash history tab description
+e84101c, Norbert Frydrysiak, 2024-01-20, about section done and xaxis and yaxis titles in git section add
+338bb77, Norbert Frydrysiak, 2024-01-20, heatmap colors change and README huge change
+8a8b181, Norbert Frydrysiak, 2024-01-18, heatmap files local in imports and scale change
+b0faa9b, Jakub Kaproń, 2024-01-18, Merge pull request #14 from fantasy2fry/feat-kuba-rlibs
+9f137da, Norbert Frydrysiak, 2024-01-18, python dependecies norbert add
+a98f2de, Norbert Frydrysiak, 2024-01-18, python dependecies quick command found
+400c169, Norbert Frydrysiak, 2024-01-18, 18 jan git stats norbert update
+30f062c, Norbert Frydrysiak, 2024-01-18, python description & sys packs one input del
+5d6fc13, Norbert Frydrysiak, 2024-01-17, git part finish prototype
+e4d19f9, Norbert Frydrysiak, 2024-01-17, git message analysis add
+3ddd557, kuba-kapron, 2024-01-14, add histogram to r-libs
+8212cdb, kuba-kapron, 2024-01-12, add infoboxes to r-libs
+72f94a3, kuba-kapron, 2024-01-11, update TODO
+44e7b18, Norbert Frydrysiak, 2024-01-11, Merge branch 'feat-norbert-syspacks'
+3854155, Norbert Frydrysiak, 2024-01-11, todo to git_stats add 2
+822bcf0, Jakub Kaproń, 2024-01-11, Merge pull request #12 from fantasy2fry/feat-kuba-rlibs
+8e07afd, kuba-kapron, 2024-01-11, update Kuba's data
+27e21ae, Norbert Frydrysiak, 2024-01-11, todo to git_stats add
+a931220, Norbert Frydrysiak, 2024-01-11, git stats norbert update and about_ui small change
+1babf65, Norbert Frydrysiak, 2024-01-11, python libs tab added
+71f9368, Norbert Frydrysiak, 2024-01-11, Merge pull request #11 from fantasy2fry/feat-kuba-rlibs
+91d3a47, Norbert Frydrysiak, 2024-01-11, Merge pull request #10 from fantasy2fry/feat-norbert-syspacks
+b6d0c6a, Norbert Frydrysiak, 2024-01-11, Merge branch 'master' into feat-norbert-syspacks
+1821dee, Norbert Frydrysiak, 2024-01-11, system_packages version beta, added python libs tab choice
+55bd68a, kuba-kapron, 2024-01-11, added import of Mateusz's r-libs in r_libs_server.R
+2d6a274, Jakub Kaproń, 2024-01-11, Merge pull request #9 from fantasy2fry/feat-kuba-rlibs
+719f759, Jakub Kaproń, 2024-01-11, Merge pull request #8 from fantasy2fry/master
+16e490b, kuba-kapron, 2024-01-11, updated tutorial on how to get r-libs data in README
+a5cf327, Mateusz Karandys, 2024-01-11, Merge pull request #7 from fantasy2fry/about
+f078bf2, vecel, 2024-01-11, about tab template
+3f34050, vecel, 2024-01-11, small text fix
+4eecada, vecel, 2024-01-11, add mateusz r libs
+b9cdb3f, Norbert Frydrysiak, 2024-01-10, calendar heatmap add :D :D :D
+07ee372, Norbert Frydrysiak, 2024-01-10, git-stats 3 short info add and data update
+0c50789, Norbert Frydrysiak, 2024-01-09, figthting with calendar plot (aka heatmap) and some adding of boxes from shinydashboard
+8214bdb, Norbert Frydrysiak, 2024-01-08, my plan for git stats add
+b30dd48, kuba-kapron, 2024-01-08, added selectable number of most frequently imported packages to show in the network plot
+b12b8a5, kuba-kapron, 2024-01-08, added person selection in r-libs
+b97ed2c, Jakub Kaproń, 2024-01-08, Merge pull request #6 from fantasy2fry/master
+7486353, Norbert Frydrysiak, 2024-01-08, norbert r-libs add
+808ab35, kuba-kapron, 2024-01-08, add basic packages' imports network
+2404483, Jakub Kaproń, 2024-01-04, Merge pull request #5 from fantasy2fry/feat-kuba-rlibs
+39e693f, kuba-kapron, 2024-01-04, fixed missing r_libs_server.R import and added simple r libs data-loading function
+22cbb33, kuba-kapron, 2024-01-03, Merge pull request #4 from fantasy2fry/feat-kuba-rlibs
+744f541, kuba-kapron, 2024-01-03, update app.R with ui and server functions for r libs
+3268c79, kuba-kapron, 2024-01-03, Merge branch 'master' into feat-kuba-rlibs with updated readme and kuba's r libs data
+b3966f5, kuba-kapron, 2024-01-03, initialize ui and server functions for r libs
+93b561a, kuba-kapron, 2023-12-30, Kuba's r libs and deletion of a placeholder text file
+39cb2ac, kuba-kapron, 2023-12-30, update REAMDE with info on r-libs
+f1ff0fa, vecel, 2023-12-26, remove todo
+b64f8e0, vecel, 2023-12-26, sequences table description
+6b2d9bc, vecel, 2023-12-26, most used commands sequences table
+7fd5c2f, vecel, 2023-12-26, write consecutiveCombinations function
+3c1256c, vecel, 2023-12-25, add shinycssloaders spinners
+b40b990, vecel, 2023-12-25, column layout
+c80a9c1, vecel, 2023-12-25, move styles to app.R
+70c393e, vecel, 2023-12-25, add styles for tabBox
+d50e08d, vecel, 2023-12-25, add boxes and dt table
+8575caa, Norbert Frydrysiak, 2023-12-21, bash plots modification and one plot added to pacakges analysis
+f8822b7, Norbert Frydrysiak, 2023-12-19, Merge pull request #3 from fantasy2fry/feat-norbert-syspacks
+89eac5a, Norbert Frydrysiak, 2023-12-19, norbert linux bash commends added to dataframe
+a50f917, Norbert Frydrysiak, 2023-12-18, syspacks first plot working a little bit add
+6dc6e44, Norbert Frydrysiak, 2023-12-18, Merge pull request #2 from fantasy2fry/feat-norbert-syspacks
+f155826, Norbert Frydrysiak, 2023-12-18, syspacks first plot that it is not working XD add
+1871a99, kuba-kapron, 2023-12-18, Kuba's data without r libs
+c1b5d91, Norbert Frydrysiak, 2023-12-17, Norbert git stats and first attempt for sys packs part add
+37223dc, vecel, 2023-12-17, heatmap sketch
+d443b69, vecel, 2023-12-17, update date in git statistics
 f876185, vecel, 2023-12-17, data preprocessing for git statistics server
 26a0071, vecel, 2023-12-17, add temporary files
 e22d221, vecel, 2023-12-17, add temporary kuba's file and move initialization to server
@@ -97,7 +171,42 @@ b42ef06, vecel, 2023-10-24, add medium_orders_preprocessing script
 46e6d0b, vecel, 2023-10-18, initial commit
 ef8a96c, Mateusz Karandys, 2023-10-18, Initial commit
 
+Repository /home/mateusz/.nvm/.git
+c92adb3, Jordan Harband, 2023-08-21, v0.39.5
+
+Repository /home/mateusz/Projects/RestAndReact/restandreact/.git
 Repository /home/mateusz/Projects/RedditClone/.git
+4a76ed6, vecel, 2024-01-19, create frontend template
+7281c2c, vecel, 2024-01-19, fix join community bug
+37d1642, Mateusz Karandys, 2024-01-16, Merge pull request #2 from vecel/react-frontend
+b12abc2, vecel, 2024-01-16, user can join community, remove redundant comments
+71dec10, vecel, 2024-01-15, user logging
+23c27c8, vecel, 2024-01-15, update post controller
+f80557b, vecel, 2024-01-15, fix page refreshing after logout
+d89f634, vecel, 2024-01-13, view without community
+17dcfbc, vecel, 2024-01-13, logout feature
+815bd66, vecel, 2024-01-13, fix bug with clearing HttpSession when changing pages
+54736d4, vecel, 2024-01-13, handle errors on signup page
+c223c24, vecel, 2024-01-12, form submission on signup page
+5b44c73, vecel, 2024-01-11, add screenshots
+b7d71f5, vecel, 2024-01-11, initial version of Signup component
+dc14988, vecel, 2024-01-11, Revert "add screenshots"
+49ce524, vecel, 2024-01-11, add screenshots
+aa164b7, vecel, 2024-01-11, refactor community view component
+cb72381, vecel, 2024-01-11, rename endpoint
+30bb38b, vecel, 2024-01-10, fix json reference, add community endpoints
+ec7baa6, vecel, 2024-01-10, add user controller, modify view
+1fa75cb, vecel, 2024-01-10, posts view
+60389b5, vecel, 2024-01-06, fetch and display community
+7ac825e, vecel, 2024-01-06, return json from community controller
+f592d39, vecel, 2024-01-06, create components, render communities list
+410f5e6, vecel, 2024-01-05, Rewrite sidebar
+749b60a, vecel, 2024-01-05, Rewrite header
+0f955f2, vecel, 2024-01-05, Change Structure
+1e2d00a, vecel, 2024-01-05, Initial commit
+b65d9a4, vecel, 2023-12-22, joinig community feature
+31e8a60, vecel, 2023-12-19, fix associations and tests
+04aeed3, vecel, 2023-12-18, default view
 975a44b, vecel, 2023-12-15, fix associations between entities community, post and user
 1a6cd40, vecel, 2023-12-14, add relations between tables in db
 01cad29, vecel, 2023-12-14, remove redunant imports
