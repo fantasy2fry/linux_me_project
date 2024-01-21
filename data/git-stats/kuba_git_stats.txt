@@ -20,14 +20,65 @@ Repository /home/beart/programowanie/studia/PDU/pdu_2023/.git
 3a44c93, kuba-kapron, 2023-04-28, Delete .Rhistory
 8600d88, Kuba, 2023-04-28, wgranie do repo folderu z PDU
 
+Repository /home/beart/programowanie/studia/AiSD/algorithms_and_data_structures_2023/.git
+e4ceb15, kuba-kapron, 2024-01-16, init
+
 Repository /home/beart/programowanie/studia/TWD/Projekt2/linux_me_project/.git
+ae425e4, Norbert Frydrysiak, 2024-01-21, norbert bash and git data update
+52cc626, Norbert Frydrysiak, 2024-01-21, add mateusz python dependencies graph
+359d32f, Norbert Frydrysiak, 2024-01-21, name fix for mateusz python dependecies
+172f01e, vecel, 2024-01-21, Merge branch 'master' of https://github.com/fantasy2fry/linux_me_project
+881ea47, vecel, 2024-01-21, add mateusz python dependencies data
+4aec0d2, kuba-kapron, 2024-01-21, tiny change to README
+d0dba62, Jakub Kaproń, 2024-01-21, Merge pull request #19 from fantasy2fry/feat-kuba-rlibs
+e240533, kuba-kapron, 2024-01-21, Add description to r-libs and update histogram labs
+41a78fa, Jakub Kaproń, 2024-01-21, Merge pull request #18 from fantasy2fry/feat-kuba-rlibs
+28e276a, kuba-kapron, 2024-01-21, merged from main and resolved conflicts
+f492627, kuba-kapron, 2024-01-21, Apperance updates in server r-libs
+d977b08, kuba-kapron, 2024-01-20, Add Graph of dependencies to python-libs
+23859a7, vecel, 2024-01-20, add icons
+f992bea, Jakub Kaproń, 2024-01-20, Merge pull request #17 from fantasy2fry/master
+3f0905b, vecel, 2024-01-20, update data
+bc5ca0e, Mateusz Karandys, 2024-01-20, Merge pull request #16 from fantasy2fry/bash-history-features
+35a8b89, vecel, 2024-01-20, hide plot modebar
+613dec7, vecel, 2024-01-20, add bash history tab description
+e84101c, Norbert Frydrysiak, 2024-01-20, about section done and xaxis and yaxis titles in git section add
+338bb77, Norbert Frydrysiak, 2024-01-20, heatmap colors change and README huge change
+8a8b181, Norbert Frydrysiak, 2024-01-18, heatmap files local in imports and scale change
+2da0d5b, Jakub Kaproń, 2024-01-18, Merge pull request #15 from fantasy2fry/master
+b0faa9b, Jakub Kaproń, 2024-01-18, Merge pull request #14 from fantasy2fry/feat-kuba-rlibs
+9f137da, Norbert Frydrysiak, 2024-01-18, python dependecies norbert add
+a98f2de, Norbert Frydrysiak, 2024-01-18, python dependecies quick command found
+400c169, Norbert Frydrysiak, 2024-01-18, 18 jan git stats norbert update
+30f062c, Norbert Frydrysiak, 2024-01-18, python description & sys packs one input del
+5d6fc13, Norbert Frydrysiak, 2024-01-17, git part finish prototype
+e4d19f9, Norbert Frydrysiak, 2024-01-17, git message analysis add
+3ddd557, kuba-kapron, 2024-01-14, add histogram to r-libs
+8212cdb, kuba-kapron, 2024-01-12, add infoboxes to r-libs
+72f94a3, kuba-kapron, 2024-01-11, update TODO
+44e7b18, Norbert Frydrysiak, 2024-01-11, Merge branch 'feat-norbert-syspacks'
+3854155, Norbert Frydrysiak, 2024-01-11, todo to git_stats add 2
+822bcf0, Jakub Kaproń, 2024-01-11, Merge pull request #12 from fantasy2fry/feat-kuba-rlibs
+8e07afd, kuba-kapron, 2024-01-11, update Kuba's data
+27e21ae, Norbert Frydrysiak, 2024-01-11, todo to git_stats add
+a931220, Norbert Frydrysiak, 2024-01-11, git stats norbert update and about_ui small change
+1babf65, Norbert Frydrysiak, 2024-01-11, python libs tab added
+71f9368, Norbert Frydrysiak, 2024-01-11, Merge pull request #11 from fantasy2fry/feat-kuba-rlibs
+91d3a47, Norbert Frydrysiak, 2024-01-11, Merge pull request #10 from fantasy2fry/feat-norbert-syspacks
+b6d0c6a, Norbert Frydrysiak, 2024-01-11, Merge branch 'master' into feat-norbert-syspacks
+1821dee, Norbert Frydrysiak, 2024-01-11, system_packages version beta, added python libs tab choice
 55bd68a, kuba-kapron, 2024-01-11, added import of Mateusz's r-libs in r_libs_server.R
+2d6a274, Jakub Kaproń, 2024-01-11, Merge pull request #9 from fantasy2fry/feat-kuba-rlibs
 719f759, Jakub Kaproń, 2024-01-11, Merge pull request #8 from fantasy2fry/master
 16e490b, kuba-kapron, 2024-01-11, updated tutorial on how to get r-libs data in README
 a5cf327, Mateusz Karandys, 2024-01-11, Merge pull request #7 from fantasy2fry/about
 f078bf2, vecel, 2024-01-11, about tab template
 3f34050, vecel, 2024-01-11, small text fix
 4eecada, vecel, 2024-01-11, add mateusz r libs
+b9cdb3f, Norbert Frydrysiak, 2024-01-10, calendar heatmap add :D :D :D
+07ee372, Norbert Frydrysiak, 2024-01-10, git-stats 3 short info add and data update
+0c50789, Norbert Frydrysiak, 2024-01-09, figthting with calendar plot (aka heatmap) and some adding of boxes from shinydashboard
+8214bdb, Norbert Frydrysiak, 2024-01-08, my plan for git stats add
 b30dd48, kuba-kapron, 2024-01-08, added selectable number of most frequently imported packages to show in the network plot
 b12b8a5, kuba-kapron, 2024-01-08, added person selection in r-libs
 b97ed2c, Jakub Kaproń, 2024-01-08, Merge pull request #6 from fantasy2fry/master
@@ -116,6 +167,40 @@ efe2d9e, kuba-kapron, 2023-10-30, nawiedzone bez demonstratora i folder poprawio
 fc5c861, kuba-kapron, 2023-10-30, nawiedzone bez demonstratora
 
 Repository /home/beart/programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/.git
+78ccb18, miloszkita, 2024-01-21, Merge pull request #14 from bednarzm/feature-UI-milosz
+fe41cbd, Jakub Kaproń, 2024-01-20, Merge pull request #13 from bednarzm/feature-UI-kuba
+cf1af9b, kuba-kapron, 2024-01-20, Add writing NBP API data at app startup and modify NBP API client to not obstruct the work of the app when user is offline
+619e3dd, Jakub Kaproń, 2024-01-20, Merge pull request #12 from bednarzm/main
+98d73b8, Jakub Kaproń, 2024-01-20, Merge pull request #11 from bednarzm/feature-api-client
+6c00b85, kuba-kapron, 2024-01-20, Modified NBPAPI client get strings from query methods to write to .json
+7b5061c, kuba-kapron, 2024-01-20, Add GraphDataLoader class
+6bab044, kuba-kapron, 2024-01-20, update resources structure
+84f5e8e, Jakub Kaproń, 2024-01-20, Merge pull request #10 from bednarzm/main
+02c4488, Jakub Kaproń, 2024-01-20, Merge pull request #9 from bednarzm/feature-api-client
+4220fe3, kuba-kapron, 2024-01-19, update .gitignore
+5558850, Milosz Kita, 2024-01-18, added background and class to create background
+bdac3a1, kuba-kapron, 2024-01-18, Merge branch 'main' into feature-UI-milosz
+4f11265, Jakub Kaproń, 2024-01-18, Merge pull request #7 from bednarzm/main
+3e4bb8c, kuba-kapron, 2024-01-18, init jsons with data from nbp api
+8cf32c2, kuba-kapron, 2024-01-18, Changed date fields in *ExchangeRate clases from Day to String
+7bfb74f, kuba-kapron, 2024-01-18, update source directory in pom.xml
+7bd0c0f, Jakub Kaproń, 2024-01-18, Merge pull request #6 from bednarzm/feature-api-client
+e331cc2, kuba-kapron, 2024-01-18, change project structure
+2e58808, kuba-kapron, 2024-01-18, Added method that converts deserialized data to instances of Currency...Rate (used to plotting)
+319adcb, kuba-kapron, 2024-01-18, Add class for deserializing json with exch. rates tables
+cf78fd0, kuba-kapron, 2024-01-18, Simplified GoldExchangeRate constructor
+5bc8bd4, miloszkita, 2024-01-17, Merge pull request #5 from bednarzm/main
+b39a96e, Milosz Kita, 2024-01-17, changed buttons
+a0dcf73, Jakub Kaproń, 2024-01-17, Merge pull request #4 from bednarzm/main
+feea7d7, kuba-kapron, 2024-01-17, Added .idea/ to .gitignore
+ece1f33, Jakub Kaproń, 2024-01-17, Merge pull request #3 from bednarzm/feature-UI-kuba
+5fa2862, kuba-kapron, 2024-01-17, Fixed package name in MainWindow.java
+9bc16b4, kuba-kapron, 2024-01-14, add CurrencyExchangeRate class
+7fe2b18, kuba-kapron, 2024-01-14, add method for currency exchange rate api query
+5802285, kuba-kapron, 2024-01-14, modify .gitignore
+48c7203, miloszkita, 2024-01-11, Merge pull request #2 from bednarzm/feature-UI-milosz
+2f972d3, Milosz Kita, 2024-01-11, UI added chart to window
+32097de, Jakub Kaproń, 2024-01-10, Merge pull request #1 from bednarzm/feature-api-client
 23376d8, kuba-kapron, 2024-01-10, renaming .api package to .apiclients and adding GoldExchangeRate class to store json info from NBP API with temporal testing class
 29d77e9, kuba-kapron, 2024-01-10, .gitignore with pom.xml with maven dependencies
 a835792, kuba-kapron, 2023-12-31, add basic ui and basic NBP api enquiry (Happy New Year\!)
