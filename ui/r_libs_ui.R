@@ -10,7 +10,17 @@ rLibsUI <- function(id) {
           width = NULL,
           status = "primary",
           solidHeader = TRUE,
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          includeMarkdown(
+"This tab focuses on our use of different **R** programming language's packages. The key aspect of this tab is analysing **Imports** relation between packages. It describes which dependencies need to be imported for a specific package to work.
+
+Kuba, Norbert, and Mateusz are quite experienced users of the **R** programming language, having learned it through *Structured Data Processing* and *Data Visualization Techniques* classes. They are primarily using it for data processing and visualization tasks. They are familiar with a variety of **R** packages that are widely used in the data science community, e.g.:
+- dplyr,
+- data.table,
+- ggplot2,
+- plotly, 
+- shiny
+- leaflet"
+          )
         ),
         box(
           title = "Inputs",

@@ -68,7 +68,7 @@ rLibsServer <- function(input, output, session) {
       "R version", 
       personDF() %>% 
         filter(Package == 'base') %>% 
-        pull(Version),
+        pull(Version), 
       icon = icon("star")
     )
   })
@@ -91,7 +91,7 @@ rLibsServer <- function(input, output, session) {
   })
   
   output$importsHistogram <- renderPlotly({
-    importsDF() %>% 
+    p <- importsDF() %>% 
       select(Imports, frequency) %>% 
       unique() %>% 
       ggplot(
@@ -99,13 +99,16 @@ rLibsServer <- function(input, output, session) {
           x = frequency
         )
       ) +
-      geom_histogram() +
+      geom_histogram(fill = "#3c8dbc") +
       labs(
-        x = "Import frequency",
-        y = element_blank()
+        x = "Import frequency of a package",
+        y = "No. of packages"
       ) +
       theme_minimal() +
       scale_x_continuous(expand = c(0, 0))
+    
+    ggplotly(p) %>% 
+      config(displayModeBar = F)
   })
   
   output$importsNetwork <- renderSimpleNetwork({
