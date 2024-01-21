@@ -12,6 +12,7 @@ library(networkD3)
 library(tidyr)
 library(heatmaply)
 library(rjson)
+library(markdown)
 #Load the function to the local through Paul Bleicher's GitHub page
 source("imports/calendarheatmap.R")
 

@@ -1,6 +1,7 @@
 ## Project Overview
 
 This [project](https://github.com/fantasy2fry/linux_me_project) was done as part of the [Data Visualization Techniques](https://github.com/kozaka93/2023Z-DataVisualizationTechniques) course. \
+To check how our project looks, [click here](https://fantasy2fry.shinyapps.io/linux_me_project/). \
 It was created by [Norbert Frydrysiak](https://github.com/fantasy2fry), [Mateusz Karandys](https://github.com/vecel) and [Jakub Kaproń](https://github.com/kuba-kapron).
 
 Kuba (Jakub), Mateusz, and Norbert are avid enthusiasts of Linux operating systems. We thoroughly enjoy working in the terminal and programming in languages such as Java, Python, and R. Hence, we found it intriguing to analyze our data in this realm.
