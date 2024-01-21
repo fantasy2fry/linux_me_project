@@ -3616,3 +3616,439 @@
  3616  ls
  3617  v norbert_macos.txt
  3618  history | head
+ 3619  history > norbert_macos.txt
+ 3620  ls
+ 3621  git add ../git-stats/norbert_git_stats.txt norbert_macos.txt ../../server/git_stats_server.R ../../ui/git_stats_ui.R
+ 3622  git commit -m 'git-stats 3 short info add and data update'
+ 3623  git push
+ 3624  git status
+ 3625  R
+ 3626  git status
+ 3627  git add
+ 3628  git add ../../ui/git_stats_ui.R ../../server/git_stats_server.R
+ 3629  git commit -m 'calendar heatmap add :D :D :D'
+ 3630  git push
+ 3631  git status
+ 3632  ls
+ 3633  cd ..
+ 3634  ls
+ 3635  cd ..
+ 3636  ls
+ 3637  cd ui
+ 3638  ls
+ 3639  touch python_libs.R
+ 3640  ls
+ 3641  cd ..
+ 3642  cd server/
+ 3643  ls
+ 3644  cd ../ui/
+ 3645  mv python_libs.R python_libs_ui.R
+ 3646  ls
+ 3647  cd ../server/
+ 3648  ls
+ 3649  touch python_libs_server.R
+ 3650  ls
+ 3651  git status
+ 3652  git add ../app.R system_packages_server.R ../ui/system_packages_ui.R python_libs_server.R ../ui/python_libs_ui.R
+ 3653  git commit -m 'system_packages version beta, added python libs tab choice'
+ 3654  git push
+ 3655  git pull
+ 3656  git checkout
+ 3657  git checkout master
+ 3658  git pull
+ 3659  git checkout feat-norbert-syspacks
+ 3660  git merge
+ 3661  git merge master
+ 3662  git status
+ 3663  git merge --abort
+ 3664  git status
+ 3665  git checkout
+ 3666  git checkout master
+ 3667  git pull
+ 3668  git checkout feat-norbert-syspacks
+ 3669  git pull
+ 3670  git merge master
+ 3671  git status
+ 3672  git push
+ 3673  git checkout master
+ 3674  git pull
+ 3675  git checkout feat-norbert-syspacks
+ 3676  git merge master
+ 3677  git status
+ 3678  git push
+ 3679  ls
+ 3680  git status
+ 3681  cd
+ 3682  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3683  ls
+ 3684  cd data/
+ 3685  ls
+ 3686  cd python-libs/
+ 3687  ls
+ 3688  v norbert_python_libs.txt
+ 3689  v kuba_python_libs.txt
+ 3690  ls
+ 3691  v norbert_python_libs.txt
+ 3692  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3693  ls
+ 3694  git status
+ 3695  git add ui/git_stats_ui.R server/system_packages_server.R server/git_stats_server.R server/python_libs_server.R ui/python_libs_ui.R
+ 3696  git commit -m 'python libs tab added'
+ 3697  git push
+ 3698  git fetch
+ 3699  git checkout
+ 3700  git checkout master
+ 3701  git merge feat-norbert-syspacks
+ 3702  git push
+ 3703  git checkout feat-norbert-syspacks
+ 3704  git merge master
+ 3705  cd data/
+ 3706  ls
+ 3707  cd git-stats/
+ 3708  ls
+ 3709  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > norbert_git_stats.txt
+ 3710  ls
+ 3711  git add norbert_git_stats.txt ../../ui/about_ui.R
+ 3712  git status
+ 3713  git commit -m 'git stats norbert update and about_ui small change'
+ 3714  git push
+ 3715  git checkout master
+ 3716  git merge feat-norbert-syspacks
+ 3717  git push
+ 3718  git fetch
+ 3719  git pull
+ 3720  cd ../../../
+ 3721  ls
+ 3722  mkdir lab13
+ 3723  ls
+ 3724  cd lab13
+ 3725  ls
+ 3726  mv ~/Downloads/lab13.ipynb .
+ 3727  ls
+ 3728  cd ..
+ 3729  cd linux_me_project/
+ 3730  ls
+ 3731  git status
+ 3732  git add server/git_stats_server.R
+ 3733  git commit -m 'todo to git_stats add'
+ 3734  env
+ 3735  history | wc -l
+ 3736  git status
+ 3737  git push
+ 3738  git fetch
+ 3739  git checkout master
+ 3740  git merge feat-norbert-syspacks
+ 3741  git checkout feat-norbert-syspacks
+ 3742  git fetch
+ 3743  git merge master
+ 3744  git push
+ 3745  git status
+ 3746  git add server/git_stats_server.R
+ 3747  git commit -m 'todo to git_stats add 2'
+ 3748  git push
+ 3749  git checkout
+ 3750  git checkout master
+ 3751  git pull
+ 3752  git merge feat-norbert-syspacks
+ 3753  git push
+ 3754  git checkout feat-norbert-syspacks
+ 3755  git merge master
+ 3756  git push
+ 3757  git status
+ 3758  v --version
+ 3759  last
+ 3760  last -wR
+ 3761  man last
+ 3762  last -w
+ 3763  last
+ 3764  clear
+ 3765  ssh frydrysiakn@ssh.mini.pw.edu.pl
+ 3766  ls
+ 3767  clear
+ 3768  neofetch
+ 3769  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3770  ls
+ 3771  ls -R
+ 3772  clear
+ 3773  git status
+ 3774  git add server/git_stats_server.R server/system_packages_server.R ui/git_stats_ui.R
+ 3775  git commit -m 'git message analysis add'
+ 3776  git push
+ 3777  git status
+ 3778  git add ui/git_stats_ui.R server/git_stats_server.R
+ 3779  git commit -m 'git part finish prototype'
+ 3780  git push
+ 3781  git checkout master
+ 3782  git merge feat-norbert-syspacks
+ 3783  git status
+ 3784  git push
+ 3785  git checkout feat-norbert-syspacks
+ 3786  git fetch
+ 3787  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3788  git fetch
+ 3789  clear
+ 3790  ls
+ 3791  v README.md
+ 3792  git status
+ 3793  git add *
+ 3794  git status
+ 3795  git commit -m "python description & sys packs one input del"
+ 3796  git push
+ 3797  git checkout
+ 3798  git checkout master
+ 3799  git fetch
+ 3800  git pull
+ 3801  git merge feat-norbert-syspacks
+ 3802  git push
+ 3803  git checkout feat-norbert-syspacks
+ 3804  pip3 install pipdeptree
+ 3805  pipdeptree 
+ 3806  cd
+ 3807  cd Downloads/
+ 3808  pipdeptree > test.txt
+ 3809  v test.txt
+ 3810  clear
+ 3811  rm test.txt
+ 3812  ls
+ 3813  cd ../Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3814  ls
+ 3815  cd data/
+ 3816  cd git-stats/
+ 3817  ls
+ 3818  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > norbert_git_stats.txt
+ 3819  git status
+ 3820  ls
+ 3821  pipdeptree --json
+ 3822  git status
+ 3823  git add norbert_git_stats.txt
+ 3824  git commit -m '18 jan git stats norbert update'
+ 3825  git push
+ 3826  git checkout master
+ 3827  git merge feat-norbert-syspacks
+ 3828  git push
+ 3829  cd
+ 3830  cd Downloads/
+ 3831  pipdeptree --json > test.json
+ 3832  v test.json
+ 3833  cd ..
+ 3834  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3835  v README.md
+ 3836  git status
+ 3837  git add
+ 3838  git add README.md
+ 3839  git commit -m "python dependecies quick command found"
+ 3840  git push
+ 3841  git checkout master
+ 3842  git merge feat-norbert-syspacks
+ 3843  git checkout
+ 3844  git checkout feat-norbert-syspacks
+ 3845  git merge master
+ 3846  git push
+ 3847  ls
+ 3848  cd data/
+ 3849  cd python-libs/
+ 3850  mkdir dependencies
+ 3851  cd dependencies/
+ 3852  ls -R ../
+ 3853  pipdeptree --json > norbert_dep.json
+ 3854  git status
+ 3855  git add ./
+ 3856  git status
+ 3857  v norbert_dep.json
+ 3858  cat norbert_dep.json | wc -l
+ 3859  git commit -m "python dependecies norbert add"
+ 3860  git push
+ 3861  git checkout master
+ 3862  git merge feat-norbert-syspacks
+ 3863  git push
+ 3864  git checkout feat-norbert-syspacks
+ 3865  git fetch
+ 3866  git status
+ 3867  cd ../../
+ 3868  cd ../
+ 3869  ls
+ 3870  history | wc -l
+ 3871  man pipdeptree
+ 3872  pip3 list
+ 3873  man pip3
+ 3874  man python3
+ 3875  clear
+ 3876  cd
+ 3877  cd Downloads/
+ 3878  ls
+ 3879  mv lab14.ipynb ../Documents/informatyczne/iadstudia/twd/lab14/
+ 3880  mv lab14.ipynb ../Documents/informatyczne/iadstudia/twd/
+ 3881  cd ../Documents/informatyczne/iadstudia/twd/
+ 3882  ls
+ 3883  mkdir lab14
+ 3884  mv la]
+ 3885  mv lab14.ipynb lab14/
+ 3886  cd lab14
+ 3887  ls
+ 3888  pip3 install graph_tool
+ 3889  brew install graph-tool
+ 3890  brew --prefix graph-tool
+ 3891  brew test -v graph-tool
+ 3892  /opt/homebrew/bin/python3 /Applications/DataSpell.app/Contents/plugins/python-ce/helpers/packaging_tool.py install graph-tool
+ 3893  python3.11 -m pip install --upgrade pip
+ 3894  /opt/homebrew/bin/python3 /Applications/DataSpell.app/Contents/plugins/python-ce/helpers/packaging_tool.py install graph-tool
+ 3895  brew install graph-tool
+ 3896  brew remove graph-tool
+ 3897  cd Downloads/
+ 3898  ls
+ 3899  pwd
+ 3900  ar --use-compress-program=unzstd -xvf CA.xml.zst
+ 3901  brew install graph-tool
+ 3902  pip freeze | grep graph
+ 3903  python3 freeze | grep graph
+ 3904  pip3 list
+ 3905  pip3 list | grep graph
+ 3906  cd ..
+ 3907  cd linux_me_project/
+ 3908  git checkout master
+ 3909  git pull
+ 3910  git checkout feat-norbert-syspacks
+ 3911  git merge master
+ 3912  git status
+ 3913  git push
+ 3914  ls
+ 3915  git status
+ 3916  mkdir imports
+ 3917  ls
+ 3918  cd imports/
+ 3919  touch calendarheatmap.R
+ 3920  v calendarheatmap.R
+ 3921  cd ..
+ 3922  ls
+ 3923  ls -R
+ 3924  git add server/git_stats_server.R app.R imports/
+ 3925  git commit -m "heatmap files local in imports and scale change"
+ 3926  git push
+ 3927  git checkout master
+ 3928  git merge feat-norbert-syspacks
+ 3929  git push
+ 3930  git checkout feat-norbert-syspacks
+ 3931  cd Documents/informatyczne/iadstudia/
+ 3932  ls
+ 3933  cd po_programy/
+ 3934  ls
+ 3935  rm -R zpoif_2023_zespol_18/
+ 3936  sudo rm -R zpoif_2023_zespol_18/
+ 3937  ls
+ 3938  cd ..
+ 3939  cd twd/linux_me_project/
+ 3940  ls
+ 3941  git status
+ 3942  v README.md
+ 3943  git add README.md imports/calendarheatmap.R
+ 3944  git commit -m "heatmap colors change and README huge change"
+ 3945  git push
+ 3946  git fetch
+ 3947  git checkout master
+ 3948  git pull
+ 3949  git merge feat-norbert-syspacks
+ 3950  git push
+ 3951  git checkout feat-norbert-syspacks
+ 3952  git status
+ 3953  git add server/git_stats_server.R ui/about_ui.R
+ 3954  git commit -m "about section done and xaxis and yaxis titles in git section add"
+ 3955  git push
+ 3956  git checkout master
+ 3957  git merge feat-norbert-syspacks
+ 3958  git push
+ 3959  git checkout feat-norbert-syspacks
+ 3960  git fetch
+ 3961  exit
+ 3962  history | wc -l
+ 3963  cd Documents/informatyczne/iadstudia/
+ 3964  ls
+ 3965  mkdir fizyka
+ 3966  cd fizyka/
+ 3967  mv ~/Downloads/Elektromagnetyzm-* .
+ 3968  ls
+ 3969  open *
+ 3970  cd ..
+ 3971  cd po_programy/zpoif_2023_zespol_18/
+ 3972  git status
+ 3973  git branch --sort=-commitdate 
+ 3974  git branch --sort=-committerdate 
+ 3975  cd ..
+ 3976  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3977  git status
+ 3978  git fetch
+ 3979  fig doctor
+ 3980  git checkout master
+ 3981  git pull
+ 3982  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3983  git pull
+ 3984  git checkout feat-norbert-syspacks
+ 3985  git merge master
+ 3986  git push
+ 3987  git fetch
+ 3988  git checkout master
+ 3989  git status
+ 3990  git pull
+ 3991  bpytop
+ 3992  clear
+ 3993  cd Documents/informatyczne/iadstudia/po_programy/zpoif_2023_zespol_18/
+ 3994  git status
+ 3995  git rm testoutput/
+ 3996  git rm -r testoutput/
+ 3997  git status
+ 3998  git add .gitignore
+ 3999  git status
+ 4000  git commit -m ".gitignore update and remove unnecessary files"
+ 4001  git status
+ 4002  git push
+ 4003  cd Documents/informatyczne/iadstudia/po_programy/zpoif_2023_zespol_18/
+ 4004  git status
+ 4005  git rm -r out/
+ 4006  git status
+ 4007  git commit -m "unnecessary files remove form out/ folder"
+ 4008  git push
+ 4009  ls
+ 4010  brew search obs
+ 4011  brew info obs
+ 4012  brew install obs
+ 4013  ls
+ 4014  cd src/data/collect/
+ 4015  ls
+ 4016  v PlayersStatsGetter.java
+ 4017  cd ..
+ 4018  ls
+ 4019  cd frames/
+ 4020  ls
+ 4021  cd visualization/
+ 4022  ls
+ 4023  v App.java
+ 4024  git status
+ 4025  git rm -r out/
+ 4026  cd ../..
+ 4027  cd ..
+ 4028  git rm -r out/
+ 4029  ls
+ 4030  git rm -r out/
+ 4031  git log
+ 4032  git status
+ 4033  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 4034  git fetch
+ 4035  git status
+ 4036  git pull
+ 4037  ls -R
+ 4038  mv data/python-libs/dependencies/mateusz.dep.json data/python-libs/dependencies/mateusz_dep.json
+ 4039  git status
+ 4040  git add data/python-libs/dependencies/mateusz.dep.json data/python-libs/dependencies/mateusz_dep.json
+ 4041  git status
+ 4042  git commit -m "name fix for mateusz python dependecies"
+ 4043  git push
+ 4044  cd data/python-libs/dependencies/
+ 4045  ls
+ 4046  v mateusz_dep.json
+ 4047  git add ../../../server/python_libs_server.R
+ 4048  git commit -m "add mateusz python dependencies graph"
+ 4049  git push
+ 4050  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 4051  cd data/
+ 4052  cd bash-history/
+ 4053  ls
+ 4054  history | wc -l

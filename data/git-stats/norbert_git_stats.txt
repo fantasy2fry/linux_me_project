@@ -26176,9 +26176,37 @@ f40be1c, Norbert Frydrysiak, 2023-11-08, spider_plots update
 7098524, Norbert Frydrysiak, 2023-10-19, Initial commit
 
 Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/twd/linux_me_project/.git
+52cc626, Norbert Frydrysiak, 2024-01-21, add mateusz python dependencies graph
+359d32f, Norbert Frydrysiak, 2024-01-21, name fix for mateusz python dependecies
+172f01e, vecel, 2024-01-21, Merge branch 'master' of https://github.com/fantasy2fry/linux_me_project
+881ea47, vecel, 2024-01-21, add mateusz python dependencies data
+4aec0d2, kuba-kapron, 2024-01-21, tiny change to README
+d0dba62, Jakub Kaproń, 2024-01-21, Merge pull request #19 from fantasy2fry/feat-kuba-rlibs
+e240533, kuba-kapron, 2024-01-21, Add description to r-libs and update histogram labs
+41a78fa, Jakub Kaproń, 2024-01-21, Merge pull request #18 from fantasy2fry/feat-kuba-rlibs
+28e276a, kuba-kapron, 2024-01-21, merged from main and resolved conflicts
+f492627, kuba-kapron, 2024-01-21, Apperance updates in server r-libs
+d977b08, kuba-kapron, 2024-01-20, Add Graph of dependencies to python-libs
+23859a7, vecel, 2024-01-20, add icons
+f992bea, Jakub Kaproń, 2024-01-20, Merge pull request #17 from fantasy2fry/master
+3f0905b, vecel, 2024-01-20, update data
+bc5ca0e, Mateusz Karandys, 2024-01-20, Merge pull request #16 from fantasy2fry/bash-history-features
+35a8b89, vecel, 2024-01-20, hide plot modebar
+613dec7, vecel, 2024-01-20, add bash history tab description
+e84101c, Norbert Frydrysiak, 2024-01-20, about section done and xaxis and yaxis titles in git section add
+338bb77, Norbert Frydrysiak, 2024-01-20, heatmap colors change and README huge change
+8a8b181, Norbert Frydrysiak, 2024-01-18, heatmap files local in imports and scale change
+2da0d5b, Jakub Kaproń, 2024-01-18, Merge pull request #15 from fantasy2fry/master
+b0faa9b, Jakub Kaproń, 2024-01-18, Merge pull request #14 from fantasy2fry/feat-kuba-rlibs
+9f137da, Norbert Frydrysiak, 2024-01-18, python dependecies norbert add
+a98f2de, Norbert Frydrysiak, 2024-01-18, python dependecies quick command found
+400c169, Norbert Frydrysiak, 2024-01-18, 18 jan git stats norbert update
 30f062c, Norbert Frydrysiak, 2024-01-18, python description & sys packs one input del
 5d6fc13, Norbert Frydrysiak, 2024-01-17, git part finish prototype
 e4d19f9, Norbert Frydrysiak, 2024-01-17, git message analysis add
+3ddd557, kuba-kapron, 2024-01-14, add histogram to r-libs
+8212cdb, kuba-kapron, 2024-01-12, add infoboxes to r-libs
+72f94a3, kuba-kapron, 2024-01-11, update TODO
 44e7b18, Norbert Frydrysiak, 2024-01-11, Merge branch 'feat-norbert-syspacks'
 3854155, Norbert Frydrysiak, 2024-01-11, todo to git_stats add 2
 822bcf0, Jakub Kaproń, 2024-01-11, Merge pull request #12 from fantasy2fry/feat-kuba-rlibs
@@ -27211,12 +27239,41 @@ bbdfeb4, Mateusz Nędzi, 2023-10-08, Update README.md
 f8d6ed6, Mateusz Nędzi, 2023-10-04, Initial commit
 
 Repository /Users/fantasy2fry/Documents/informatyczne/iadstudia/po_programy/zpoif_2023_zespol_18/.git
+ce3fe33, Norbert Frydrysiak, 2024-01-21, variable column and variable characteritic fix
+973517b, Norbert Frydrysiak, 2024-01-21, small problems with merge fix
+525369f, Norbert Frydrysiak, 2024-01-21, Merge branch 'Frames-opalajan' into master-merging2-huge-merge-problem
+a95e3e2, Norbert Frydrysiak, 2024-01-21, first tab changed names and quick fix
+9b03fc6, jan.opala.business@gmail.com, 2024-01-21, added field String characteristic and a useful function
+83b2a40, Norbert Frydrysiak, 2024-01-21, Merge branch 'frame-translate' into master-merging
+0b661cf, Norbert Frydrysiak, 2024-01-21, all "Sezon" word translated to "Season"
+f8dd976, Norbert Frydrysiak, 2024-01-21, unnecessary files remove form out/ folder
+f316999, Norbert Frydrysiak, 2024-01-21, Merge branch 'frame-translate' into master-merging
+4ca0f7d, Norbert Frydrysiak, 2024-01-21, .gitignore update and remove unnecessary files
+9efae06, domin, 2024-01-21, add documentation
+0db8436, jan.opala.business@gmail.com, 2024-01-21, Major changes and fixes
+ec72105, domin, 2024-01-21, new mainPanel
+0dd7b56, Norbert Frydrysiak, 2024-01-20, Merge branch 'master-merging' into feat-documentation
+e1b8c2f, Norbert Frydrysiak, 2024-01-20, two teams plot implemented to gui app
+b1d3ccb, Norbert Frydrysiak, 2024-01-20, Merge branch 'master-merging' into feat-documentation
+1538935, Antoni Kingston, 2024-01-20, plot dla 2 drużyn porównawczy po sumie
+7cdded4, Antoni Kingston, 2024-01-19, Merge branch 'master' into master-merging
+f0ca965, Antoni Kingston, 2024-01-19, Merge branch 'krokpokroku' into master-merging
+1c49978, Antoni Kingston, 2024-01-19, naprawiony bug z tymi samymi piłkarzami i zmienione nazwy słupków na więcej mówiące
+5290f31, Norbert Frydrysiak, 2024-01-19, Merged in master (pull request #14)
+0a5b988, Norbert Frydrysiak, 2024-01-19, Merged in master-merging (pull request #13)
+742edef, Norbert Frydrysiak, 2024-01-19, Merged in feat-documentation (pull request #12)
+eeea864, Norbert Frydrysiak, 2024-01-19, Merged in master-merging (pull request #11)
+52f4ea9, Norbert Frydrysiak, 2024-01-19, documentation PlayersStatsGetter.java add, TODO generate javadoc in documentation folder after all documentation done
+6ed9fbd, Norbert Frydrysiak, 2024-01-14, Merge branch 'master' into master-merging
 66d332a, Norbert Frydrysiak, 2024-01-14, HashMap changed to TreeMap, lots of new clubs added and 2 seasons
+3f9ff7d, Norbert Frydrysiak, 2024-01-07, Merged in frames-panelMain (pull request #7)
 5aad40d, Norbert Frydrysiak, 2024-01-07, Merged in master-merging (pull request #8)
 eaa727c, Norbert Frydrysiak, 2024-01-07, 2playersplot gets attributes from gui (2branches merged)
 df575d9, Norbert Frydrysiak, 2024-01-07, Merged in Frames-opalajan (pull request #6)
 29476e9, Norbert Frydrysiak, 2024-01-07, Merged in feat-polish-statsgetter (pull request #5)
 8dff138, Norbert Frydrysiak, 2024-01-07, TwoPlayersPlot created
+26d259d, domin, 2024-01-07, poprawa mainPanel
+0bda221, domin, 2024-01-07, dodanie zdjecia w tle
 8b5c8d7, jan.opala.business@gmail.com, 2024-01-07, Naprawiona zakładka 3
 53170ec, jan.opala.business@gmail.com, 2024-01-07, Zakładka 1 się rozjechała, ale działa tam wykres w plotly, we wszystkich zakładkach działa wczytanie danych
 e235384, Norbert Frydrysiak, 2024-01-06, Merge branch 'master' into Frames-opalajan
