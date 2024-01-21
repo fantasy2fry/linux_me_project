@@ -35,7 +35,7 @@ pythonLibsServer <- function(input, output, session){
   }
   
   dependenciesDF <- rbind(loadDependencies('kuba'),
-                          
+                          loadDependencies('mateusz'),
                           loadDependencies('norbert'))
   
   first_letters_df = reactive({
