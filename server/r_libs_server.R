@@ -101,8 +101,8 @@ rLibsServer <- function(input, output, session) {
       ) +
       geom_histogram(fill = "#3c8dbc") +
       labs(
-        x = "Import frequency",
-        y = element_blank()
+        x = "Import frequency of a package",
+        y = "No. of packages"
       ) +
       theme_minimal() +
       scale_x_continuous(expand = c(0, 0))
